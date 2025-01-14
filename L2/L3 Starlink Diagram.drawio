@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.5" pages="2">
   <diagram name="L3 Starlink Circuit" id="Qg7m0SF68Fr3Q486ZbVp">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -186,6 +186,95 @@
             <mxPoint x="454" y="790" as="sourcePoint" />
             <mxPoint x="454.5" y="723" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6v1iujSIV3sugGXWr_4A" name="Starlink Tunnels">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v22vJzCq4A_8DP3WkvIT-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="120" y="780" width="600" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="v22vJzCq4A_8DP3WkvIT-9" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.satellite_dish;" vertex="1" parent="1">
+          <mxGeometry x="370" y="350" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="v22vJzCq4A_8DP3WkvIT-10" value="Internet" style="html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.cloud;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="370" y="260" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v22vJzCq4A_8DP3WkvIT-11" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="v22vJzCq4A_8DP3WkvIT-9" target="v22vJzCq4A_8DP3WkvIT-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="560" as="sourcePoint" />
+            <mxPoint x="440" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v22vJzCq4A_8DP3WkvIT-12" value="HQ Dish" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="480" y="385" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v22vJzCq4A_8DP3WkvIT-13" value="" style="shape=mxgraph.cisco.routers.router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="376.5" y="510" width="78" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="v22vJzCq4A_8DP3WkvIT-14" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="415" y="500" as="sourcePoint" />
+            <mxPoint x="415" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v22vJzCq4A_8DP3WkvIT-15" value="WAN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="415.5" y="480" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v22vJzCq4A_8DP3WkvIT-16" value="Starlink Router in 3e closet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="470" y="518" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v22vJzCq4A_8DP3WkvIT-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="v22vJzCq4A_8DP3WkvIT-30" target="v22vJzCq4A_8DP3WkvIT-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v22vJzCq4A_8DP3WkvIT-30" value="" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="254" y="820" width="121" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="v22vJzCq4A_8DP3WkvIT-34" value="Logical Representation of FW-03" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="275" y="965" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v22vJzCq4A_8DP3WkvIT-35" value="" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="464.5" y="820" width="121" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="v22vJzCq4A_8DP3WkvIT-37" value="Firewall Router" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="254" y="912" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v22vJzCq4A_8DP3WkvIT-38" value="VPN Primary Router" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="912" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v22vJzCq4A_8DP3WkvIT-42" value="Internal Network&amp;nbsp;&lt;div&gt;L2&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="590" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v22vJzCq4A_8DP3WkvIT-45" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="416" y="600" as="sourcePoint" />
+            <mxPoint x="415.5" y="563" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v22vJzCq4A_8DP3WkvIT-46" value="LAN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="558" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v22vJzCq4A_8DP3WkvIT-47" value="Tunnels" style="html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.bus;gradientDirection=north;perimeter=backbonePerimeter;backboneSize=20;" vertex="1" parent="1">
+          <mxGeometry x="170" y="395" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v22vJzCq4A_8DP3WkvIT-48" value="&lt;p style=&quot;margin: 10px 0px 0px; padding: 0px; color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; text-align: left; text-wrap-mode: wrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;div&gt;sp-openstack&lt;/div&gt;&lt;div&gt;openstack-clt&lt;/div&gt;&lt;div&gt;openstack-den&lt;/div&gt;&lt;div&gt;sp-backup&lt;/div&gt;&lt;div&gt;bgtc-backup&lt;/div&gt;&lt;div&gt;brb-backup&lt;/div&gt;&lt;div&gt;dndr-backup&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="320" width="100" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="v22vJzCq4A_8DP3WkvIT-49" value="Tunnels" style="html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.bus;gradientDirection=north;perimeter=backbonePerimeter;backboneSize=20;rotation=-60;" vertex="1" parent="1">
+          <mxGeometry x="264.5" y="730" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v22vJzCq4A_8DP3WkvIT-50" value="BGARC Tunnel" style="html=1;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.bus;gradientDirection=north;perimeter=backbonePerimeter;backboneSize=20;rotation=60;" vertex="1" parent="1">
+          <mxGeometry x="395.5" y="730" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v22vJzCq4A_8DP3WkvIT-51" value="BGARC Tunnel" style="html=1;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.bus;gradientDirection=north;perimeter=backbonePerimeter;backboneSize=20;rotation=-30;" vertex="1" parent="1">
+          <mxGeometry x="440" y="350" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v22vJzCq4A_8DP3WkvIT-52" value="BG Archive ISP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="298" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
