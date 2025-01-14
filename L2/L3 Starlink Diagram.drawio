@@ -91,8 +91,8 @@
         <mxCell id="-uE5Le_ZGrrqWHCV-Scj-11" value="sw-clt-hq-3e" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=18;fontColor=default;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="385" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-uE5Le_ZGrrqWHCV-Scj-12" value="LAN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="414.5" y="308" width="50" height="30" as="geometry" />
+        <mxCell id="-uE5Le_ZGrrqWHCV-Scj-12" value="LAN Port VLAN 2902 Gateway&amp;nbsp;129.222.248.1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="435" y="313" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-uE5Le_ZGrrqWHCV-Scj-26" value="" style="endArrow=none;html=1;rounded=0;textShadow=0;strokeWidth=10;fillColor=#f8cecc;strokeColor=#b85450;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -136,8 +136,8 @@
         <mxCell id="-uE5Le_ZGrrqWHCV-Scj-39" value="xe-0/0/23" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="465" y="658" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-uE5Le_ZGrrqWHCV-Scj-40" value="Ethernet 1/6&amp;nbsp;129.222.248.111/24" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="520" y="790" width="200" height="30" as="geometry" />
+        <mxCell id="-uE5Le_ZGrrqWHCV-Scj-40" value="Ethernet 1/6" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="525" y="780" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-uE5Le_ZGrrqWHCV-Scj-41" value="Ethernet 1/20" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="200" y="790" width="100" height="30" as="geometry" />
@@ -183,6 +183,9 @@
         </mxCell>
         <mxCell id="-uE5Le_ZGrrqWHCV-Scj-54" value="Internet Router" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="475" y="912" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y4mF-L7IRQNC0i0vL3nd-3" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;VLAN 2902 DHCP Address 129.222.248.111/24&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="585.5" y="810" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
