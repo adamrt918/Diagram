@@ -28,6 +28,27 @@
         <mxCell id="-4-9Ho2xcdDzjcb8jTXu-9" value="Default Router" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="234" y="184" width="90" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="-4-9Ho2xcdDzjcb8jTXu-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-4-9Ho2xcdDzjcb8jTXu-11" target="-4-9Ho2xcdDzjcb8jTXu-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="376" as="sourcePoint" />
+            <mxPoint x="284.8285714285714" y="286" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-4-9Ho2xcdDzjcb8jTXu-11" value="" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="247" y="390" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="-4-9Ho2xcdDzjcb8jTXu-12" value="10.200.0.1/30" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="286" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-4-9Ho2xcdDzjcb8jTXu-13" value="10.200.0.2/30" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="360" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-4-9Ho2xcdDzjcb8jTXu-14" value="DEN Core" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="150" y="407" width="84" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-4-9Ho2xcdDzjcb8jTXu-15" value="10.40.0.1/24" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="454" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
