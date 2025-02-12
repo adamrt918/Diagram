@@ -1,9 +1,15 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.10">
   <diagram name="Page-1" id="0Q2eAZm5qC68fruIcQjl">
-    <mxGraphModel dx="1674" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2Mp6yal4fhGP8RG_EKIi-55" value="" style="ellipse;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="615" y="150" width="235" height="571" as="geometry" />
+        </mxCell>
+        <mxCell id="2Mp6yal4fhGP8RG_EKIi-54" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="213.5" y="505" width="571" height="235" as="geometry" />
+        </mxCell>
         <mxCell id="2Mp6yal4fhGP8RG_EKIi-34" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="110" width="260" height="240" as="geometry" />
         </mxCell>
@@ -189,6 +195,9 @@
         </mxCell>
         <mxCell id="2Mp6yal4fhGP8RG_EKIi-51" value="192.168.1.0/24" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="385" y="650" width="81" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Mp6yal4fhGP8RG_EKIi-57" value="BGP AS Group" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="469" y="710" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
