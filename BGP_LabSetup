@@ -196,8 +196,11 @@
         <mxCell id="2Mp6yal4fhGP8RG_EKIi-51" value="192.168.1.0/24" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="385" y="650" width="81" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2Mp6yal4fhGP8RG_EKIi-57" value="BGP AS Group" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="469" y="710" width="60" height="30" as="geometry" />
+        <mxCell id="2Mp6yal4fhGP8RG_EKIi-57" value="BGP Remote-AS 65001" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="438.5" y="710" width="121" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Mp6yal4fhGP8RG_EKIi-58" value="BGP Remote-AS 65002" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="672" y="177" width="121" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
