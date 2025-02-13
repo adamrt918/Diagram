@@ -142,13 +142,13 @@
             <mxPoint x="1661" y="666.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0DsNt4XHMaP194P-OPa6-5" value="HQ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="0DsNt4XHMaP194P-OPa6-5" value="TC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1460" y="536.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0DsNt4XHMaP194P-OPa6-6" value="192.168.2.0/24" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1500" y="650" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0DsNt4XHMaP194P-OPa6-9" value="BGP AS Group 65000" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="0DsNt4XHMaP194P-OPa6-9" value="BGP AS Group 65001" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1434.5" y="466.5" width="111" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0DsNt4XHMaP194P-OPa6-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="0DsNt4XHMaP194P-OPa6-7">
