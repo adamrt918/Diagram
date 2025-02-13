@@ -58,10 +58,10 @@
             <mxPoint x="688" y="306" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QOCwkZVWmm1gbLnobCOZ-16" value="BGP AS Group 65000" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="QOCwkZVWmm1gbLnobCOZ-16" value="BGP AS Group 65001" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="223.5" y="160" width="111" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QOCwkZVWmm1gbLnobCOZ-18" value="BGP AS Group&lt;div&gt;65100&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="QOCwkZVWmm1gbLnobCOZ-18" value="BGP AS Group&lt;div&gt;65000&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="564" y="160" width="92" height="30" as="geometry" />
         </mxCell>
       </root>
