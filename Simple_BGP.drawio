@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.13">
   <diagram name="Page-1" id="qEPpOTGTCNY5_p1U7Fa_">
-    <mxGraphModel dx="1674" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -63,6 +63,12 @@
         </mxCell>
         <mxCell id="QOCwkZVWmm1gbLnobCOZ-18" value="BGP AS Group&lt;div&gt;65000&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="564" y="160" width="92" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QOCwkZVWmm1gbLnobCOZ-19" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;HQ#sh run | s bgp&lt;/div&gt;&lt;div&gt;router bgp 65001&lt;/div&gt;&lt;div&gt;&amp;nbsp;bgp log-neighbor-changes&lt;/div&gt;&lt;div&gt;&amp;nbsp;neighbor 1.1.1.1 remote-as 65000&lt;/div&gt;&lt;div&gt;&amp;nbsp;neighbor 1.1.1.1 ebgp-multihop 2&lt;/div&gt;&lt;div&gt;&amp;nbsp;!&lt;/div&gt;&lt;div&gt;&amp;nbsp;address-family ipv4&lt;/div&gt;&lt;div&gt;&amp;nbsp; neighbor 1.1.1.1 activate&lt;/div&gt;&lt;div&gt;&amp;nbsp; neighbor 1.1.1.1 allowas-in&lt;/div&gt;&lt;div&gt;&amp;nbsp; neighbor 1.1.1.1 soft-reconfiguration inbound&lt;/div&gt;&lt;div&gt;&amp;nbsp;exit-address-family&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="139" y="490" width="291" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QOCwkZVWmm1gbLnobCOZ-20" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ISP#sh run | s bgp&lt;/div&gt;&lt;div&gt;router bgp 65000&lt;/div&gt;&lt;div&gt;&amp;nbsp;bgp log-neighbor-changes&lt;/div&gt;&lt;div&gt;&amp;nbsp;neighbor 1.1.1.2 remote-as 65001&lt;/div&gt;&lt;div&gt;&amp;nbsp;!&lt;/div&gt;&lt;div&gt;&amp;nbsp;address-family ipv4&lt;/div&gt;&lt;div&gt;&amp;nbsp; network 8.8.8.8 mask 255.255.255.255&lt;/div&gt;&lt;div&gt;&amp;nbsp; neighbor 1.1.1.2 activate&lt;/div&gt;&lt;div&gt;&amp;nbsp; neighbor 1.1.1.2 next-hop-self&lt;/div&gt;&lt;div&gt;&amp;nbsp;exit-address-family&lt;/div&gt;&lt;div&gt;ISP#&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="490" width="250" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
