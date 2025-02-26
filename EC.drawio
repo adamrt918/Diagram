@@ -1,9 +1,45 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.13">
   <diagram name="Page-1" id="lL0JG-_-8LllOtHPIZDm">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cYaXsrbDHK67u2fJzdQO-1" value="" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="393" y="470" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="cYaXsrbDHK67u2fJzdQO-2" value="" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="393" y="300" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="cYaXsrbDHK67u2fJzdQO-4" value="SPINE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="487" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cYaXsrbDHK67u2fJzdQO-5" value="CORE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="317" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cYaXsrbDHK67u2fJzdQO-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;jumpSize=6;strokeWidth=10;" edge="1" parent="1" source="cYaXsrbDHK67u2fJzdQO-1" target="cYaXsrbDHK67u2fJzdQO-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cYaXsrbDHK67u2fJzdQO-9" value="All traffic mirrored on this trunk" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="400" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cYaXsrbDHK67u2fJzdQO-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;" edge="1" parent="1" source="cYaXsrbDHK67u2fJzdQO-13" target="cYaXsrbDHK67u2fJzdQO-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="640" as="sourcePoint" />
+            <mxPoint x="330" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cYaXsrbDHK67u2fJzdQO-11" value="xe-0/0/18" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="323" y="534" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cYaXsrbDHK67u2fJzdQO-12" value="Trunk with VLANs 10, 20, 15, output for span" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="580" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cYaXsrbDHK67u2fJzdQO-13" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.vmware_host;" vertex="1" parent="1">
+          <mxGeometry x="371" y="670" width="108" height="104" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
