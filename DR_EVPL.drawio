@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="g5NdXm-YukqIAm9obao0-12" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="276.5" width="295" height="129" as="geometry" />
+          <mxGeometry x="380" y="276.5" width="235" height="129" as="geometry" />
         </mxCell>
         <mxCell id="g5NdXm-YukqIAm9obao0-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="211" width="310" height="260" as="geometry" />
@@ -14,7 +14,7 @@
           <mxGeometry x="40" y="310" width="78" height="62" as="geometry" />
         </mxCell>
         <mxCell id="g5NdXm-YukqIAm9obao0-2" value="EVPL Bridge Domain through Lumen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="401.25" y="315" width="132.5" height="54" as="geometry" />
+          <mxGeometry x="431.25" y="315" width="132.5" height="54" as="geometry" />
         </mxCell>
         <mxCell id="g5NdXm-YukqIAm9obao0-3" value="" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="640" y="310.5" width="78" height="62" as="geometry" />
@@ -51,6 +51,21 @@
             <mxPoint x="298" y="342" as="sourcePoint" />
             <mxPoint x="640" y="342" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="g5NdXm-YukqIAm9obao0-15" value="10.41.0.1/24" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="49" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g5NdXm-YukqIAm9obao0-16" value="10.41.0.135/24" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="229" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g5NdXm-YukqIAm9obao0-17" value="10.41.0.2/24" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="649" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g5NdXm-YukqIAm9obao0-18" value="Untagged 740 L3 VLAN" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="134.5" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g5NdXm-YukqIAm9obao0-19" value="Untagged 2900" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="342.5" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
