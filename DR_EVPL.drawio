@@ -61,8 +61,8 @@
         <mxCell id="g5NdXm-YukqIAm9obao0-17" value="10.41.0.2/24" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="649" y="400" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="g5NdXm-YukqIAm9obao0-18" value="Untagged 740 L3 VLAN" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="350" width="60" height="30" as="geometry" />
+        <mxCell id="g5NdXm-YukqIAm9obao0-18" value="L3 Routed" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="332.5" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="g5NdXm-YukqIAm9obao0-19" value="Untagged 2900" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="298" y="342.5" width="60" height="30" as="geometry" />
