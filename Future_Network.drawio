@@ -121,9 +121,6 @@
         <mxCell id="re71gaIuVMO5YuEKO1F2-11" value="" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="jJH2B-7xsKmhPhyJe4CN-15" vertex="1">
           <mxGeometry x="92.75" y="33" width="64" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="re71gaIuVMO5YuEKO1F2-18" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(3, 3, 3));&quot;&gt;Backbone Subnet&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=light-dark(#FFFFFF,#FFFFFF);fillStyle=solid;rotation=90;" parent="jJH2B-7xsKmhPhyJe4CN-15" vertex="1">
-          <mxGeometry x="-0.5" y="50" width="103" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="jJH2B-7xsKmhPhyJe4CN-41" value="Remote Site (Cove/DR/ROs)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="390" y="340" width="460" height="120" as="geometry" />
         </mxCell>
