@@ -73,8 +73,8 @@
             <mxPoint x="272" y="234" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jJH2B-7xsKmhPhyJe4CN-26" value="Core switch connects everything to the core router, this is our existing core. Acts as distribution for directly connected sites only" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=light-dark(#000000,#030303);fillStyle=solid;" parent="jJH2B-7xsKmhPhyJe4CN-8" vertex="1">
-          <mxGeometry x="27.5" y="259.5" width="135" height="90.5" as="geometry" />
+        <mxCell id="jJH2B-7xsKmhPhyJe4CN-26" value="Core switch connects to the core router at L2 for everything except HQ Zones and directly connected sites, where it acts as a distro. Only&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=light-dark(#000000,#030303);fillStyle=solid;" parent="jJH2B-7xsKmhPhyJe4CN-8" vertex="1">
+          <mxGeometry x="27.5" y="210" width="135" height="140" as="geometry" />
         </mxCell>
         <mxCell id="jJH2B-7xsKmhPhyJe4CN-40" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(3, 3, 3));&quot;&gt;Backbone Subnet&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=light-dark(#FFFFFF,#9999FF);fillStyle=solid;" parent="jJH2B-7xsKmhPhyJe4CN-8" vertex="1">
           <mxGeometry x="221.5" y="210" width="103" height="30" as="geometry" />
