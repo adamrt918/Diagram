@@ -146,7 +146,7 @@
           <mxGeometry x="171" y="-95" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XTu77mCVGWq_RQ6g_cSt-9" value="Internet/DMZ" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="jJH2B-7xsKmhPhyJe4CN-41">
-          <mxGeometry x="130" y="19.99" width="110" height="65" as="geometry" />
+          <mxGeometry x="130" y="40" width="110" height="65" as="geometry" />
         </mxCell>
         <mxCell id="XTu77mCVGWq_RQ6g_cSt-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.625;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.12;exitY=0.91;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="jJH2B-7xsKmhPhyJe4CN-41" source="XTu77mCVGWq_RQ6g_cSt-31" target="XTu77mCVGWq_RQ6g_cSt-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -178,8 +178,8 @@
         <mxCell id="XTu77mCVGWq_RQ6g_cSt-36" value="L2 Access" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jJH2B-7xsKmhPhyJe4CN-41">
           <mxGeometry x="150" y="136.99" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XTu77mCVGWq_RQ6g_cSt-37" value="Access/Distro Subnet" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=light-dark(#FFFFFF,#99FF99);" vertex="1" parent="jJH2B-7xsKmhPhyJe4CN-41">
-          <mxGeometry x="224.12" width="77.44" height="40" as="geometry" />
+        <mxCell id="XTu77mCVGWq_RQ6g_cSt-37" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(3, 3, 3));&quot;&gt;Access/Distro Subnets&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=light-dark(#FFFFFF,#99FF99);" vertex="1" parent="jJH2B-7xsKmhPhyJe4CN-41">
+          <mxGeometry x="192.56" y="9.99" width="77.44" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XTu77mCVGWq_RQ6g_cSt-55" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="jJH2B-7xsKmhPhyJe4CN-41">
           <mxGeometry x="220" y="128.36000000000013" width="85.12" height="38.63" as="geometry" />
