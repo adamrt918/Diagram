@@ -233,7 +233,7 @@
           <mxGeometry x="46" y="21" width="78" height="62" as="geometry" />
         </mxCell>
         <mxCell id="XTu77mCVGWq_RQ6g_cSt-66" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="XTu77mCVGWq_RQ6g_cSt-11">
-          <mxGeometry x="137.44000000000005" y="32.68000000000001" width="85.12" height="38.63" as="geometry" />
+          <mxGeometry x="150.00000000000006" y="32.68000000000001" width="85.12" height="38.63" as="geometry" />
         </mxCell>
         <mxCell id="XTu77mCVGWq_RQ6g_cSt-59" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;strokeColor=light-dark(#FFFFFF,#FFFF99);" edge="1" parent="1" source="re71gaIuVMO5YuEKO1F2-12" target="XTu77mCVGWq_RQ6g_cSt-37">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
