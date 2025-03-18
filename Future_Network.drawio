@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1" pages="2">
   <diagram name="L3 Topo" id="GOpjCKeXJividRKamB3C">
-    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -63,7 +63,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jJH2B-7xsKmhPhyJe4CN-4" value="External" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry width="410" height="230" as="geometry" />
+          <mxGeometry x="3" width="417" height="230" as="geometry" />
         </mxCell>
         <mxCell id="jJH2B-7xsKmhPhyJe4CN-2" value="Internet Primary" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="jJH2B-7xsKmhPhyJe4CN-4" vertex="1">
           <mxGeometry y="50" width="120" height="80" as="geometry" />
@@ -81,7 +81,7 @@
           <mxGeometry x="260" y="50" width="120" height="85" as="geometry" />
         </mxCell>
         <mxCell id="jJH2B-7xsKmhPhyJe4CN-8" value="Zone 0 Transport-Boundary -- Collapsed Core/Distro Layer" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3" y="230" width="407" height="360" as="geometry" />
+          <mxGeometry x="3" y="230" width="417" height="360" as="geometry" />
         </mxCell>
         <mxCell id="jJH2B-7xsKmhPhyJe4CN-9" value="FW-03, Split into WAN/EXT/Access Virtual Routers." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" parent="jJH2B-7xsKmhPhyJe4CN-8" vertex="1">
           <mxGeometry x="17.5" y="31" width="155" height="79" as="geometry" />
@@ -105,13 +105,13 @@
           <mxGeometry x="27.5" y="150" width="135" height="150" as="geometry" />
         </mxCell>
         <mxCell id="jJH2B-7xsKmhPhyJe4CN-10" value="Zone 99 DMZ" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;flipH=1;flipV=0;direction=west;" parent="1" vertex="1">
-          <mxGeometry x="410" y="120" width="230" height="110" as="geometry" />
+          <mxGeometry x="420" y="120" width="230" height="110" as="geometry" />
         </mxCell>
         <mxCell id="jJH2B-7xsKmhPhyJe4CN-13" value="" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="jJH2B-7xsKmhPhyJe4CN-10" vertex="1">
           <mxGeometry x="103.25" y="22" width="43" height="62" as="geometry" />
         </mxCell>
         <mxCell id="jJH2B-7xsKmhPhyJe4CN-18" value="Zone 2 Internal (HQ/Lib/Arc)" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="210" y="590" width="200" height="460" as="geometry" />
+          <mxGeometry x="210" y="590" width="210" height="460" as="geometry" />
         </mxCell>
         <mxCell id="jJH2B-7xsKmhPhyJe4CN-28" value="Access Switches" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="jJH2B-7xsKmhPhyJe4CN-18" vertex="1">
           <mxGeometry x="130" y="150" width="60" height="30" as="geometry" />
@@ -144,7 +144,7 @@
           <mxGeometry x="185.26999999999998" y="-66.6" width="85.12" height="38.63" as="geometry" />
         </mxCell>
         <mxCell id="jJH2B-7xsKmhPhyJe4CN-41" value="Zone 3/4 (Cove/DR)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;rotation=90;" parent="1" vertex="1">
-          <mxGeometry x="293.76" y="706.25" width="460" height="227.51" as="geometry" />
+          <mxGeometry x="305" y="706.24" width="460" height="227.51" as="geometry" />
         </mxCell>
         <mxCell id="re71gaIuVMO5YuEKO1F2-5" value="Cove/DR FW" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" parent="jJH2B-7xsKmhPhyJe4CN-41" vertex="1">
           <mxGeometry x="174.49" y="-93.5" width="120" height="30" as="geometry" />
@@ -189,7 +189,7 @@
           <mxGeometry x="123.49000000000001" y="153.99" width="100" height="120" as="geometry" />
         </mxCell>
         <mxCell id="XTu77mCVGWq_RQ6g_cSt-11" value="WAN (ROs)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;flipH=1;flipV=0;direction=west;startSize=23;" parent="1" vertex="1">
-          <mxGeometry x="410" y="230" width="360" height="130" as="geometry" />
+          <mxGeometry x="420" y="230" width="360" height="130" as="geometry" />
         </mxCell>
         <mxCell id="XTu77mCVGWq_RQ6g_cSt-13" value="RO FW" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="XTu77mCVGWq_RQ6g_cSt-11" vertex="1">
           <mxGeometry x="44.5" y="87" width="80" height="30" as="geometry" />
