@@ -88,8 +88,8 @@
         <mxCell id="XTu77mCVGWq_RQ6g_cSt-64" value="" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="jJH2B-7xsKmhPhyJe4CN-8" vertex="1">
           <mxGeometry x="234.56" y="28" width="78" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="jJH2B-7xsKmhPhyJe4CN-26" value="Core Switch is fully L2 except for L3 Server Gateway. Servers Keep 80G uplink through LAG. Could also be access gateway for HQ and directly connected sites." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=light-dark(#000000,#030303);fillStyle=solid;" parent="jJH2B-7xsKmhPhyJe4CN-8" vertex="1">
-          <mxGeometry x="27.5" y="130" width="135" height="110" as="geometry" />
+        <mxCell id="jJH2B-7xsKmhPhyJe4CN-26" value="Core Switch is fully L2 except for L3 Server Gateway to keep 40G links. Spine keeps 80G uplink through LAG. Could also be access gateway for HQ and directly connected sites if we want direct between HQ and server." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=light-dark(#000000,#030303);fillStyle=solid;" parent="jJH2B-7xsKmhPhyJe4CN-8" vertex="1">
+          <mxGeometry x="27.5" y="150" width="135" height="150" as="geometry" />
         </mxCell>
         <mxCell id="jJH2B-7xsKmhPhyJe4CN-10" value="Zone 99 DMZ" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;flipH=1;flipV=0;direction=west;" parent="1" vertex="1">
           <mxGeometry x="410" y="120" width="230" height="110" as="geometry" />
