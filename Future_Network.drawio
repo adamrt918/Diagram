@@ -77,6 +77,9 @@
         <mxCell id="b4gVF8QMprVjReMdnKNw-7" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;ISP02&lt;/span&gt;" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="jJH2B-7xsKmhPhyJe4CN-4">
           <mxGeometry x="129.5" y="140.0000000000001" width="85.12" height="38.63" as="geometry" />
         </mxCell>
+        <mxCell id="b4gVF8QMprVjReMdnKNw-9" value="We should consider consolidating the ISP switches into a single VC and doing ECMP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jJH2B-7xsKmhPhyJe4CN-4">
+          <mxGeometry x="260" y="75" width="120" height="85" as="geometry" />
+        </mxCell>
         <mxCell id="jJH2B-7xsKmhPhyJe4CN-8" value="Zone 0 Transport-Boundary -- Collapsed Core/Distro Layer" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3" y="230" width="407" height="360" as="geometry" />
         </mxCell>
