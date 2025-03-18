@@ -119,8 +119,8 @@
         <mxCell id="re71gaIuVMO5YuEKO1F2-12" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="jJH2B-7xsKmhPhyJe4CN-18" vertex="1">
           <mxGeometry x="14.5" y="140" width="101" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="XTu77mCVGWq_RQ6g_cSt-54" value="This is our existing configuration -- nothing changes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="jJH2B-7xsKmhPhyJe4CN-18" vertex="1">
-          <mxGeometry x="7.5" y="220" width="115" height="90" as="geometry" />
+        <mxCell id="XTu77mCVGWq_RQ6g_cSt-56" value="Distro subnets currently reside on core switch. Suggest moving to FW for less routing hops" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="jJH2B-7xsKmhPhyJe4CN-18" vertex="1">
+          <mxGeometry x="55" y="210" width="100" height="120" as="geometry" />
         </mxCell>
         <mxCell id="jJH2B-7xsKmhPhyJe4CN-15" value="Zone 1 Internal (Servers)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;flipH=1;flipV=0;direction=west;startSize=23;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="-125" y="716.6" width="460.77" height="206.8" as="geometry" />
@@ -184,9 +184,6 @@
         </mxCell>
         <mxCell id="XTu77mCVGWq_RQ6g_cSt-55" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="jJH2B-7xsKmhPhyJe4CN-41" vertex="1">
           <mxGeometry x="223.49" y="129.86000000000013" width="85.12" height="38.63" as="geometry" />
-        </mxCell>
-        <mxCell id="XTu77mCVGWq_RQ6g_cSt-56" value="Distro subnets currently reside on core switch. Suggest moving to FW for less routing hops" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="jJH2B-7xsKmhPhyJe4CN-41" vertex="1">
-          <mxGeometry x="123.49000000000001" y="153.99" width="100" height="120" as="geometry" />
         </mxCell>
         <mxCell id="XTu77mCVGWq_RQ6g_cSt-11" value="WAN (ROs)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;flipH=1;flipV=0;direction=west;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="420" y="230" width="360" height="130" as="geometry" />
