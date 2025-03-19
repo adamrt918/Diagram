@@ -101,8 +101,8 @@
         <mxCell id="XTu77mCVGWq_RQ6g_cSt-64" value="" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="jJH2B-7xsKmhPhyJe4CN-8" vertex="1">
           <mxGeometry x="234.56" y="28" width="78" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="jJH2B-7xsKmhPhyJe4CN-26" value="Core Switch is fully L2 except for L3 Server Gateway to keep 40G links. Spine keeps 80G uplink through LAG. Could also be access gateway for HQ and directly connected sites if we want direct between HQ and server." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=light-dark(#000000,#030303);fillStyle=solid;" parent="jJH2B-7xsKmhPhyJe4CN-8" vertex="1">
-          <mxGeometry x="27.5" y="150" width="135" height="150" as="geometry" />
+        <mxCell id="jJH2B-7xsKmhPhyJe4CN-26" value="Core Switch is fully L2. Spine keeps 80G uplink through LAG." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=light-dark(#000000,#030303);fillStyle=solid;" parent="jJH2B-7xsKmhPhyJe4CN-8" vertex="1">
+          <mxGeometry x="27.5" y="190" width="135" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jJH2B-7xsKmhPhyJe4CN-10" value="Zone 99 DMZ" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;flipH=1;flipV=0;direction=west;" parent="1" vertex="1">
           <mxGeometry x="420" y="120" width="230" height="110" as="geometry" />
@@ -202,9 +202,6 @@
         <mxCell id="XTu77mCVGWq_RQ6g_cSt-63" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(3, 3, 3));&quot;&gt;EXT Subnets&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=light-dark(#FFFFFF,#FFFFFF);" parent="1" vertex="1">
           <mxGeometry x="237.56" y="203" width="74" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="XTu77mCVGWq_RQ6g_cSt-60" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Server Subnets&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;rotation=0;" parent="1" vertex="1">
-          <mxGeometry x="66.33" y="550" width="73" height="27" as="geometry" />
-        </mxCell>
         <mxCell id="VD-ZW-kXbVsodiuHJE6c-2" value="Zone 1 Internal (Servers)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3" y="590" width="217" height="460" as="geometry">
             <mxRectangle x="220" y="590" width="190" height="30" as="alternateBounds" />
@@ -224,6 +221,9 @@
         </mxCell>
         <mxCell id="jJH2B-7xsKmhPhyJe4CN-37" value="Spine switch is the L2 access, connected to an Access subnet on the Core Switch.&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This will reduce overall latency by subtracting a routing hop as long as the core switch can handle the additional load.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="VD-ZW-kXbVsodiuHJE6c-2" vertex="1">
           <mxGeometry x="49.560000000000116" y="215.84000000000003" width="100" height="208.32" as="geometry" />
+        </mxCell>
+        <mxCell id="XTu77mCVGWq_RQ6g_cSt-60" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Server Subnets&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;rotation=0;" parent="VD-ZW-kXbVsodiuHJE6c-2" vertex="1">
+          <mxGeometry x="63.06" y="90" width="73" height="27" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
