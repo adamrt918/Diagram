@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1" pages="2">
   <diagram name="L3 Topo" id="GOpjCKeXJividRKamB3C">
-    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -229,7 +229,7 @@
           <mxGeometry x="3.5" y="200" width="210" height="124.16" as="geometry" />
         </mxCell>
         <mxCell id="Ke_lXSDSf3g7396NIP2z-2" value="This topology keeps single routing hops between VLANs. This will assist with OSPF, simplify troubleshooting, and reduce load on core switch which is already experiencing bugs." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="460" y="450" width="300" height="100" as="geometry" />
+          <mxGeometry x="450" y="420" width="300" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
