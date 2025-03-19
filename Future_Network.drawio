@@ -130,7 +130,7 @@
         <mxCell id="XTu77mCVGWq_RQ6g_cSt-56" value="Distro subnets currently reside on core switch. Suggest moving to FW for less routing hops" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="jJH2B-7xsKmhPhyJe4CN-18" vertex="1">
           <mxGeometry x="50" y="210" width="100" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="jJH2B-7xsKmhPhyJe4CN-41" value="Zone 3/4 (Cove/DR)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;rotation=90;" parent="1" vertex="1">
+        <mxCell id="jJH2B-7xsKmhPhyJe4CN-41" value="Zone 3... (Cove/DR/Any EPLAN)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="305" y="706.24" width="460" height="227.51" as="geometry" />
         </mxCell>
         <mxCell id="re71gaIuVMO5YuEKO1F2-5" value="Cove/DR FW" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" parent="jJH2B-7xsKmhPhyJe4CN-41" vertex="1">
