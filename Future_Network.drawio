@@ -4,6 +4,12 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="E1R83yzNPK5_dIL1MmBT-2" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;strokeColor=light-dark(#FFFFFF,#FFFF99);" edge="1" parent="1" source="re71gaIuVMO5YuEKO1F2-12" target="XTu77mCVGWq_RQ6g_cSt-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="277" y="730" as="sourcePoint" />
+            <mxPoint x="277" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="b4gVF8QMprVjReMdnKNw-8" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;" parent="1" source="XTu77mCVGWq_RQ6g_cSt-64" target="XTu77mCVGWq_RQ6g_cSt-61" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="277" y="120" as="targetPoint" />
@@ -212,12 +218,6 @@
         </mxCell>
         <mxCell id="jJH2B-7xsKmhPhyJe4CN-37" value="Spine does not need to serve as a gateway because server traffic can navigate on VLAN 10. If it needs a GW it can go to the firewall which is &amp;lt; 10G traffic. If FW cannot handle the load then Core can be the server gateway." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="VD-ZW-kXbVsodiuHJE6c-2" vertex="1">
           <mxGeometry x="3.5" y="200" width="210" height="124.16" as="geometry" />
-        </mxCell>
-        <mxCell id="E1R83yzNPK5_dIL1MmBT-2" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;strokeColor=light-dark(#FFFFFF,#FFFF99);" edge="1" parent="1" source="re71gaIuVMO5YuEKO1F2-12" target="XTu77mCVGWq_RQ6g_cSt-64">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="277" y="730" as="sourcePoint" />
-            <mxPoint x="277" y="320" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="XTu77mCVGWq_RQ6g_cSt-60" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Server Subnets&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="216.5" y="360" width="73" height="27" as="geometry" />
