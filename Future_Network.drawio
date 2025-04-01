@@ -146,7 +146,10 @@
           <mxGeometry x="420" y="120" width="230" height="110" as="geometry" />
         </mxCell>
         <mxCell id="jJH2B-7xsKmhPhyJe4CN-13" value="" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="jJH2B-7xsKmhPhyJe4CN-10" vertex="1">
-          <mxGeometry x="103.25" y="22" width="43" height="62" as="geometry" />
+          <mxGeometry x="160" y="22" width="43" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="HZd8nQwNkeKrvnVlvSjB-2" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="jJH2B-7xsKmhPhyJe4CN-10">
+          <mxGeometry x="50.000000000000014" y="38" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jJH2B-7xsKmhPhyJe4CN-18" value="Zone 2 Internal (HQ/Lib/Arc)" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="590" width="200" height="460" as="geometry">
