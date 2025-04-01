@@ -119,7 +119,7 @@
           <mxGeometry x="17.5" y="31" width="155" height="79" as="geometry" />
         </mxCell>
         <mxCell id="re71gaIuVMO5YuEKO1F2-9" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(3, 3, 3));&quot;&gt;P2P Subnets&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=light-dark(#FFFFFF,#FF9999);fillStyle=solid;rotation=90;" parent="jJH2B-7xsKmhPhyJe4CN-8" vertex="1">
-          <mxGeometry x="367" y="44" width="73" height="30" as="geometry" />
+          <mxGeometry x="349" y="44" width="73" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XTu77mCVGWq_RQ6g_cSt-42" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Access Subnets&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=light-dark(#FFFFFF,#FFFF99);" parent="jJH2B-7xsKmhPhyJe4CN-8" vertex="1">
           <mxGeometry x="237.06" y="130" width="73" height="30" as="geometry" />
@@ -140,7 +140,7 @@
           <mxGeometry x="237.06" y="160" width="73" height="27" as="geometry" />
         </mxCell>
         <mxCell id="Ke_lXSDSf3g7396NIP2z-4" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(3, 3, 3));&quot;&gt;EXT Subnets&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=light-dark(#000000,#FFFFFF);fillStyle=solid;rotation=90;" parent="jJH2B-7xsKmhPhyJe4CN-8" vertex="1">
-          <mxGeometry x="337" y="44" width="73" height="30" as="geometry" />
+          <mxGeometry x="324.06" y="44" width="73" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jJH2B-7xsKmhPhyJe4CN-10" value="Zone 99 DMZ" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;flipH=1;flipV=0;direction=west;" parent="1" vertex="1">
           <mxGeometry x="420" y="120" width="230" height="110" as="geometry" />
