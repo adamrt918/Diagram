@@ -257,7 +257,7 @@
         <mxCell id="jJH2B-7xsKmhPhyJe4CN-37" value="Spine does not need to serve as a gateway because server traffic can navigate on VLAN 10. If it needs a GW it can go to the firewall which is &amp;lt; 10G traffic. If FW cannot handle the load then Core can be the server gateway." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="VD-ZW-kXbVsodiuHJE6c-2" vertex="1">
           <mxGeometry x="3.5" y="200" width="210" height="124.16" as="geometry" />
         </mxCell>
-        <mxCell id="Ke_lXSDSf3g7396NIP2z-2" value="This topology keeps a single routing hop internal of our HQ network. This will assist with OSPF, simplify troubleshooting, and reduce load on core switch which is already experiencing bugs. It will also reduce the number of interfaces required on the Firewall and increase redundancy." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="Ke_lXSDSf3g7396NIP2z-2" value="This topology keeps a single routing hop internal of our HQ network. This will reduce the routing load on core switch which is already experiencing bugs. It will also reduce the complexity of our OSPF topology. The number of interfaces required on the FW will also be reduced." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="61.5" y="40" width="300" height="100" as="geometry" />
         </mxCell>
       </root>
