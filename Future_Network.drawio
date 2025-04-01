@@ -1,5 +1,5 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.3" pages="2">
-  <diagram name="L3 Topo" id="GOpjCKeXJividRKamB3C">
+  <diagram name="HQ L3 Topo" id="GOpjCKeXJividRKamB3C">
     <mxGraphModel dx="1428" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -257,7 +257,7 @@
         <mxCell id="jJH2B-7xsKmhPhyJe4CN-37" value="Spine does not need to serve as a gateway because server traffic can navigate on VLAN 10. If it needs a GW it can go to the firewall which is &amp;lt; 10G traffic. If FW cannot handle the load then Core can be the server gateway." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="VD-ZW-kXbVsodiuHJE6c-2" vertex="1">
           <mxGeometry x="3.5" y="200" width="210" height="124.16" as="geometry" />
         </mxCell>
-        <mxCell id="Ke_lXSDSf3g7396NIP2z-2" value="This topology keeps single routing hops between VLANs. This will assist with OSPF, simplify troubleshooting, and reduce load on core switch which is already experiencing bugs. It will also reduce the number of interfaces required on the Firewall and increase redundancy." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="Ke_lXSDSf3g7396NIP2z-2" value="This topology keeps a single routing hop internal of our HQ network. This will assist with OSPF, simplify troubleshooting, and reduce load on core switch which is already experiencing bugs. It will also reduce the number of interfaces required on the Firewall and increase redundancy." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="61.5" y="40" width="300" height="100" as="geometry" />
         </mxCell>
       </root>
