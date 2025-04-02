@@ -267,7 +267,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="omkMXJsfDcd_D2TGf_Po" name="BGP Topo">
-    <mxGraphModel dx="1428" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1428" dy="1851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -346,8 +346,8 @@
             <mxPoint x="450" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JjLuVcTSZgx9C9cJmVsn-25" value="We will receive the remote as number from each specific ISP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="120" width="200" height="110" as="geometry" />
+        <mxCell id="JjLuVcTSZgx9C9cJmVsn-25" value="We will receive the remote as number from each specific ISP. We can take the full table from each provider and filter to defaults only. Rather than doing ECMP we will weight each specific BGP border router to use primarily its&#39; own circuits, then we can weight whether traffic filters to DR, TC, or HQ first, then the latter." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="-60" width="850" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
