@@ -349,6 +349,9 @@
         <mxCell id="JjLuVcTSZgx9C9cJmVsn-25" value="We will receive the remote as number from each specific ISP. We can take the full table from each provider and filter to defaults only. Rather than doing ECMP we will weight each specific BGP border router to use primarily its&#39; own circuits, then we can weight whether traffic filters to DR, TC, or HQ first, then the latter." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry y="-60" width="850" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="JjLuVcTSZgx9C9cJmVsn-26" value="iBGP Topology -- Remote AS TBD" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="110" width="850" height="200" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
