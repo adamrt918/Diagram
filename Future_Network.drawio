@@ -271,6 +271,30 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ikU5_Vm7qMPiW7QBLbxS-6" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hDasYYCYlZf6ln7YnARy-39" target="ikU5_Vm7qMPiW7QBLbxS-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="450" as="sourcePoint" />
+            <mxPoint x="360" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ikU5_Vm7qMPiW7QBLbxS-3" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="hDasYYCYlZf6ln7YnARy-41" target="JjLuVcTSZgx9C9cJmVsn-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="450" as="sourcePoint" />
+            <mxPoint x="360" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ikU5_Vm7qMPiW7QBLbxS-2" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hDasYYCYlZf6ln7YnARy-39" target="JjLuVcTSZgx9C9cJmVsn-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="450" as="sourcePoint" />
+            <mxPoint x="360" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ikU5_Vm7qMPiW7QBLbxS-1" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hDasYYCYlZf6ln7YnARy-40" target="JjLuVcTSZgx9C9cJmVsn-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="450" as="sourcePoint" />
+            <mxPoint x="360" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="JjLuVcTSZgx9C9cJmVsn-1" value="e/iBGP Topology -- Same e/iBGP AS number for all firewalls/routers" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="70" width="850" height="210" as="geometry" />
         </mxCell>
@@ -361,7 +385,7 @@
         <mxCell id="JjLuVcTSZgx9C9cJmVsn-25" value="We will receive the remote as number from the Regional Internet Registry. We can take the full table from each provider and filter to defaults only. Rather than doing ECMP we will weight each specific BGP border router to use primarily its&#39; own circuits, then we can weight whether traffic filters to DR, TC, or HQ first, then the 2nd most important, then the third. iBGP will use HQ as primary Route Reflector so that all devices don&#39;t require a mesh. iBGP requires use of the same AS number as well. eBGP AS will also be the same AS number." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry width="850" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hDasYYCYlZf6ln7YnARy-31" value="e/iBGP Topology -- Same e/iBGP AS number for all firewalls/routers" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hDasYYCYlZf6ln7YnARy-31" value="OSPF Topology" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry y="380" width="850" height="170" as="geometry" />
         </mxCell>
         <mxCell id="hDasYYCYlZf6ln7YnARy-39" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;HQ FW-03&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Internet Router&lt;/span&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="hDasYYCYlZf6ln7YnARy-31">
@@ -373,20 +397,23 @@
         <mxCell id="hDasYYCYlZf6ln7YnARy-41" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;DR FW&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Internet Router&lt;/span&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="hDasYYCYlZf6ln7YnARy-31">
           <mxGeometry x="721" y="40" width="78" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="hDasYYCYlZf6ln7YnARy-45" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="hDasYYCYlZf6ln7YnARy-31" source="hDasYYCYlZf6ln7YnARy-39" target="hDasYYCYlZf6ln7YnARy-40">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="401" y="230" as="sourcePoint" />
-            <mxPoint x="451" y="180" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hDasYYCYlZf6ln7YnARy-46" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="hDasYYCYlZf6ln7YnARy-31" source="hDasYYCYlZf6ln7YnARy-41" target="hDasYYCYlZf6ln7YnARy-39">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="401" y="230" as="sourcePoint" />
-            <mxPoint x="451" y="180" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hDasYYCYlZf6ln7YnARy-51" value="Logical and Virtual Separation. Same physical appliance. Internet Routers also run OSPF on the inside facing interface." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hDasYYCYlZf6ln7YnARy-51" value="Logical and Virtual Separation. Same physical appliance. Internet Routers also run OSPF facing inside only. They should only export the current BGP default route into OSPF." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry y="310" width="850" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikU5_Vm7qMPiW7QBLbxS-4" value="Access Networks" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="259" y="550" width="333" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ikU5_Vm7qMPiW7QBLbxS-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.88;exitY=0.91;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="hDasYYCYlZf6ln7YnARy-40" target="ikU5_Vm7qMPiW7QBLbxS-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="450" as="sourcePoint" />
+            <mxPoint x="360" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ikU5_Vm7qMPiW7QBLbxS-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0.12;entryY=0.91;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.88;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ikU5_Vm7qMPiW7QBLbxS-4" target="hDasYYCYlZf6ln7YnARy-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="450" as="sourcePoint" />
+            <mxPoint x="360" y="400" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
