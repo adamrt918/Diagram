@@ -272,7 +272,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="JjLuVcTSZgx9C9cJmVsn-1" value="e/iBGP Topology -- Same e/iBGP AS number for all firewalls/routers" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry y="110" width="850" height="210" as="geometry" />
+          <mxGeometry y="70" width="850" height="210" as="geometry" />
         </mxCell>
         <mxCell id="JjLuVcTSZgx9C9cJmVsn-6" value="HQ ISP01" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="JjLuVcTSZgx9C9cJmVsn-1" vertex="1">
           <mxGeometry x="230" y="20" width="81" height="50" as="geometry" />
