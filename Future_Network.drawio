@@ -397,7 +397,7 @@
         <mxCell id="hDasYYCYlZf6ln7YnARy-41" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;DR FW&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Internet Router&lt;/span&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="hDasYYCYlZf6ln7YnARy-31">
           <mxGeometry x="721" y="40" width="78" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="hDasYYCYlZf6ln7YnARy-51" value="Logical and Virtual Separation. Same physical appliance. Internet Routers also run OSPF facing inside only. They should only export the current BGP default route into OSPF." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="hDasYYCYlZf6ln7YnARy-51" value="Logical and Virtual Separation. Same physical appliance. Internet Routers also run OSPF facing inside only. They should (by default) only export the current BGP default route into OSPF." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry y="310" width="850" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ikU5_Vm7qMPiW7QBLbxS-4" value="Access Networks" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
