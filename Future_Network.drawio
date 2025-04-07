@@ -271,8 +271,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JjLuVcTSZgx9C9cJmVsn-1" value="eBGP Topology -- Same eBGP AS number for all firewalls/routers" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry y="60" width="850" height="210" as="geometry" />
+        <mxCell id="JjLuVcTSZgx9C9cJmVsn-1" value="e/iBGP Topology -- Same e/iBGP AS number for all firewalls/routers" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry y="110" width="850" height="210" as="geometry" />
         </mxCell>
         <mxCell id="JjLuVcTSZgx9C9cJmVsn-6" value="HQ ISP01" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="JjLuVcTSZgx9C9cJmVsn-1" vertex="1">
           <mxGeometry x="230" y="20" width="81" height="50" as="geometry" />
@@ -358,7 +358,7 @@
             <mxPoint x="436" y="78" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JjLuVcTSZgx9C9cJmVsn-25" value="We will receive the remote as number from the Regional Internet Registry. We can take the full table from each provider and filter to defaults only. Rather than doing ECMP we will weight each specific BGP border router to use primarily its&#39; own circuits, then we can weight whether traffic filters to DR, TC, or HQ first, then the 2nd most important, then the third." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="JjLuVcTSZgx9C9cJmVsn-25" value="We will receive the remote as number from the Regional Internet Registry. We can take the full table from each provider and filter to defaults only. Rather than doing ECMP we will weight each specific BGP border router to use primarily its&#39; own circuits, then we can weight whether traffic filters to DR, TC, or HQ first, then the 2nd most important, then the third. iBGP will use HQ as primary Route Reflector so that all devices don&#39;t require a mesh. iBGP requires use of the same AS number as well. eBGP AS will also be the same AS number." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry width="850" height="60" as="geometry" />
         </mxCell>
       </root>
