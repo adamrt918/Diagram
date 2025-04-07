@@ -271,6 +271,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hDasYYCYlZf6ln7YnARy-28" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="80" width="850" height="320" as="geometry" />
+        </mxCell>
         <mxCell id="JjLuVcTSZgx9C9cJmVsn-1" value="eBGP Topology -- Same eBGP AS number for all firewalls/routers" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="60" width="850" height="210" as="geometry" />
         </mxCell>
@@ -360,6 +363,9 @@
         </mxCell>
         <mxCell id="JjLuVcTSZgx9C9cJmVsn-25" value="We will receive the remote as number from the Regional Internet Registry. We can take the full table from each provider and filter to defaults only. Rather than doing ECMP we will weight each specific BGP border router to use primarily its&#39; own circuits, then we can weight whether traffic filters to DR, TC, or HQ first, then the 2nd most important, then the third." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry width="850" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hDasYYCYlZf6ln7YnARy-29" value="iBGP AS Cloud" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="310" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
