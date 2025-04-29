@@ -17,10 +17,10 @@
           <mxGeometry x="300.00000000000006" y="231" width="101" height="50" as="geometry" />
         </mxCell>
         <mxCell id="k_QSSW2EdRkLZNwSfFR7-8" value="Spectrum" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="k_QSSW2EdRkLZNwSfFR7-3" vertex="1">
-          <mxGeometry x="25" y="80" width="131" height="80" as="geometry" />
+          <mxGeometry x="20" y="80" width="131" height="80" as="geometry" />
         </mxCell>
         <mxCell id="k_QSSW2EdRkLZNwSfFR7-9" value="L3" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="k_QSSW2EdRkLZNwSfFR7-3" vertex="1">
-          <mxGeometry x="270" y="80" width="131" height="80" as="geometry" />
+          <mxGeometry x="279" y="80" width="131" height="80" as="geometry" />
         </mxCell>
         <mxCell id="k_QSSW2EdRkLZNwSfFR7-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=4;strokeColor=light-dark(#000000,#FFFF66);" parent="k_QSSW2EdRkLZNwSfFR7-3" source="k_QSSW2EdRkLZNwSfFR7-5" target="k_QSSW2EdRkLZNwSfFR7-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
