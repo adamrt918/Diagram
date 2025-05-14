@@ -281,48 +281,48 @@
         </mxCell>
         <mxCell id="wCbgwYSfFkYn0VU8xihq-0" value="" style="endArrow=none;html=1;rounded=0;entryX=0.12;entryY=0.91;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#FFB366);strokeWidth=8;" edge="1" parent="gOb1XPQJfeyNqM7ur5X2-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="40" y="740" as="sourcePoint" />
-            <mxPoint x="40" y="660" as="targetPoint" />
+            <mxPoint x="53" y="780" as="sourcePoint" />
+            <mxPoint x="53" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wCbgwYSfFkYn0VU8xihq-1" value="VLAN 10" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gOb1XPQJfeyNqM7ur5X2-1">
-          <mxGeometry x="40" y="680" width="60" height="30" as="geometry" />
+          <mxGeometry x="53" y="720" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wCbgwYSfFkYn0VU8xihq-2" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#6666FF);strokeWidth=8;" edge="1" parent="gOb1XPQJfeyNqM7ur5X2-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="40" y="850" as="sourcePoint" />
-            <mxPoint x="40" y="760" as="targetPoint" />
+            <mxPoint x="53" y="890" as="sourcePoint" />
+            <mxPoint x="53" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wCbgwYSfFkYn0VU8xihq-3" value="L3 path to DR" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gOb1XPQJfeyNqM7ur5X2-1">
-          <mxGeometry x="70" y="800" width="60" height="30" as="geometry" />
+          <mxGeometry x="83" y="840" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wCbgwYSfFkYn0VU8xihq-4" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=light-dark(#000000,#CC0000);strokeWidth=8;" edge="1" parent="gOb1XPQJfeyNqM7ur5X2-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="40" y="880" as="sourcePoint" />
-            <mxPoint x="40" y="940" as="targetPoint" />
+            <mxPoint x="53" y="920" as="sourcePoint" />
+            <mxPoint x="53" y="980" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wCbgwYSfFkYn0VU8xihq-5" value="VLAN 710" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gOb1XPQJfeyNqM7ur5X2-1">
-          <mxGeometry x="70" y="890" width="60" height="30" as="geometry" />
+          <mxGeometry x="83" y="930" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wCbgwYSfFkYn0VU8xihq-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=8;strokeColor=light-dark(#000000,#00FFFF);" edge="1" parent="gOb1XPQJfeyNqM7ur5X2-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="730" as="sourcePoint" />
-            <mxPoint x="170" y="660" as="targetPoint" />
+            <mxPoint x="183" y="770" as="sourcePoint" />
+            <mxPoint x="183" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wCbgwYSfFkYn0VU8xihq-7" value="VLAN 1254" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gOb1XPQJfeyNqM7ur5X2-1">
-          <mxGeometry x="170" y="680" width="70" height="30" as="geometry" />
+          <mxGeometry x="183" y="720" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wCbgwYSfFkYn0VU8xihq-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=8;strokeColor=light-dark(#000000,#00CC66);" edge="1" parent="gOb1XPQJfeyNqM7ur5X2-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="730" as="sourcePoint" />
-            <mxPoint x="280" y="660" as="targetPoint" />
+            <mxPoint x="293" y="770" as="sourcePoint" />
+            <mxPoint x="293" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wCbgwYSfFkYn0VU8xihq-9" value="VLAN 4001" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gOb1XPQJfeyNqM7ur5X2-1">
-          <mxGeometry x="280" y="680" width="70" height="30" as="geometry" />
+          <mxGeometry x="293" y="720" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wCbgwYSfFkYn0VU8xihq-10" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#FFB366);strokeWidth=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="gOb1XPQJfeyNqM7ur5X2-1" source="VZqCY-r7xCj7ebF6oZ1r-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
