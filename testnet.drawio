@@ -70,6 +70,12 @@
         <mxCell id="NEwKACmCdkhHc1CyIsO2-18" value="192.168.2.9/30" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="279" y="290" width="100" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="NEwKACmCdkhHc1CyIsO2-19" value="HQ Internal - Lo0&lt;div&gt;192.168.20.1/32&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="225" y="510" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NEwKACmCdkhHc1CyIsO2-20" value="BRB Internal Lo0&lt;div&gt;192.168.12.1/32&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="474" y="510" width="110" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
