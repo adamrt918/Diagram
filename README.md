@@ -12,12 +12,14 @@ Network Designs
 This is where I house various diagrams which I create for maintenances and to help visualize network solutions.
 
 ## How to compile and run the program
-# For draw.io files
+===============
+
+### For draw.io files
 Get started with draw.io.
 Clone the repository.
 Open the files with draw.io.
 
-# For visio
+### For visio
 Open the visio diagrams with visio
 
 [Portfolio](./)
