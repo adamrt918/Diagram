@@ -319,7 +319,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="L_OJbFoP-06sH7rR3lMy-33" value="Distribution&lt;div&gt;Switch/Router&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="L_OJbFoP-06sH7rR3lMy-1">
-          <mxGeometry x="205" y="340" width="140" height="50" as="geometry" />
+          <mxGeometry x="210" y="340" width="135" height="50" as="geometry" />
         </mxCell>
         <mxCell id="L_OJbFoP-06sH7rR3lMy-36" value="F5 HA Pair" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="L_OJbFoP-06sH7rR3lMy-1">
           <mxGeometry x="350.5" y="490" width="300" height="150" as="geometry" />
