@@ -97,8 +97,8 @@
         <mxCell id="4ue2BC80ouedhr11Rr5F-14" value="Outer&lt;div&gt;Switch/Router&lt;/div&gt;&lt;div&gt;Inner Router&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="30" y="66" width="140" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="4ue2BC80ouedhr11Rr5F-15" value="(New 4650s)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="730" y="220" width="90" height="30" as="geometry" />
+        <mxCell id="4ue2BC80ouedhr11Rr5F-15" value="(Existing 4650s)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="700" y="220" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4ue2BC80ouedhr11Rr5F-11" value="" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="539" y="60" width="78" height="62" as="geometry" />
@@ -282,8 +282,8 @@
         <mxCell id="L_OJbFoP-06sH7rR3lMy-20" value="Outer&lt;div&gt;Switch/Router&lt;/div&gt;&lt;div&gt;Inner Router&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="L_OJbFoP-06sH7rR3lMy-1">
           <mxGeometry x="205" y="54" width="140" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="L_OJbFoP-06sH7rR3lMy-21" value="(New 4650s)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="L_OJbFoP-06sH7rR3lMy-1">
-          <mxGeometry x="730" y="220" width="90" height="30" as="geometry" />
+        <mxCell id="L_OJbFoP-06sH7rR3lMy-21" value="(2x Additional 4650s)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="L_OJbFoP-06sH7rR3lMy-1">
+          <mxGeometry x="700" y="290" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L_OJbFoP-06sH7rR3lMy-22" value="" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="L_OJbFoP-06sH7rR3lMy-1">
           <mxGeometry x="539" y="60" width="78" height="62" as="geometry" />
