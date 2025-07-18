@@ -113,8 +113,8 @@
         <mxCell id="B1uGew3ZlreICwvSu2cl-14" value="L2 Traffic in data networks not spanned" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="bCw3NAEoAghIJWvo7MHd-1">
           <mxGeometry x="115" y="360" width="170" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="B1uGew3ZlreICwvSu2cl-17" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="bCw3NAEoAghIJWvo7MHd-1">
-          <mxGeometry x="691" y="380" width="60" height="30" as="geometry" />
+        <mxCell id="B1uGew3ZlreICwvSu2cl-17" value="10G total throughput" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="bCw3NAEoAghIJWvo7MHd-1">
+          <mxGeometry x="666.5" y="370" width="109" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
