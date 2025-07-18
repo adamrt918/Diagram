@@ -7,6 +7,9 @@
         <mxCell id="VeNAugfaSecMVMktZQ29-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;" edge="1" parent="1" source="VeNAugfaSecMVMktZQ29-1" target="VeNAugfaSecMVMktZQ29-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="VeNAugfaSecMVMktZQ29-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;" edge="1" parent="1" source="VeNAugfaSecMVMktZQ29-1" target="VeNAugfaSecMVMktZQ29-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="VeNAugfaSecMVMktZQ29-1" value="&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="386" y="280" width="80" height="80" as="geometry" />
         </mxCell>
@@ -37,6 +40,12 @@
         </mxCell>
         <mxCell id="VeNAugfaSecMVMktZQ29-12" value="Core" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="490" y="305" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VeNAugfaSecMVMktZQ29-13" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Access Network&lt;/span&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=default;strokeColor=default;sketch=0;pointerEvents=1;dashed=0;strokeWidth=2;align=center;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="206" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VeNAugfaSecMVMktZQ29-15" value="FW-03" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="148" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
