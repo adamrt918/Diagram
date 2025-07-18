@@ -282,7 +282,7 @@
           <mxGeometry y="11" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FlHhvRjLbA5CgfnBHr5B-55" value="" style="group" vertex="1" connectable="0" parent="bCw3NAEoAghIJWvo7MHd-1">
-          <mxGeometry x="274" y="950" width="69" height="100" as="geometry" />
+          <mxGeometry x="270" y="680" width="69" height="100" as="geometry" />
         </mxCell>
         <mxCell id="FlHhvRjLbA5CgfnBHr5B-34" value="" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="FlHhvRjLbA5CgfnBHr5B-55">
           <mxGeometry width="69" height="100" as="geometry" />
