@@ -4,10 +4,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="VeNAugfaSecMVMktZQ29-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VeNAugfaSecMVMktZQ29-1" target="VeNAugfaSecMVMktZQ29-2">
+        <mxCell id="VeNAugfaSecMVMktZQ29-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;" edge="1" parent="1" source="VeNAugfaSecMVMktZQ29-1" target="VeNAugfaSecMVMktZQ29-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VeNAugfaSecMVMktZQ29-1" value="" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="VeNAugfaSecMVMktZQ29-1" value="&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="386" y="280" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VeNAugfaSecMVMktZQ29-2" value="" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
@@ -34,6 +34,9 @@
         </mxCell>
         <mxCell id="VeNAugfaSecMVMktZQ29-11" value="Extrahop" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="421" width="131" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VeNAugfaSecMVMktZQ29-12" value="Core" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="305" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
