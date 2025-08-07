@@ -1,5 +1,5 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.6" pages="2">
-  <diagram name="HQ L3 Topo" id="GOpjCKeXJividRKamB3C">
+  <diagram name="HQ Topo" id="GOpjCKeXJividRKamB3C">
     <mxGraphModel dx="1412" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -159,9 +159,6 @@
         <mxCell id="re71gaIuVMO5YuEKO1F2-12" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="jJH2B-7xsKmhPhyJe4CN-18" vertex="1">
           <mxGeometry x="6.0600000000000005" y="140" width="101" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="XTu77mCVGWq_RQ6g_cSt-56" value="Distro subnets currently reside on core switch. Suggest moving to FW for less routing hops" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="jJH2B-7xsKmhPhyJe4CN-18" vertex="1">
-          <mxGeometry x="50" y="210" width="100" height="120" as="geometry" />
-        </mxCell>
         <mxCell id="jJH2B-7xsKmhPhyJe4CN-41" value="Zone 3... (Cove/DR/Any EPLAN)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="305" y="706.24" width="460" height="227.51" as="geometry" />
         </mxCell>
@@ -257,7 +254,7 @@
         <mxCell id="XTu77mCVGWq_RQ6g_cSt-53" value="SPINE" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="VD-ZW-kXbVsodiuHJE6c-2" vertex="1">
           <mxGeometry x="57.000000000000114" y="35.84000000000003" width="85.12" height="38.63" as="geometry" />
         </mxCell>
-        <mxCell id="Ke_lXSDSf3g7396NIP2z-2" value="This topology keeps a single routing hop internal of our HQ network. This will reduce the routing load on core switch which is already experiencing bugs. It will also reduce the complexity of our OSPF topology. The number of interfaces required on the FW will also be reduced." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="Ke_lXSDSf3g7396NIP2z-2" value="This topology keeps a single routing hop internal of our HQ network. This will reduce the routing load on core switch which is already experiencing bugs. It will also reduce the complexity of our OSPF topology. We may also have an opportunity to reduce the number of FW interfaces in use." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="61.5" y="40" width="300" height="100" as="geometry" />
         </mxCell>
       </root>
