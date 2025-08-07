@@ -10,12 +10,12 @@
             <mxPoint x="602" y="398" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ke_lXSDSf3g7396NIP2z-11" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 2;strokeWidth=4;rounded=0;fillColor=#a20025;strokeColor=#6F0000;shape=link;entryX=0.88;entryY=0.09;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="XTu77mCVGWq_RQ6g_cSt-61" target="XTu77mCVGWq_RQ6g_cSt-65" edge="1">
+        <mxCell id="Ke_lXSDSf3g7396NIP2z-11" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 2;strokeWidth=4;rounded=0;fillColor=#a20025;strokeColor=#6F0000;shape=link;entryX=0.88;entryY=0.09;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.13;exitY=0.77;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="XTu77mCVGWq_RQ6g_cSt-61" target="XTu77mCVGWq_RQ6g_cSt-65" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="515" y="416" as="sourcePoint" />
             <mxPoint x="495" y="507" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="612" y="487" />
+              <mxPoint x="557" y="487" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -127,7 +127,7 @@
         <mxCell id="XTu77mCVGWq_RQ6g_cSt-52" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Direct P2P Subnets&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=light-dark(#FFFFFF,#99FF99);" parent="jJH2B-7xsKmhPhyJe4CN-8" vertex="1">
           <mxGeometry x="237.06" y="100" width="73" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XTu77mCVGWq_RQ6g_cSt-58" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="jJH2B-7xsKmhPhyJe4CN-8" vertex="1">
+        <mxCell id="XTu77mCVGWq_RQ6g_cSt-58" value="CORE" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="jJH2B-7xsKmhPhyJe4CN-8" vertex="1">
           <mxGeometry x="223.06" y="200" width="101" height="50" as="geometry" />
         </mxCell>
         <mxCell id="XTu77mCVGWq_RQ6g_cSt-64" value="" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="jJH2B-7xsKmhPhyJe4CN-8" vertex="1">
@@ -254,11 +254,8 @@
             <mxPoint x="-297.38" y="1036.3299999999997" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XTu77mCVGWq_RQ6g_cSt-53" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="VD-ZW-kXbVsodiuHJE6c-2" vertex="1">
+        <mxCell id="XTu77mCVGWq_RQ6g_cSt-53" value="SPINE" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="VD-ZW-kXbVsodiuHJE6c-2" vertex="1">
           <mxGeometry x="57.000000000000114" y="35.84000000000003" width="85.12" height="38.63" as="geometry" />
-        </mxCell>
-        <mxCell id="jJH2B-7xsKmhPhyJe4CN-37" value="Spine does not need to serve as a gateway because server traffic can navigate on VLAN 10. If it needs a GW it can go to the firewall which is &amp;lt; 10G traffic. If FW cannot handle the load then Core can be the server gateway." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="VD-ZW-kXbVsodiuHJE6c-2" vertex="1">
-          <mxGeometry x="3.5" y="200" width="210" height="124.16" as="geometry" />
         </mxCell>
         <mxCell id="Ke_lXSDSf3g7396NIP2z-2" value="This topology keeps a single routing hop internal of our HQ network. This will reduce the routing load on core switch which is already experiencing bugs. It will also reduce the complexity of our OSPF topology. The number of interfaces required on the FW will also be reduced." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="61.5" y="40" width="300" height="100" as="geometry" />
