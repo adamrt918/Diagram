@@ -1,9 +1,45 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.0.7">
   <diagram name="Page-1" id="NHAs3yNuuSQGRzSFP-bY">
-    <mxGraphModel>
+    <mxGraphModel dx="1412" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5NGBoYn_24w96im8_-v_-1" value="Unwashed masses&lt;div&gt;Constant new IP Pools&lt;/div&gt;&lt;div&gt;10/8 network is maxed out multiple times&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="380" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="5NGBoYn_24w96im8_-v_-2" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.625;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5NGBoYn_24w96im8_-v_-1" target="5NGBoYn_24w96im8_-v_-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5NGBoYn_24w96im8_-v_-3" value="" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="386.00000000000006" y="210" width="78" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="5NGBoYn_24w96im8_-v_-4" value="10.x.x.x/8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5NGBoYn_24w96im8_-v_-5" value="NATs to 100.64.0.2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="226" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5NGBoYn_24w96im8_-v_-6" value="" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="210" width="43" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="5NGBoYn_24w96im8_-v_-7" value="Hotel Employees --&lt;div&gt;Washed Masses&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;10.x.x.x/8&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="400" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5NGBoYn_24w96im8_-v_-8" value="" style="endArrow=none;html=1;rounded=0;exitX=0.625;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5NGBoYn_24w96im8_-v_-7" target="5NGBoYn_24w96im8_-v_-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5NGBoYn_24w96im8_-v_-9" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5NGBoYn_24w96im8_-v_-3" target="5NGBoYn_24w96im8_-v_-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
