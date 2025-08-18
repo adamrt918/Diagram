@@ -68,7 +68,7 @@
             <mxPoint x="277" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jJH2B-7xsKmhPhyJe4CN-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=4;" parent="1" target="jJH2B-7xsKmhPhyJe4CN-13" edge="1" source="XTu77mCVGWq_RQ6g_cSt-64">
+        <mxCell id="jJH2B-7xsKmhPhyJe4CN-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=4;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" target="jJH2B-7xsKmhPhyJe4CN-13" edge="1" source="XTu77mCVGWq_RQ6g_cSt-64">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="301" y="261" as="sourcePoint" />
             <mxPoint x="350" y="320" as="targetPoint" />
@@ -153,14 +153,14 @@
         <mxCell id="XTu77mCVGWq_RQ6g_cSt-60" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Server Subnets&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;rotation=0;" parent="V-Xpbyj-eKvYf4B-asKD-1" vertex="1">
           <mxGeometry y="60" width="73" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="V-Xpbyj-eKvYf4B-asKD-18" value="" style="endArrow=none;html=1;rounded=0;entryX=0.12;entryY=0.91;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=4;" edge="1" parent="jJH2B-7xsKmhPhyJe4CN-8" source="V-Xpbyj-eKvYf4B-asKD-2" target="XTu77mCVGWq_RQ6g_cSt-64">
+        <mxCell id="V-Xpbyj-eKvYf4B-asKD-18" value="" style="endArrow=none;html=1;rounded=0;entryX=0.12;entryY=0.91;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=4;fillColor=#6a00ff;strokeColor=#3700CC;" edge="1" parent="jJH2B-7xsKmhPhyJe4CN-8" source="V-Xpbyj-eKvYf4B-asKD-2" target="XTu77mCVGWq_RQ6g_cSt-64">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="387" y="63" as="sourcePoint" />
             <mxPoint x="661" y="-40" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XTu77mCVGWq_RQ6g_cSt-63" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(3, 3, 3));&quot;&gt;DMZ Subnets&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=light-dark(#FFFFFF,#FFFFFF);rotation=0;" parent="jJH2B-7xsKmhPhyJe4CN-8" vertex="1">
+        <mxCell id="XTu77mCVGWq_RQ6g_cSt-63" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(3, 3, 3));&quot;&gt;DMZ Subnets&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" parent="jJH2B-7xsKmhPhyJe4CN-8" vertex="1">
           <mxGeometry x="137.94" y="130" width="74" height="27" as="geometry" />
         </mxCell>
         <mxCell id="XTu77mCVGWq_RQ6g_cSt-64" value="" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="jJH2B-7xsKmhPhyJe4CN-8" vertex="1">
@@ -275,7 +275,7 @@
         <mxCell id="XTu77mCVGWq_RQ6g_cSt-53" value="SPINE" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="VD-ZW-kXbVsodiuHJE6c-2" vertex="1">
           <mxGeometry x="57.000000000000114" y="35.84000000000003" width="85.12" height="38.63" as="geometry" />
         </mxCell>
-        <mxCell id="Ke_lXSDSf3g7396NIP2z-2" value="This topology keeps a single routing hop for the whole network. The firewall is inspecting the traffic in pass thru. All routing resources are contained on the router. Internet redundancy is provided at the same level as the ISP provides." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="Ke_lXSDSf3g7396NIP2z-2" value="This topology keeps a single routing hop for the whole network. The firewall is inspecting the traffic in pass thru. All routing resources are contained on the router.&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="61.5" y="40" width="300" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Ke_lXSDSf3g7396NIP2z-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.625;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.88;exitY=0.91;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=4;" parent="1" source="XTu77mCVGWq_RQ6g_cSt-64" target="jJH2B-7xsKmhPhyJe4CN-2" edge="1">
