@@ -1,9 +1,42 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.0">
   <diagram name="Page-1" id="eWkpxLeMt_ej3QvNCGi4">
-    <mxGraphModel>
+    <mxGraphModel dx="1412" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="16EwfIuZahun2yzmNZ7N-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="16EwfIuZahun2yzmNZ7N-1" target="16EwfIuZahun2yzmNZ7N-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="16EwfIuZahun2yzmNZ7N-1" value="" style="shape=mxgraph.cisco.directors.localdirector;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="291" width="78" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="16EwfIuZahun2yzmNZ7N-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="16EwfIuZahun2yzmNZ7N-2" target="16EwfIuZahun2yzmNZ7N-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="16EwfIuZahun2yzmNZ7N-2" value="EXT" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="291" width="131" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="16EwfIuZahun2yzmNZ7N-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="16EwfIuZahun2yzmNZ7N-3" target="16EwfIuZahun2yzmNZ7N-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="16EwfIuZahun2yzmNZ7N-3" value="" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="210.00000000000006" y="300" width="78" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="16EwfIuZahun2yzmNZ7N-5" value="129.222.248.111/24" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="194" y="261" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="16EwfIuZahun2yzmNZ7N-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="16EwfIuZahun2yzmNZ7N-7" target="16EwfIuZahun2yzmNZ7N-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="16EwfIuZahun2yzmNZ7N-7" value="From Outside&lt;div&gt;To Outside (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;129.222.248.111)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Translate to: 10.50.200.32&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="291" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="16EwfIuZahun2yzmNZ7N-9" value="NAT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="261" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="16EwfIuZahun2yzmNZ7N-11" value="Port 443 Traffic&lt;div&gt;To 129.222.248.111&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="619" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
