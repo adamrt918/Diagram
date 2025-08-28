@@ -35,7 +35,10 @@
           <mxGeometry x="390" y="261" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="16EwfIuZahun2yzmNZ7N-11" value="Port 443 Traffic&lt;div&gt;To 129.222.248.111&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="619" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="619" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="16EwfIuZahun2yzmNZ7N-13" value="Source: 10.50.200.32&lt;br&gt;&lt;br&gt;Dest:&lt;div&gt;129.222.248.111&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="626" y="390" width="92" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
