@@ -1,9 +1,60 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.1.1">
   <diagram name="Page-1" id="dQpgQPbzDtoKwUF-f1GA">
-    <mxGraphModel>
+    <mxGraphModel dx="1412" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="uhwIy34pfyX_MFDdsCEc-5" value="Cove" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="99" y="170" width="200" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="uhwIy34pfyX_MFDdsCEc-1" value="" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="uhwIy34pfyX_MFDdsCEc-5">
+          <mxGeometry x="61.00000000000006" y="60" width="78" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="uhwIy34pfyX_MFDdsCEc-2" value="" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="uhwIy34pfyX_MFDdsCEc-5">
+          <mxGeometry x="60" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uhwIy34pfyX_MFDdsCEc-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="uhwIy34pfyX_MFDdsCEc-5" source="uhwIy34pfyX_MFDdsCEc-2" target="uhwIy34pfyX_MFDdsCEc-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="301" y="350" as="sourcePoint" />
+            <mxPoint x="351" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uhwIy34pfyX_MFDdsCEc-7" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="131" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uhwIy34pfyX_MFDdsCEc-8" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.13;entryY=0.77;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uhwIy34pfyX_MFDdsCEc-1" target="uhwIy34pfyX_MFDdsCEc-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="310" as="sourcePoint" />
+            <mxPoint x="450" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="377" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uhwIy34pfyX_MFDdsCEc-9" value="BRB" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="170" width="200" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="uhwIy34pfyX_MFDdsCEc-10" value="" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="uhwIy34pfyX_MFDdsCEc-9">
+          <mxGeometry x="61.00000000000006" y="60" width="78" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="uhwIy34pfyX_MFDdsCEc-11" value="" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="uhwIy34pfyX_MFDdsCEc-9">
+          <mxGeometry x="60" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uhwIy34pfyX_MFDdsCEc-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="uhwIy34pfyX_MFDdsCEc-9" source="uhwIy34pfyX_MFDdsCEc-11" target="uhwIy34pfyX_MFDdsCEc-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="301" y="350" as="sourcePoint" />
+            <mxPoint x="351" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uhwIy34pfyX_MFDdsCEc-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.96;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uhwIy34pfyX_MFDdsCEc-7" target="uhwIy34pfyX_MFDdsCEc-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="310" as="sourcePoint" />
+            <mxPoint x="450" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="486" y="261" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
