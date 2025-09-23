@@ -55,6 +55,15 @@
         <mxCell id="uTEQr7bpH9WWDBuf_HfT-15" value="" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="605" y="400" width="78" height="62" as="geometry" />
         </mxCell>
+        <mxCell id="uTEQr7bpH9WWDBuf_HfT-16" value="1.2.3.0/26" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=light-dark(#000000,#000000);" vertex="1" parent="1">
+          <mxGeometry x="389" y="281.5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uTEQr7bpH9WWDBuf_HfT-18" value="1.2.3.129/26" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=light-dark(#000000,#000000);" vertex="1" parent="1">
+          <mxGeometry x="599" y="281.5" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uTEQr7bpH9WWDBuf_HfT-19" value="1.2.3.65/26" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=light-dark(#000000,#000000);" vertex="1" parent="1">
+          <mxGeometry x="173" y="281.5" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
