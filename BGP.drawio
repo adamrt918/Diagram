@@ -64,6 +64,33 @@
         <mxCell id="uTEQr7bpH9WWDBuf_HfT-19" value="1.2.3.65/26" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=light-dark(#000000,#000000);" vertex="1" parent="1">
           <mxGeometry x="173" y="281.5" width="80" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="uTEQr7bpH9WWDBuf_HfT-20" value="" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="174" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uTEQr7bpH9WWDBuf_HfT-21" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uTEQr7bpH9WWDBuf_HfT-20" target="uTEQr7bpH9WWDBuf_HfT-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="678" as="sourcePoint" />
+            <mxPoint x="440" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEQr7bpH9WWDBuf_HfT-22" value="" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uTEQr7bpH9WWDBuf_HfT-23" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uTEQr7bpH9WWDBuf_HfT-22" target="uTEQr7bpH9WWDBuf_HfT-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="655" y="678" as="sourcePoint" />
+            <mxPoint x="430" y="444" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEQr7bpH9WWDBuf_HfT-24" value="" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="605" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uTEQr7bpH9WWDBuf_HfT-25" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uTEQr7bpH9WWDBuf_HfT-24" target="uTEQr7bpH9WWDBuf_HfT-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="871" y="682" as="sourcePoint" />
+            <mxPoint x="710" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
