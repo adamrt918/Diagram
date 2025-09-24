@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="Page-1" id="v1OogiXQ2DVATTvaPr1y">
-    <mxGraphModel dx="1177" dy="901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="477" dy="1314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JTb2Uj3172M5OluZ5vnX-2" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/phone.svg;" vertex="1" parent="1">
-          <mxGeometry x="1" y="960" width="101.27" height="80" as="geometry" />
+          <mxGeometry x="2.37" y="960" width="101.27" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JTb2Uj3172M5OluZ5vnX-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="JTb2Uj3172M5OluZ5vnX-3" target="JTb2Uj3172M5OluZ5vnX-21">
           <mxGeometry relative="1" as="geometry" />
@@ -22,22 +22,22 @@
           <mxGeometry x="190.5" y="410" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JTb2Uj3172M5OluZ5vnX-5" value="10.13.234.0/24&lt;br&gt;VLAN 2340" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry y="1050" width="99.36" height="30" as="geometry" />
+          <mxGeometry x="1.37" y="1050" width="99.36" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JTb2Uj3172M5OluZ5vnX-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;fillColor=#0050ef;strokeColor=#001DBC;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="JTb2Uj3172M5OluZ5vnX-6" target="JTb2Uj3172M5OluZ5vnX-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JTb2Uj3172M5OluZ5vnX-6" value="" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="10.630000000000006" y="810" width="80" height="80" as="geometry" />
+          <mxGeometry x="12.000000000000007" y="810" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JTb2Uj3172M5OluZ5vnX-7" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JTb2Uj3172M5OluZ5vnX-2" target="JTb2Uj3172M5OluZ5vnX-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="360" y="580" as="sourcePoint" />
-            <mxPoint x="410" y="530" as="targetPoint" />
+            <mxPoint x="361.37" y="580" as="sourcePoint" />
+            <mxPoint x="411.37" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JTb2Uj3172M5OluZ5vnX-8" value="10.13.234.1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="31.909999999999997" y="890" width="108.73" height="30" as="geometry" />
+          <mxGeometry x="33.279999999999994" y="890" width="108.73" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JTb2Uj3172M5OluZ5vnX-11" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="825" width="101" height="50" as="geometry" />
@@ -49,13 +49,13 @@
           <mxGeometry x="381.75" y="804" width="66.5" height="91" as="geometry" />
         </mxCell>
         <mxCell id="JTb2Uj3172M5OluZ5vnX-15" value="AVL CORE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="19.629999999999995" y="835" width="60" height="30" as="geometry" />
+          <mxGeometry x="20.999999999999996" y="835" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JTb2Uj3172M5OluZ5vnX-16" value="AVL Storage" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="210" y="845" width="60" height="30" as="geometry" />
+          <mxGeometry x="200" y="845" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JTb2Uj3172M5OluZ5vnX-18" value="10.13.230.1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="79.63" y="810" width="80" height="30" as="geometry" />
+          <mxGeometry x="81" y="845" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JTb2Uj3172M5OluZ5vnX-19" value="Session Manager" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="381.75" y="855" width="60" height="30" as="geometry" />
@@ -81,20 +81,20 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JTb2Uj3172M5OluZ5vnX-25" value="" style="shape=mxgraph.cisco.computers_and_peripherals.pc;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="19.629999999999995" y="380" width="78" height="70" as="geometry" />
+          <mxGeometry x="20.999999999999996" y="380" width="78" height="70" as="geometry" />
         </mxCell>
         <mxCell id="JTb2Uj3172M5OluZ5vnX-26" value="Avaya Core @ SP (CM)&lt;br&gt;172.16.94.10" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1" y="340" width="133.06" height="30" as="geometry" />
+          <mxGeometry x="2.37" y="340" width="133.06" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JTb2Uj3172M5OluZ5vnX-27" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;fillColor=#60a917;strokeColor=#2D7600;startArrow=classic;startFill=1;exitX=0.02;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.08;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JTb2Uj3172M5OluZ5vnX-25" target="JTb2Uj3172M5OluZ5vnX-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="690" as="sourcePoint" />
-            <mxPoint x="100" y="470" as="targetPoint" />
+            <mxPoint x="121.37" y="690" as="sourcePoint" />
+            <mxPoint x="101.37" y="470" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JTb2Uj3172M5OluZ5vnX-29" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="11.630000000000056" y="710" width="78" height="62" as="geometry" />
+          <mxGeometry x="13.000000000000057" y="710" width="78" height="62" as="geometry" />
         </mxCell>
         <mxCell id="JTb2Uj3172M5OluZ5vnX-9" value="" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="JTb2Uj3172M5OluZ5vnX-29">
           <mxGeometry width="78" height="62" as="geometry" />
@@ -103,7 +103,7 @@
           <mxGeometry x="8.99999999999994" y="32" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JTb2Uj3172M5OluZ5vnX-30" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="12.629999999999999" y="610" width="78" height="62" as="geometry" />
+          <mxGeometry x="14" y="610" width="78" height="62" as="geometry" />
         </mxCell>
         <mxCell id="JTb2Uj3172M5OluZ5vnX-31" value="" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="JTb2Uj3172M5OluZ5vnX-30">
           <mxGeometry width="78" height="62" as="geometry" />
@@ -112,7 +112,7 @@
           <mxGeometry x="8.99999999999994" y="32" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JTb2Uj3172M5OluZ5vnX-33" value="SP" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1.3700000000000045" y="500" width="120" height="80" as="geometry" />
+          <mxGeometry x="-4.440892098500626e-15" y="500" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
