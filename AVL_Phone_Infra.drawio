@@ -76,7 +76,7 @@
         <mxCell id="JTb2Uj3172M5OluZ5vnX-22" value="10.13.1.115&lt;div&gt;Avaya Gateway PRI&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="620" width="90" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="JTb2Uj3172M5OluZ5vnX-23" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JTb2Uj3172M5OluZ5vnX-6" target="JTb2Uj3172M5OluZ5vnX-21">
+        <mxCell id="JTb2Uj3172M5OluZ5vnX-23" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JTb2Uj3172M5OluZ5vnX-6" target="JTb2Uj3172M5OluZ5vnX-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="200" y="720" as="sourcePoint" />
             <mxPoint x="250" y="670" as="targetPoint" />
