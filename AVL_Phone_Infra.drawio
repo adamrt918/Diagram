@@ -151,35 +151,20 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="b4ywGWZbVGZHp13s69tE-2" value="EXT Caller" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="130" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="b4ywGWZbVGZHp13s69tE-3" value="" style="endArrow=none;html=1;rounded=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="b4ywGWZbVGZHp13s69tE-2">
+        <mxCell id="b4ywGWZbVGZHp13s69tE-3" value="" style="endArrow=block;html=1;rounded=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;strokeWidth=4;startArrow=block;startFill=1;endFill=1;strokeColor=light-dark(#000000,#33FF33);entryPerimeter=0;" edge="1" parent="1" target="vRcSg4xgcW93KTjuhxie-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="146" y="290" as="sourcePoint" />
-            <mxPoint x="165" y="320" as="targetPoint" />
+            <mxPoint x="146" y="206" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b4ywGWZbVGZHp13s69tE-4" value="SBC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="115" y="290" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="b4ywGWZbVGZHp13s69tE-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="b4ywGWZbVGZHp13s69tE-4">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="145" y="380" as="sourcePoint" />
-            <mxPoint x="165" y="320" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="b4ywGWZbVGZHp13s69tE-6" value="Media Gateway" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="115" y="380" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="b4ywGWZbVGZHp13s69tE-7" value="OR&lt;div&gt;Direct to phone&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="175" y="375" width="95" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="b4ywGWZbVGZHp13s69tE-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" target="b4ywGWZbVGZHp13s69tE-6">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="145.00499999999988" y="540" as="sourcePoint" />
-            <mxPoint x="165" y="420" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="b4ywGWZbVGZHp13s69tE-13" value="" style="endArrow=none;html=1;rounded=0;startArrow=blockThin;startFill=1;strokeWidth=4;fillColor=#dae8fc;strokeColor=light-dark(#6C8EBF,#FF6666);gradientColor=#7ea6e0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="b4ywGWZbVGZHp13s69tE-14" target="vRcSg4xgcW93KTjuhxie-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -226,11 +211,17 @@
         <mxCell id="vRcSg4xgcW93KTjuhxie-6" value="BGEA Cove Phone User" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/phone.svg;" vertex="1" parent="vRcSg4xgcW93KTjuhxie-1">
           <mxGeometry x="109.37" y="460" width="71.27" height="56.3" as="geometry" />
         </mxCell>
+        <mxCell id="vRcSg4xgcW93KTjuhxie-10" value="" style="group" vertex="1" connectable="0" parent="vRcSg4xgcW93KTjuhxie-1">
+          <mxGeometry x="65" y="18.150000000000006" width="150" height="111.85" as="geometry" />
+        </mxCell>
+        <mxCell id="vRcSg4xgcW93KTjuhxie-11" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#4D4D4D);strokeColor=light-dark(#000000,#666666);" vertex="1" parent="vRcSg4xgcW93KTjuhxie-10">
+          <mxGeometry width="150" height="111.85" as="geometry" />
+        </mxCell>
+        <mxCell id="vRcSg4xgcW93KTjuhxie-12" value="&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(77, 77, 77));&quot;&gt;External Caller&lt;/span&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/phone.svg;" vertex="1" parent="vRcSg4xgcW93KTjuhxie-10">
+          <mxGeometry x="39.370000000000005" y="11.850000000000001" width="71.27" height="56.3" as="geometry" />
+        </mxCell>
         <mxCell id="vRcSg4xgcW93KTjuhxie-2" value="Call Setup Path" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="90" width="390" height="570" as="geometry" />
-        </mxCell>
-        <mxCell id="vRcSg4xgcW93KTjuhxie-8" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#4D4D4D);strokeColor=light-dark(#000000,#666666);" vertex="1" parent="vRcSg4xgcW93KTjuhxie-2">
-          <mxGeometry x="65" y="18.15" width="150" height="111.85" as="geometry" />
         </mxCell>
         <mxCell id="34d1WpMyIgT63UiGO2cc-1" value="&lt;div&gt;Session Manager&lt;/div&gt;10.13.230.4/24&lt;br&gt;VLAN 2300" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vRcSg4xgcW93KTjuhxie-2">
           <mxGeometry x="245" y="130" width="110" height="50" as="geometry" />
@@ -241,11 +232,29 @@
         <mxCell id="b4ywGWZbVGZHp13s69tE-12" value="BGEA Cove Phone User" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/phone.svg;" vertex="1" parent="vRcSg4xgcW93KTjuhxie-2">
           <mxGeometry x="104.37" y="470" width="71.27" height="56.3" as="geometry" />
         </mxCell>
-        <mxCell id="vRcSg4xgcW93KTjuhxie-7" value="External Caller" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/phone.svg;" vertex="1" parent="vRcSg4xgcW93KTjuhxie-2">
-          <mxGeometry x="104.37" y="30" width="71.27" height="56.3" as="geometry" />
+        <mxCell id="vRcSg4xgcW93KTjuhxie-9" value="" style="group" vertex="1" connectable="0" parent="vRcSg4xgcW93KTjuhxie-2">
+          <mxGeometry x="65" y="18.15" width="150" height="111.85" as="geometry" />
+        </mxCell>
+        <mxCell id="vRcSg4xgcW93KTjuhxie-8" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#4D4D4D);strokeColor=light-dark(#000000,#666666);" vertex="1" parent="vRcSg4xgcW93KTjuhxie-9">
+          <mxGeometry width="150" height="111.85" as="geometry" />
+        </mxCell>
+        <mxCell id="vRcSg4xgcW93KTjuhxie-7" value="&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(77, 77, 77));&quot;&gt;External Caller&lt;/span&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/phone.svg;" vertex="1" parent="vRcSg4xgcW93KTjuhxie-9">
+          <mxGeometry x="39.370000000000005" y="11.850000000000001" width="71.27" height="56.3" as="geometry" />
         </mxCell>
         <mxCell id="vRcSg4xgcW93KTjuhxie-3" value="There are two possible pathways for the phone call. First the call gets setup, then the audio follows its&#39; own path." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="10" width="600" height="30" as="geometry" />
+          <mxGeometry x="115" y="30" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vRcSg4xgcW93KTjuhxie-14" value="" style="endArrow=block;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=4;startArrow=block;startFill=1;endFill=1;strokeColor=light-dark(#000000,#33FF33);exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="b4ywGWZbVGZHp13s69tE-6" target="b4ywGWZbVGZHp13s69tE-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="366" as="sourcePoint" />
+            <mxPoint x="342" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vRcSg4xgcW93KTjuhxie-15" value="" style="endArrow=block;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=4;startArrow=block;startFill=1;endFill=1;strokeColor=light-dark(#000000,#33FF33);" edge="1" parent="1" source="vRcSg4xgcW93KTjuhxie-6" target="b4ywGWZbVGZHp13s69tE-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="500" as="sourcePoint" />
+            <mxPoint x="380" y="440" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
