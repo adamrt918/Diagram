@@ -243,6 +243,9 @@
         <mxCell id="b4ywGWZbVGZHp13s69tE-22" value="Communication Manager" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="645" y="330" width="90" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="b4ywGWZbVGZHp13s69tE-24" value="Call Setup" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
