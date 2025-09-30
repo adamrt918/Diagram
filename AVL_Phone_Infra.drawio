@@ -151,9 +151,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="b4ywGWZbVGZHp13s69tE-1" value="BGEA Cove Phone User" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/phone.svg;" vertex="1" parent="1">
-          <mxGeometry x="94.37" y="540" width="101.27" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="b4ywGWZbVGZHp13s69tE-2" value="EXT Caller" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="130" width="120" height="80" as="geometry" />
         </mxCell>
@@ -178,22 +175,16 @@
         <mxCell id="b4ywGWZbVGZHp13s69tE-7" value="OR&lt;div&gt;Direct to phone&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="175" y="375" width="95" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="b4ywGWZbVGZHp13s69tE-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="b4ywGWZbVGZHp13s69tE-1" target="b4ywGWZbVGZHp13s69tE-6">
+        <mxCell id="b4ywGWZbVGZHp13s69tE-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" target="b4ywGWZbVGZHp13s69tE-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="115" y="470" as="sourcePoint" />
+            <mxPoint x="145.00499999999988" y="540" as="sourcePoint" />
             <mxPoint x="165" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b4ywGWZbVGZHp13s69tE-10" value="EXT Caller" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="130" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="b4ywGWZbVGZHp13s69tE-12" value="BGEA Cove Phone User" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/phone.svg;" vertex="1" parent="1">
-          <mxGeometry x="550" y="540" width="101.27" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="b4ywGWZbVGZHp13s69tE-13" value="" style="endArrow=none;html=1;rounded=0;startArrow=blockThin;startFill=1;strokeWidth=4;fillColor=#dae8fc;strokeColor=light-dark(#6C8EBF,#FF6666);gradientColor=#7ea6e0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="b4ywGWZbVGZHp13s69tE-14" target="b4ywGWZbVGZHp13s69tE-10">
+        <mxCell id="b4ywGWZbVGZHp13s69tE-13" value="" style="endArrow=none;html=1;rounded=0;startArrow=blockThin;startFill=1;strokeWidth=4;fillColor=#dae8fc;strokeColor=light-dark(#6C8EBF,#FF6666);gradientColor=#7ea6e0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="b4ywGWZbVGZHp13s69tE-14" target="vRcSg4xgcW93KTjuhxie-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="601.63" y="290" as="sourcePoint" />
-            <mxPoint x="601.63" y="206" as="targetPoint" />
+            <mxPoint x="600" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b4ywGWZbVGZHp13s69tE-14" value="SBC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -214,29 +205,44 @@
             <mxPoint x="600" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b4ywGWZbVGZHp13s69tE-19" value="" style="endArrow=block;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=block;startFill=1;strokeWidth=4;endFill=1;fillColor=#0050ef;strokeColor=light-dark(#001DBC,#33FF33);exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="34d1WpMyIgT63UiGO2cc-1" target="b4ywGWZbVGZHp13s69tE-14">
+        <mxCell id="b4ywGWZbVGZHp13s69tE-19" value="" style="endArrow=block;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=block;startFill=1;strokeWidth=4;endFill=1;fillColor=#0050ef;strokeColor=light-dark(#001DBC,#33FF33);exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vRcSg4xgcW93KTjuhxie-4" target="b4ywGWZbVGZHp13s69tE-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="730" y="305" as="sourcePoint" />
+            <mxPoint x="660" y="350" as="sourcePoint" />
             <mxPoint x="520" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b4ywGWZbVGZHp13s69tE-21" value="" style="endArrow=block;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=block;startFill=1;endFill=1;strokeWidth=5;fillColor=#0050ef;strokeColor=light-dark(#001DBC,#33FF33);" edge="1" parent="1" target="34d1WpMyIgT63UiGO2cc-1">
+        <mxCell id="b4ywGWZbVGZHp13s69tE-21" value="" style="endArrow=block;html=1;rounded=0;startArrow=block;startFill=1;endFill=1;strokeWidth=5;fillColor=#0050ef;strokeColor=light-dark(#001DBC,#33FF33);entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="vRcSg4xgcW93KTjuhxie-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="760" y="380" as="sourcePoint" />
-            <mxPoint x="760" y="320" as="targetPoint" />
+            <mxPoint x="710" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jOoW3jL3H8XLOxYE-PAL-1" value="Avaya Core @ SP&amp;nbsp;&lt;div&gt;Communication Manager&lt;br&gt;172.16.94.10&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="670" y="375" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="34d1WpMyIgT63UiGO2cc-1" value="&lt;div&gt;Session Manager&lt;/div&gt;10.13.230.4/24&lt;br&gt;VLAN 2300" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="705" y="280" width="110" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="vRcSg4xgcW93KTjuhxie-1" value="Audio Path" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry y="90" width="280" height="570" as="geometry" />
         </mxCell>
+        <mxCell id="vRcSg4xgcW93KTjuhxie-6" value="BGEA Cove Phone User" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/phone.svg;" vertex="1" parent="vRcSg4xgcW93KTjuhxie-1">
+          <mxGeometry x="109.37" y="460" width="71.27" height="56.3" as="geometry" />
+        </mxCell>
         <mxCell id="vRcSg4xgcW93KTjuhxie-2" value="Call Setup Path" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="90" width="390" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="vRcSg4xgcW93KTjuhxie-8" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#4D4D4D);strokeColor=light-dark(#000000,#666666);" vertex="1" parent="vRcSg4xgcW93KTjuhxie-2">
+          <mxGeometry x="65" y="18.15" width="150" height="111.85" as="geometry" />
+        </mxCell>
+        <mxCell id="34d1WpMyIgT63UiGO2cc-1" value="&lt;div&gt;Session Manager&lt;/div&gt;10.13.230.4/24&lt;br&gt;VLAN 2300" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vRcSg4xgcW93KTjuhxie-2">
+          <mxGeometry x="245" y="130" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vRcSg4xgcW93KTjuhxie-4" value="" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="vRcSg4xgcW93KTjuhxie-2">
+          <mxGeometry x="278.5" y="184" width="43" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="b4ywGWZbVGZHp13s69tE-12" value="BGEA Cove Phone User" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/phone.svg;" vertex="1" parent="vRcSg4xgcW93KTjuhxie-2">
+          <mxGeometry x="104.37" y="470" width="71.27" height="56.3" as="geometry" />
+        </mxCell>
+        <mxCell id="vRcSg4xgcW93KTjuhxie-7" value="External Caller" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/phone.svg;" vertex="1" parent="vRcSg4xgcW93KTjuhxie-2">
+          <mxGeometry x="104.37" y="30" width="71.27" height="56.3" as="geometry" />
         </mxCell>
         <mxCell id="vRcSg4xgcW93KTjuhxie-3" value="There are two possible pathways for the phone call. First the call gets setup, then the audio follows its&#39; own path." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="10" width="600" height="30" as="geometry" />
