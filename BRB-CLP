@@ -103,6 +103,12 @@
         <mxCell id="rwXmCiNRxvO5Ch9CVnLi-25" value="Trunked to BRB Network" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="310" width="830" height="210" as="geometry" />
         </mxCell>
+        <mxCell id="rwXmCiNRxvO5Ch9CVnLi-26" value="200x200 mbps" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rwXmCiNRxvO5Ch9CVnLi-25">
+          <mxGeometry x="470" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rwXmCiNRxvO5Ch9CVnLi-28" value="Managment Traffic&lt;br&gt;Infrastructure Mgmt&lt;div&gt;Data traffic&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="520" width="340" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
