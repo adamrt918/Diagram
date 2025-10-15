@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MANlrupcTTr53v-TsqG8-32" value="HQ Core" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274.5" y="80" width="200" height="320" as="geometry" />
+        </mxCell>
         <mxCell id="MANlrupcTTr53v-TsqG8-1" value="" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="80.00000000000006" y="150" width="78" height="62" as="geometry" />
         </mxCell>
@@ -53,6 +56,12 @@
           <mxGeometry x="1" relative="1" as="geometry">
             <mxPoint x="51" y="4" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MANlrupcTTr53v-TsqG8-31" value="FW-03" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="89" y="182" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MANlrupcTTr53v-TsqG8-33" value="FW-04" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="89" y="362" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
