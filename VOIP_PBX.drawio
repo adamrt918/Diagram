@@ -84,7 +84,7 @@
             <mxPoint x="-44" y="15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MANlrupcTTr53v-TsqG8-38" value="Eth1/21" style="edgeLabel;resizable=0;html=1;;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="MANlrupcTTr53v-TsqG8-35">
+        <mxCell id="MANlrupcTTr53v-TsqG8-38" value="Eth1/9" style="edgeLabel;resizable=0;html=1;;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="MANlrupcTTr53v-TsqG8-35">
           <mxGeometry x="1" relative="1" as="geometry">
             <mxPoint x="22" y="4" as="offset" />
           </mxGeometry>
@@ -105,7 +105,7 @@
             <mxPoint x="-44" y="15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MANlrupcTTr53v-TsqG8-42" value="Eth1/22" style="edgeLabel;resizable=0;html=1;;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="MANlrupcTTr53v-TsqG8-39">
+        <mxCell id="MANlrupcTTr53v-TsqG8-42" value="Eth1/10" style="edgeLabel;resizable=0;html=1;;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="MANlrupcTTr53v-TsqG8-39">
           <mxGeometry x="1" relative="1" as="geometry">
             <mxPoint x="42" y="-1" as="offset" />
           </mxGeometry>
