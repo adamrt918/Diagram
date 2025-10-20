@@ -7,7 +7,7 @@
         <mxCell id="KL8aRXO-pgAZ8DTHxNWf-1" value="et-0/0/51" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KL8aRXO-pgAZ8DTHxNWf-2" value="et-0/0/51" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KL8aRXO-pgAZ8DTHxNWf-2" value="et-0/0/54" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KL8aRXO-pgAZ8DTHxNWf-3" value="" style="shape=mxgraph.cisco.directors.localdirector;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
@@ -16,17 +16,17 @@
         <mxCell id="KL8aRXO-pgAZ8DTHxNWf-8" value="EX4650 Member 0" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="100" width="200" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="KL8aRXO-pgAZ8DTHxNWf-9" value="et-0/0/51" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="140" width="120" height="60" as="geometry" />
+        <mxCell id="KL8aRXO-pgAZ8DTHxNWf-12" value="EX4650 Member 1" style="swimlane;whiteSpace=wrap;html=1;flipH=0;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="100" width="200" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="KL8aRXO-pgAZ8DTHxNWf-10" value="et-0/0/51" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="200" width="120" height="60" as="geometry" />
+        <mxCell id="KL8aRXO-pgAZ8DTHxNWf-11" value="" style="shape=mxgraph.cisco.directors.localdirector;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="KL8aRXO-pgAZ8DTHxNWf-12">
+          <mxGeometry x="122" y="70" width="78" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="KL8aRXO-pgAZ8DTHxNWf-11" value="" style="shape=mxgraph.cisco.directors.localdirector;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="542" y="160" width="78" height="80" as="geometry" />
+        <mxCell id="KL8aRXO-pgAZ8DTHxNWf-9" value="et-0/0/51" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KL8aRXO-pgAZ8DTHxNWf-12">
+          <mxGeometry y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KL8aRXO-pgAZ8DTHxNWf-12" value="EX4650 Member 1" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="90" width="200" height="170" as="geometry" />
+        <mxCell id="KL8aRXO-pgAZ8DTHxNWf-10" value="et-0/0/54" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KL8aRXO-pgAZ8DTHxNWf-12">
+          <mxGeometry y="110" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
