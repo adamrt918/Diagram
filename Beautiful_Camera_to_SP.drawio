@@ -25,6 +25,18 @@
         <mxCell id="5pFsfFYT2r6X-PUW8Thb-7" value="sw-avl-sr-core" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="114" y="435" width="90" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="5pFsfFYT2r6X-PUW8Thb-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5pFsfFYT2r6X-PUW8Thb-3" target="5pFsfFYT2r6X-PUW8Thb-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="510" as="sourcePoint" />
+            <mxPoint x="450" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5pFsfFYT2r6X-PUW8Thb-9" value="10.13.253.253/30" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="89" y="380" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5pFsfFYT2r6X-PUW8Thb-10" value="10.13.253.254/30" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="89" y="282" width="140" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
