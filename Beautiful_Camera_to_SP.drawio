@@ -55,6 +55,9 @@
         <mxCell id="5pFsfFYT2r6X-PUW8Thb-15" value="fw-brb-main-01" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="344" y="252" width="84" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="5pFsfFYT2r6X-PUW8Thb-16" value=".1/30" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="317" y="222" width="30" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
