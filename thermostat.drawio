@@ -37,7 +37,7 @@
         <mxCell id="67am4Wlx6fcAdWch8dd1-10" value="10.1.8.140" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="390" y="210.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="67am4Wlx6fcAdWch8dd1-12" value="eth1/7" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="67am4Wlx6fcAdWch8dd1-12" value="eth1/7&lt;div&gt;10.1.8.129&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="480" y="206" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="67am4Wlx6fcAdWch8dd1-13" value="(Wireless Signal)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
