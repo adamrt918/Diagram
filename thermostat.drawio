@@ -52,8 +52,8 @@
         <mxCell id="67am4Wlx6fcAdWch8dd1-15" value="Taking DHCP on the WAN interface" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="355" y="131" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="67am4Wlx6fcAdWch8dd1-16" value="Making its&#39; own internal network" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="229.5" y="193" width="160" height="60" as="geometry" />
+        <mxCell id="67am4Wlx6fcAdWch8dd1-16" value="Making its&#39; own internal network&lt;br&gt;Gateway: 192.168.1.1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="193" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
