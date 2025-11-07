@@ -613,6 +613,51 @@
         <mxCell id="vPatwYy-pIdyJpDBoZel-35" value="&lt;div&gt;CLP Switch Routes&lt;/div&gt;IP route 0.0.0.0/0 Primary: 10.1.11.1&lt;br&gt;Secondary: 10.12.20.101&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="960" y="-100" width="140" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="E9xuuVr7Mx3cRiwp6Ozo-18" value="Audio Stream Secondary: VLAN 125 10.12.5.1/24" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="750" width="1100" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="E9xuuVr7Mx3cRiwp6Ozo-19" value="clp-access" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="E9xuuVr7Mx3cRiwp6Ozo-18">
+          <mxGeometry x="730" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E9xuuVr7Mx3cRiwp6Ozo-20" value="&lt;div&gt;sw-brb-sr-core&lt;div&gt;GW: 10.12.6.1/24&lt;/div&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="E9xuuVr7Mx3cRiwp6Ozo-18">
+          <mxGeometry x="250" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E9xuuVr7Mx3cRiwp6Ozo-25" value="Audio" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.audio;" vertex="1" parent="E9xuuVr7Mx3cRiwp6Ozo-18">
+          <mxGeometry x="10" y="295" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="E9xuuVr7Mx3cRiwp6Ozo-26" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="E9xuuVr7Mx3cRiwp6Ozo-18" source="E9xuuVr7Mx3cRiwp6Ozo-25" target="E9xuuVr7Mx3cRiwp6Ozo-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="190" as="sourcePoint" />
+            <mxPoint x="570" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E9xuuVr7Mx3cRiwp6Ozo-27" value="10.12.6.x/24" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="E9xuuVr7Mx3cRiwp6Ozo-18">
+          <mxGeometry x="130" y="330" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E9xuuVr7Mx3cRiwp6Ozo-28" value="LAG Secondary Access Connection over 6Ghz with VLAN 125" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="E9xuuVr7Mx3cRiwp6Ozo-18">
+          <mxGeometry x="380" y="30" width="341" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E9xuuVr7Mx3cRiwp6Ozo-29" value="" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="E9xuuVr7Mx3cRiwp6Ozo-18">
+          <mxGeometry x="920" y="299" width="43" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="E9xuuVr7Mx3cRiwp6Ozo-30" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="E9xuuVr7Mx3cRiwp6Ozo-18" source="E9xuuVr7Mx3cRiwp6Ozo-19" target="E9xuuVr7Mx3cRiwp6Ozo-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="190" as="sourcePoint" />
+            <mxPoint x="630" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E9xuuVr7Mx3cRiwp6Ozo-31" value="Decoder&lt;div&gt;10.12.6.x/24&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="E9xuuVr7Mx3cRiwp6Ozo-18">
+          <mxGeometry x="897.25" y="265" width="88.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E9xuuVr7Mx3cRiwp6Ozo-33" value="" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="E9xuuVr7Mx3cRiwp6Ozo-18">
+          <mxGeometry x="380.00000000000006" y="299" width="78" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="E9xuuVr7Mx3cRiwp6Ozo-34" value="" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="E9xuuVr7Mx3cRiwp6Ozo-18">
+          <mxGeometry x="620" y="299" width="78" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="E9xuuVr7Mx3cRiwp6Ozo-35" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="E9xuuVr7Mx3cRiwp6Ozo-18">
+          <mxGeometry x="478" y="281" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
