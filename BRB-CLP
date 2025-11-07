@@ -16,8 +16,8 @@
             <mxPoint x="755" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rwXmCiNRxvO5Ch9CVnLi-7" value="Cambian 6 Ghz" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="420" y="430" width="60" height="30" as="geometry" />
+        <mxCell id="rwXmCiNRxvO5Ch9CVnLi-7" value="Cambian 6 Ghz&lt;br&gt;2x Latency" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="420" y="430" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rwXmCiNRxvO5Ch9CVnLi-8" value="" style="endArrow=none;html=1;rounded=0;dashPattern=8 8;strokeWidth=2;shape=link;dashed=1;strokeColor=light-dark(#000000,#66FFB3);exitX=0.5;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="rwXmCiNRxvO5Ch9CVnLi-1" source="rwXmCiNRxvO5Ch9CVnLi-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
