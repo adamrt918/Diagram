@@ -333,11 +333,11 @@
             <mxPoint x="610" y="-50" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SiIIe4nUG3I77YG3N3p9-3" value="???" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="vPatwYy-pIdyJpDBoZel-33">
+        <mxCell id="SiIIe4nUG3I77YG3N3p9-3" value="10.12.4.x/24" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="vPatwYy-pIdyJpDBoZel-33">
           <mxGeometry x="170" y="140" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SiIIe4nUG3I77YG3N3p9-5" value="LAG Primary Trunk over 11Ghz with VLANs 20, 124, 127" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="vPatwYy-pIdyJpDBoZel-33">
-          <mxGeometry x="389" y="45" width="322" height="30" as="geometry" />
+        <mxCell id="SiIIe4nUG3I77YG3N3p9-5" value="LAG Primary Trunk over 11Ghz with VLANs 20, 124, maybe 127" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="vPatwYy-pIdyJpDBoZel-33">
+          <mxGeometry x="375" y="45" width="351" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SiIIe4nUG3I77YG3N3p9-6" value="" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="vPatwYy-pIdyJpDBoZel-33">
           <mxGeometry x="910" y="109" width="43" height="62" as="geometry" />
@@ -390,7 +390,7 @@
             <mxPoint x="620" y="-50" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SiIIe4nUG3I77YG3N3p9-20" value="???" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="SiIIe4nUG3I77YG3N3p9-9">
+        <mxCell id="SiIIe4nUG3I77YG3N3p9-20" value="10.12.5.x/24" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="SiIIe4nUG3I77YG3N3p9-9">
           <mxGeometry x="180" y="140" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SiIIe4nUG3I77YG3N3p9-21" value="LAG Secondary Access Connection over 6Ghz with VLAN 125" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="SiIIe4nUG3I77YG3N3p9-9">
@@ -420,7 +420,7 @@
         <mxCell id="vPatwYy-pIdyJpDBoZel-35" value="&lt;div&gt;CLP Switch Routes&lt;/div&gt;IP route 0.0.0.0/0 Primary: 10.12.20.101&lt;br&gt;Secondary: 10.1.11.1&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="960" y="70" width="140" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="E9xuuVr7Mx3cRiwp6Ozo-18" value="Audio Stream Tertiary: VLAN 125 10.12.5.1/24" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="E9xuuVr7Mx3cRiwp6Ozo-18" value="Audio Stream Tertiary: VLAN 125 ???" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry y="920" width="1100" height="220" as="geometry" />
         </mxCell>
         <mxCell id="E9xuuVr7Mx3cRiwp6Ozo-36" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="E9xuuVr7Mx3cRiwp6Ozo-18" source="E9xuuVr7Mx3cRiwp6Ozo-20">
