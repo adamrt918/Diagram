@@ -499,7 +499,7 @@
             <mxPoint x="340" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vPatwYy-pIdyJpDBoZel-4" value="&lt;div&gt;sw-brb-sr-core&lt;div&gt;GW: 10.12.20.101/24&lt;/div&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="vPatwYy-pIdyJpDBoZel-4" value="&lt;div&gt;sw-brb-sr-core&lt;div&gt;GW: ???&lt;/div&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="480" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vPatwYy-pIdyJpDBoZel-5" value="" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
@@ -510,9 +510,6 @@
             <mxPoint x="290" y="540" as="sourcePoint" />
             <mxPoint x="340" y="490" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="vPatwYy-pIdyJpDBoZel-7" value="Default" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="109" y="430" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vPatwYy-pIdyJpDBoZel-8" value="" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="380" y="350" width="78" height="62" as="geometry" />
@@ -618,6 +615,9 @@
         </mxCell>
         <mxCell id="vPatwYy-pIdyJpDBoZel-33" value="Audio Stream Primary: 124 10.12.4.1/24" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry y="300" width="1100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="vPatwYy-pIdyJpDBoZel-7" value="Default Route" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vPatwYy-pIdyJpDBoZel-33">
+          <mxGeometry x="70" y="145" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
