@@ -192,7 +192,7 @@
         <mxCell id="sneR5dbwenRlirTUqMq3-2" value="6Ghz&lt;br&gt;Secondary" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="vBLgzDXED_JAF55TJ2mz-1">
           <mxGeometry x="395" y="180" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iL8-HNQ3BIXnbz881dlW-0" value="VLANS:&lt;div&gt;Network Management: 20&lt;br&gt;Audio Stream Primary:&amp;nbsp;&lt;/div&gt;&lt;div&gt;Audio Stream Secondary:&lt;/div&gt;&lt;div&gt;Audio Stream Tertiary:&lt;/div&gt;&lt;div&gt;Cambrian Microwave MGMT/Monitoring:&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="vBLgzDXED_JAF55TJ2mz-1">
+        <mxCell id="iL8-HNQ3BIXnbz881dlW-0" value="&lt;b&gt;VLANS:&lt;/b&gt;&lt;div&gt;Network Management: 20&lt;br&gt;Audio Stream Primary: 124&lt;/div&gt;&lt;div&gt;Audio Stream Secondary: 125&lt;/div&gt;&lt;div&gt;Audio Stream Tertiary: 126&lt;/div&gt;&lt;div&gt;Cambrian Microwave MGMT/Monitoring: 127&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="vBLgzDXED_JAF55TJ2mz-1">
           <mxGeometry x="30" y="410" width="290" height="150" as="geometry" />
         </mxCell>
       </root>
