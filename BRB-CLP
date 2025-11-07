@@ -483,7 +483,7 @@
         <mxCell id="odmIBorwhoItprSgagQi-1" value="Cambrian Microwave MGMT/Monitoring: VLAN 127 10.12.7.1/24" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry y="1140" width="1100" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="odmIBorwhoItprSgagQi-2" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="odmIBorwhoItprSgagQi-1" source="odmIBorwhoItprSgagQi-4" target="odmIBorwhoItprSgagQi-3">
+        <mxCell id="odmIBorwhoItprSgagQi-2" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="odmIBorwhoItprSgagQi-1" source="odmIBorwhoItprSgagQi-4" target="odmIBorwhoItprSgagQi-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="510" y="-55" as="sourcePoint" />
             <mxPoint x="560" y="-105" as="targetPoint" />
@@ -492,20 +492,17 @@
         <mxCell id="odmIBorwhoItprSgagQi-3" value="clp-access" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="odmIBorwhoItprSgagQi-1">
           <mxGeometry x="750" y="95" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="odmIBorwhoItprSgagQi-4" value="&lt;div&gt;sw-brb-sr-core&lt;div&gt;???&lt;/div&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="odmIBorwhoItprSgagQi-1">
+        <mxCell id="odmIBorwhoItprSgagQi-4" value="&lt;div&gt;sw-brb-sr-core&lt;div&gt;10.12.7.1/24&lt;/div&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="odmIBorwhoItprSgagQi-1">
           <mxGeometry x="270" y="95" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="odmIBorwhoItprSgagQi-5" value="Audio" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.audio;" vertex="1" parent="odmIBorwhoItprSgagQi-1">
-          <mxGeometry x="60" y="100" width="120" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="odmIBorwhoItprSgagQi-6" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="odmIBorwhoItprSgagQi-1" source="odmIBorwhoItprSgagQi-5" target="odmIBorwhoItprSgagQi-4">
+        <mxCell id="odmIBorwhoItprSgagQi-6" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="odmIBorwhoItprSgagQi-1" target="odmIBorwhoItprSgagQi-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="540" y="-5" as="sourcePoint" />
+            <mxPoint x="180" y="135" as="sourcePoint" />
             <mxPoint x="590" y="-55" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="odmIBorwhoItprSgagQi-7" value="???" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="odmIBorwhoItprSgagQi-1">
-          <mxGeometry x="180" y="136" width="70" height="30" as="geometry" />
+          <mxGeometry x="170" y="136" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="odmIBorwhoItprSgagQi-8" value="" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="odmIBorwhoItprSgagQi-1">
           <mxGeometry x="912.75" y="104" width="43" height="62" as="geometry" />
@@ -525,17 +522,20 @@
         <mxCell id="odmIBorwhoItprSgagQi-12" value="" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="odmIBorwhoItprSgagQi-1">
           <mxGeometry x="640" y="104" width="78" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="odmIBorwhoItprSgagQi-13" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;strokeWidth=4;dashed=1;strokeColor=light-dark(#000000,#FFFF66);" edge="1" parent="odmIBorwhoItprSgagQi-1" source="odmIBorwhoItprSgagQi-11" target="odmIBorwhoItprSgagQi-12">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="510" y="-55" as="sourcePoint" />
-            <mxPoint x="560" y="-105" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="odmIBorwhoItprSgagQi-14" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="odmIBorwhoItprSgagQi-1">
-          <mxGeometry x="498" y="86" width="120" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="odmIBorwhoItprSgagQi-15" value="????&amp;nbsp;&lt;div&gt;Not sure what devices are being managed, whether they should be routed over the tunnel or L2 through the microwave&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="odmIBorwhoItprSgagQi-1">
           <mxGeometry x="433" y="30" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="odmIBorwhoItprSgagQi-22" value="" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="odmIBorwhoItprSgagQi-1">
+          <mxGeometry x="137" y="104" width="43" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="odmIBorwhoItprSgagQi-23" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="odmIBorwhoItprSgagQi-1" source="odmIBorwhoItprSgagQi-12" target="odmIBorwhoItprSgagQi-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="170" as="sourcePoint" />
+            <mxPoint x="650" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="odmIBorwhoItprSgagQi-24" value="???" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="odmIBorwhoItprSgagQi-1">
+          <mxGeometry x="520" y="120" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
