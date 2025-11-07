@@ -353,7 +353,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="IvbipohyBasfWIECg0tV-1" value="&lt;div&gt;sw-brb-sr-core&lt;div&gt;GW: 10.12.[1, 4-7].1/24&lt;/div&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="510" y="250" width="80" height="80" as="geometry" />
+          <mxGeometry x="510" y="270" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
