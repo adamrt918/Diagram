@@ -352,8 +352,35 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IvbipohyBasfWIECg0tV-1" value="&lt;div&gt;sw-brb-sr-core&lt;div&gt;GW: 10.12.[1, 4-7].1/24&lt;/div&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="510" y="270" width="80" height="80" as="geometry" />
+        <mxCell id="IvbipohyBasfWIECg0tV-1" value="&lt;div&gt;sw-brb-sr-core&lt;div&gt;GW: 10.12.20.101/24&lt;/div&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8MQ8IUfNMRKp1Hmf1yF0-1" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.radio_tower;" vertex="1" parent="1">
+          <mxGeometry x="630" y="540" width="55" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8MQ8IUfNMRKp1Hmf1yF0-2" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.radio_tower;" vertex="1" parent="1">
+          <mxGeometry x="490" y="540" width="55" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8MQ8IUfNMRKp1Hmf1yF0-3" value="11Ghz Primary" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="557" y="510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8MQ8IUfNMRKp1Hmf1yF0-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.33;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.67;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;shape=link;strokeWidth=3;sourcePerimeterSpacing=0;endFill=0;strokeColor=light-dark(#000000,#FF66FF);dashed=1;" edge="1" parent="1" source="8MQ8IUfNMRKp1Hmf1yF0-2" target="8MQ8IUfNMRKp1Hmf1yF0-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="512" y="760" as="sourcePoint" />
+            <mxPoint x="652" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8MQ8IUfNMRKp1Hmf1yF0-5" value="6Ghz&lt;br&gt;Secondary" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="557" y="600" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8MQ8IUfNMRKp1Hmf1yF0-6" value="" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="271.00000000000006" y="120" width="78" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="8MQ8IUfNMRKp1Hmf1yF0-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IvbipohyBasfWIECg0tV-1" target="8MQ8IUfNMRKp1Hmf1yF0-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="310" as="sourcePoint" />
+            <mxPoint x="580" y="260" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
