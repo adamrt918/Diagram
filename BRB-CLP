@@ -98,7 +98,7 @@
           <mxGeometry x="10" y="310" width="830" height="210" as="geometry" />
         </mxCell>
         <mxCell id="rwXmCiNRxvO5Ch9CVnLi-26" value="200x200 mbps" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="rwXmCiNRxvO5Ch9CVnLi-25" vertex="1">
-          <mxGeometry x="470" y="80" width="60" height="30" as="geometry" />
+          <mxGeometry x="480" y="30" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rwXmCiNRxvO5Ch9CVnLi-3" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.radio_tower;" parent="rwXmCiNRxvO5Ch9CVnLi-25" vertex="1">
           <mxGeometry x="320" y="60" width="55" height="100" as="geometry" />
