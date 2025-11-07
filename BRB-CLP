@@ -414,7 +414,7 @@
             <mxPoint x="611" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vPatwYy-pIdyJpDBoZel-35" value="&lt;div&gt;CLP Switch Routes&lt;/div&gt;IP route 0.0.0.0/0 Primary: 10.1.11.1&lt;br&gt;Secondary: 10.12.20.101&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+        <mxCell id="vPatwYy-pIdyJpDBoZel-35" value="&lt;div&gt;CLP Switch Routes&lt;/div&gt;IP route 0.0.0.0/0 Primary: 10.12.20.101&lt;br&gt;Secondary: 10.1.11.1&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="960" y="70" width="140" height="100" as="geometry" />
         </mxCell>
         <mxCell id="E9xuuVr7Mx3cRiwp6Ozo-18" value="Audio Stream Tertiary: VLAN 125 10.12.5.1/24" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
