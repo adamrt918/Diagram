@@ -531,8 +531,8 @@
         <mxCell id="odmIBorwhoItprSgagQi-14" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="odmIBorwhoItprSgagQi-1">
           <mxGeometry x="498" y="86" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="odmIBorwhoItprSgagQi-15" value="Tertiary Routed Connection, add Static route or send OSPF through the tunnel to establish the tertiary connection" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="odmIBorwhoItprSgagQi-1">
-          <mxGeometry x="433" y="30" width="250" height="50" as="geometry" />
+        <mxCell id="odmIBorwhoItprSgagQi-15" value="????&amp;nbsp;&lt;div&gt;Not sure what devices are being managed, whether they should be routed over the tunnel or L2 through the microwave&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="odmIBorwhoItprSgagQi-1">
+          <mxGeometry x="433" y="30" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
