@@ -174,7 +174,7 @@
         <mxCell id="3ZS-HQqCyJOASOPEBGNi-5" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="vBLgzDXED_JAF55TJ2mz-1">
           <mxGeometry x="129.00000000000006" y="210" width="101" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="3ZS-HQqCyJOASOPEBGNi-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;shape=filledEdge;strokeWidth=1;dashed=1;dashPattern=8 8;sourcePerimeterSpacing=0;endFill=0;" edge="1" parent="vBLgzDXED_JAF55TJ2mz-1" source="3ZS-HQqCyJOASOPEBGNi-3" target="3ZS-HQqCyJOASOPEBGNi-2">
+        <mxCell id="3ZS-HQqCyJOASOPEBGNi-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;shape=link;strokeWidth=3;dashPattern=8 8;sourcePerimeterSpacing=0;endFill=0;strokeColor=light-dark(#000000,#66B2FF);dashed=1;" edge="1" parent="vBLgzDXED_JAF55TJ2mz-1" source="3ZS-HQqCyJOASOPEBGNi-3" target="3ZS-HQqCyJOASOPEBGNi-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="428" y="380" as="sourcePoint" />
             <mxPoint x="478" y="330" as="targetPoint" />
