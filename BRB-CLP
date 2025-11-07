@@ -288,7 +288,7 @@
         <mxCell id="odmIBorwhoItprSgagQi-16" value="10.1.11.1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="jfphWs-URNKZz7lyK-oF-7">
           <mxGeometry x="990" y="110" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vPatwYy-pIdyJpDBoZel-1" value="&lt;b&gt;VLANS:&lt;/b&gt;&lt;div&gt;Network Management: 20&lt;br&gt;Audio Stream Primary: 124&lt;/div&gt;&lt;div&gt;Audio Stream Secondary: 125&lt;/div&gt;&lt;div&gt;Audio Stream Tertiary (Existing Audio Network): 126&lt;/div&gt;&lt;div&gt;Cambrian Microwave MGMT/Monitoring: 127&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+        <mxCell id="vPatwYy-pIdyJpDBoZel-1" value="&lt;b&gt;VLANS:&lt;/b&gt;&lt;div&gt;Network Management: 20&lt;br&gt;Audio Stream Primary: 124&lt;/div&gt;&lt;div&gt;Audio Stream Secondary: 125&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 128));&quot;&gt;Audio Stream Tertiary (Existing Audio Network): ???&lt;/font&gt;&lt;/div&gt;&lt;div&gt;Cambrian Microwave MGMT/Monitoring: 127&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry y="80" width="290" height="90" as="geometry" />
         </mxCell>
         <mxCell id="vPatwYy-pIdyJpDBoZel-33" value="Audio Stream Primary: VLAN 124 10.12.4.1/24 -- ARP and L2 ethernet switching are sufficient" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -429,7 +429,7 @@
             <mxPoint x="750" y="135" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E9xuuVr7Mx3cRiwp6Ozo-20" value="&lt;div&gt;sw-brb-sr-core&lt;div&gt;???&lt;/div&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="E9xuuVr7Mx3cRiwp6Ozo-18">
+        <mxCell id="E9xuuVr7Mx3cRiwp6Ozo-20" value="&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(204, 0, 102));&quot;&gt;sw-brb-sr-core&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(204, 0, 102));&quot;&gt;???&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="E9xuuVr7Mx3cRiwp6Ozo-18">
           <mxGeometry x="270" y="95" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="E9xuuVr7Mx3cRiwp6Ozo-25" value="Audio" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.audio;" vertex="1" parent="E9xuuVr7Mx3cRiwp6Ozo-18">
@@ -441,7 +441,7 @@
             <mxPoint x="590" y="-55" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E9xuuVr7Mx3cRiwp6Ozo-27" value="???" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="E9xuuVr7Mx3cRiwp6Ozo-18">
+        <mxCell id="E9xuuVr7Mx3cRiwp6Ozo-27" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(204, 0, 102));&quot;&gt;???&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="E9xuuVr7Mx3cRiwp6Ozo-18">
           <mxGeometry x="180" y="136" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="E9xuuVr7Mx3cRiwp6Ozo-29" value="" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="E9xuuVr7Mx3cRiwp6Ozo-18">
@@ -453,7 +453,7 @@
             <mxPoint x="650" y="-55" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E9xuuVr7Mx3cRiwp6Ozo-31" value="Decoder&lt;div&gt;10.1.11.???/24&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="E9xuuVr7Mx3cRiwp6Ozo-18">
+        <mxCell id="E9xuuVr7Mx3cRiwp6Ozo-31" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(204, 0, 102));&quot;&gt;Decoder&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(204, 0, 102));&quot;&gt;10.1.11.???/24&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="E9xuuVr7Mx3cRiwp6Ozo-18">
           <mxGeometry x="890" y="70" width="88.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="E9xuuVr7Mx3cRiwp6Ozo-33" value="" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="E9xuuVr7Mx3cRiwp6Ozo-18">
@@ -477,7 +477,7 @@
         <mxCell id="odmIBorwhoItprSgagQi-21" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="E9xuuVr7Mx3cRiwp6Ozo-18">
           <mxGeometry x="740" y="117" width="101" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="VJ6h8liAdNKjhi_IMOf5-1" value="&lt;b&gt;Subnets:&lt;/b&gt;&lt;div&gt;Network Management: 20&lt;br&gt;10.12.1.1/24&lt;br&gt;Audio Stream Primary: 124&lt;br&gt;10.12.4.1/24&lt;/div&gt;&lt;div&gt;Audio Stream Secondary: 125&lt;br&gt;10.12.5.1/24&lt;/div&gt;&lt;div&gt;Audio Stream Tertiary: 126&lt;br&gt;10.12.6.1/24&lt;/div&gt;&lt;div&gt;Cambrian Microwave MGMT/Monitoring: 127&lt;br&gt;10.12.7.1/24&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+        <mxCell id="VJ6h8liAdNKjhi_IMOf5-1" value="&lt;b&gt;Subnets:&lt;/b&gt;&lt;div&gt;Network Management: 20&lt;br&gt;10.12.1.1/24&lt;br&gt;Audio Stream Primary: 124&lt;br&gt;10.12.4.1/24&lt;/div&gt;&lt;div&gt;Audio Stream Secondary: 125&lt;br&gt;10.12.5.1/24&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 128));&quot;&gt;Audio Stream Tertiary: ???&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 128));&quot;&gt;???&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Cambrian Microwave MGMT/Monitoring: 127&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;10.12.7.1/24&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="405" width="290" height="170" as="geometry" />
         </mxCell>
         <mxCell id="odmIBorwhoItprSgagQi-1" value="Cambrian Microwave MGMT/Monitoring: VLAN 127 10.12.7.1/24 -- Could use ARP/L2 or be routed, not sure" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -501,7 +501,7 @@
             <mxPoint x="590" y="-55" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="odmIBorwhoItprSgagQi-7" value="???" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="odmIBorwhoItprSgagQi-1">
+        <mxCell id="odmIBorwhoItprSgagQi-7" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(204, 0, 102));&quot;&gt;???&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="odmIBorwhoItprSgagQi-1">
           <mxGeometry x="170" y="136" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="odmIBorwhoItprSgagQi-8" value="" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="odmIBorwhoItprSgagQi-1">
@@ -513,7 +513,7 @@
             <mxPoint x="650" y="-55" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="odmIBorwhoItprSgagQi-10" value="Decoder&lt;div&gt;10.1.11.???/24&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="odmIBorwhoItprSgagQi-1">
+        <mxCell id="odmIBorwhoItprSgagQi-10" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(204, 0, 102));&quot;&gt;Decoder&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(204, 0, 102));&quot;&gt;10.1.11.???/24&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="odmIBorwhoItprSgagQi-1">
           <mxGeometry x="890" y="70" width="88.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="odmIBorwhoItprSgagQi-11" value="" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="odmIBorwhoItprSgagQi-1">
@@ -522,7 +522,7 @@
         <mxCell id="odmIBorwhoItprSgagQi-12" value="" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="odmIBorwhoItprSgagQi-1">
           <mxGeometry x="640" y="104" width="78" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="odmIBorwhoItprSgagQi-15" value="????&amp;nbsp;&lt;div&gt;Not sure what devices are being managed, whether they should be routed over the tunnel or L2 through the microwave&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="odmIBorwhoItprSgagQi-1">
+        <mxCell id="odmIBorwhoItprSgagQi-15" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(204, 0, 102));&quot;&gt;????&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(204, 0, 102));&quot;&gt;Not sure what devices are being managed, whether they should be routed over the tunnel or L2 through the microwave&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="odmIBorwhoItprSgagQi-1">
           <mxGeometry x="433" y="30" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="odmIBorwhoItprSgagQi-22" value="" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="odmIBorwhoItprSgagQi-1">
@@ -534,8 +534,11 @@
             <mxPoint x="650" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="odmIBorwhoItprSgagQi-24" value="???" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="odmIBorwhoItprSgagQi-1">
+        <mxCell id="odmIBorwhoItprSgagQi-24" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(204, 0, 102));&quot;&gt;???&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="odmIBorwhoItprSgagQi-1">
           <mxGeometry x="528" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odmIBorwhoItprSgagQi-25" value="What is the IP address of the audio processor/origination point for the audio?&lt;div&gt;What is being managed/monitored? Is it all connected to the CLP Access switch? Should this traffic be routed or extended L2 through the microwave?&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="1360" width="440" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
