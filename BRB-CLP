@@ -180,6 +180,18 @@
             <mxPoint x="478" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="sneR5dbwenRlirTUqMq3-0" value="11Ghz Primary" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="vBLgzDXED_JAF55TJ2mz-1">
+          <mxGeometry x="395" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sneR5dbwenRlirTUqMq3-1" value="" style="endArrow=none;html=1;rounded=0;entryX=0.33;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.67;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;shape=link;strokeWidth=3;sourcePerimeterSpacing=0;endFill=0;strokeColor=light-dark(#000000,#FF66FF);dashed=1;" edge="1" parent="vBLgzDXED_JAF55TJ2mz-1" source="3ZS-HQqCyJOASOPEBGNi-3" target="3ZS-HQqCyJOASOPEBGNi-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="340" as="sourcePoint" />
+            <mxPoint x="490" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sneR5dbwenRlirTUqMq3-2" value="6Ghz&lt;br&gt;Secondary" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="vBLgzDXED_JAF55TJ2mz-1">
+          <mxGeometry x="395" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
