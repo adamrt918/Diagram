@@ -201,6 +201,15 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Hs-eFPYYqGdn0KOxlsx7-2" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;strokeColor=light-dark(#000000,#FFAC41);" edge="1" parent="1" target="bFz1HIBIuQjBeEji0Gpr-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="720" as="sourcePoint" />
+            <mxPoint x="480" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="425" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="AnTwZM_APD0l1Y1LriH2-11" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;entryX=0.88;entryY=0.91;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#FF0000);" edge="1" parent="1" target="bFz1HIBIuQjBeEji0Gpr-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="585" as="sourcePoint" />
@@ -274,6 +283,9 @@
         </mxCell>
         <mxCell id="AnTwZM_APD0l1Y1LriH2-12" value="DMZ" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="560" y="550" width="43" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="Hs-eFPYYqGdn0KOxlsx7-1" value="IoT" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.iot2;fillColorStyles=fillColor2,fillColor3;fillColor2=light-dark(#7F2443,#32A0FF);fillColor3=light-dark(#FFFFFF,#000000);fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550.5" y="690" width="62" height="62" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
