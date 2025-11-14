@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3xPR51evUNRoqMZvbnZx-53" value="Access/Clients" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="720" width="580" height="300" as="geometry" />
+        </mxCell>
         <mxCell id="3xPR51evUNRoqMZvbnZx-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.96;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.16;exitY=0.23;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3xPR51evUNRoqMZvbnZx-7" target="3xPR51evUNRoqMZvbnZx-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="350" as="sourcePoint" />
@@ -109,13 +112,13 @@
         <mxCell id="3xPR51evUNRoqMZvbnZx-40" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.iot2;fillColorStyles=fillColor2,fillColor3;fillColor2=light-dark(#7F2443,#32A0FF);fillColor3=light-dark(#FFFFFF,#000000);fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="510" y="930" width="62" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="3xPR51evUNRoqMZvbnZx-41" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3xPR51evUNRoqMZvbnZx-36" target="3xPR51evUNRoqMZvbnZx-31">
+        <mxCell id="3xPR51evUNRoqMZvbnZx-41" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3xPR51evUNRoqMZvbnZx-36" target="3xPR51evUNRoqMZvbnZx-25">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="920" as="sourcePoint" />
             <mxPoint x="320" y="840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3xPR51evUNRoqMZvbnZx-42" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0.048;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3xPR51evUNRoqMZvbnZx-39" target="3xPR51evUNRoqMZvbnZx-31">
+        <mxCell id="3xPR51evUNRoqMZvbnZx-42" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0.98;entryDx=0;entryDy=0;exitX=0.5;exitY=0.048;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="3xPR51evUNRoqMZvbnZx-39" target="3xPR51evUNRoqMZvbnZx-25">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="430" y="808.5" as="sourcePoint" />
             <mxPoint x="430" y="640.5" as="targetPoint" />
@@ -124,7 +127,7 @@
         <mxCell id="3xPR51evUNRoqMZvbnZx-39" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.wifi;pointerEvents=1" vertex="1" parent="1">
           <mxGeometry x="388" y="937" width="74" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="3xPR51evUNRoqMZvbnZx-43" value="" style="endArrow=none;html=1;rounded=0;exitX=0.484;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3xPR51evUNRoqMZvbnZx-40" target="3xPR51evUNRoqMZvbnZx-31">
+        <mxCell id="3xPR51evUNRoqMZvbnZx-43" value="" style="endArrow=none;html=1;rounded=0;exitX=0.484;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3xPR51evUNRoqMZvbnZx-40" target="3xPR51evUNRoqMZvbnZx-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="430" y="808.5" as="sourcePoint" />
             <mxPoint x="540" y="840" as="targetPoint" />
@@ -133,7 +136,7 @@
         <mxCell id="3xPR51evUNRoqMZvbnZx-44" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.printer;" vertex="1" parent="1">
           <mxGeometry x="170" y="930" width="70" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="3xPR51evUNRoqMZvbnZx-45" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.971;entryY=0.088;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3xPR51evUNRoqMZvbnZx-31" target="3xPR51evUNRoqMZvbnZx-44">
+        <mxCell id="3xPR51evUNRoqMZvbnZx-45" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.98;exitDx=0;exitDy=0;entryX=0.971;entryY=0.088;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="3xPR51evUNRoqMZvbnZx-25" target="3xPR51evUNRoqMZvbnZx-44">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="750" as="sourcePoint" />
             <mxPoint x="450" y="700" as="targetPoint" />
@@ -145,14 +148,11 @@
         <mxCell id="3xPR51evUNRoqMZvbnZx-31" value="Switch Virtual Chassis -- Inner Switches" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="710" width="290" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="3xPR51evUNRoqMZvbnZx-52" value="" style="endArrow=none;html=1;rounded=0;entryX=0.42;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3xPR51evUNRoqMZvbnZx-31" target="3xPR51evUNRoqMZvbnZx-46">
+        <mxCell id="3xPR51evUNRoqMZvbnZx-52" value="" style="endArrow=none;html=1;rounded=0;entryX=0.42;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3xPR51evUNRoqMZvbnZx-26" target="3xPR51evUNRoqMZvbnZx-46">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="840" as="sourcePoint" />
             <mxPoint x="450" y="790" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="3xPR51evUNRoqMZvbnZx-53" value="Access/Clients" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="730" width="580" height="290" as="geometry" />
         </mxCell>
         <mxCell id="3xPR51evUNRoqMZvbnZx-23" value="&lt;span style=&quot;&quot;&gt;Firewall/Router/VPN HA Pair&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="280" y="550" width="290" height="160" as="geometry" />
