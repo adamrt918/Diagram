@@ -287,6 +287,15 @@
         <mxCell id="Hs-eFPYYqGdn0KOxlsx7-1" value="IoT" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.iot2;fillColorStyles=fillColor2,fillColor3;fillColor2=light-dark(#7F2443,#32A0FF);fillColor3=light-dark(#FFFFFF,#000000);fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="550.5" y="690" width="62" height="62" as="geometry" />
         </mxCell>
+        <mxCell id="Hs-eFPYYqGdn0KOxlsx7-4" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;strokeColor=light-dark(#000000,#FFAC41);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20.349397590361377" y="350" as="sourcePoint" />
+            <mxPoint x="20" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hs-eFPYYqGdn0KOxlsx7-5" value="IoT VLAN" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="310" width="70" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
