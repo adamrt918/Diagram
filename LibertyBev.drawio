@@ -55,7 +55,7 @@
             <mxPoint x="450" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3xPR51evUNRoqMZvbnZx-9" value="Switch Virtual Chassis/Demarc" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3xPR51evUNRoqMZvbnZx-9" value="Switch Virtual Chassis" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="280" width="290" height="140" as="geometry" />
         </mxCell>
         <mxCell id="3xPR51evUNRoqMZvbnZx-7" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="3xPR51evUNRoqMZvbnZx-9">
