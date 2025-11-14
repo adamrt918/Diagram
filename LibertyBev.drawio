@@ -207,6 +207,9 @@
         <mxCell id="JdrVKIJbOtUpX4wy3l9T-2" value="ISP2/Internet Secondary" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="230" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="oOCxCix4Citlsg-YaChn-1" value="VPN Users" style="points=[[0.13,0.02,0],[0.5,0,0],[0.87,0.02,0],[0.885,0.4,0],[0.985,0.985,0],[0.5,1,0],[0.015,0.985,0],[0.115,0.4,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.laptop;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="361" y="60" width="128.57" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
