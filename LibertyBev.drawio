@@ -215,7 +215,7 @@
         <mxCell id="JdrVKIJbOtUpX4wy3l9T-1" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="220" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="oOCxCix4Citlsg-YaChn-1" value="VPN Users" style="points=[[0.13,0.02,0],[0.5,0,0],[0.87,0.02,0],[0.885,0.4,0],[0.985,0.985,0],[0.5,1,0],[0.015,0.985,0],[0.115,0.4,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.laptop;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="oOCxCix4Citlsg-YaChn-1" value="Employee/Vendor&amp;nbsp;&lt;div&gt;Remote Devices&lt;/div&gt;&lt;div&gt;VPN Users&lt;/div&gt;" style="points=[[0.13,0.02,0],[0.5,0,0],[0.87,0.02,0],[0.885,0.4,0],[0.985,0.985,0],[0.5,1,0],[0.015,0.985,0],[0.115,0.4,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.laptop;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="150" y="80" width="108.57" height="76" as="geometry" />
         </mxCell>
         <mxCell id="bFz1HIBIuQjBeEji0Gpr-3" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="bFz1HIBIuQjBeEji0Gpr-2">
@@ -275,11 +275,8 @@
             <mxPoint x="790" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AnTwZM_APD0l1Y1LriH2-12" value="" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="AnTwZM_APD0l1Y1LriH2-12" value="DMZ" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="560" y="550" width="43" height="62" as="geometry" />
-        </mxCell>
-        <mxCell id="AnTwZM_APD0l1Y1LriH2-13" value="DMZ" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="520" width="80" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
