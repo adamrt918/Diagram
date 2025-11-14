@@ -201,6 +201,15 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="AnTwZM_APD0l1Y1LriH2-11" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;entryX=0.88;entryY=0.91;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#FF0000);" edge="1" parent="1" target="bFz1HIBIuQjBeEji0Gpr-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="585" as="sourcePoint" />
+            <mxPoint x="790" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="455" y="585" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="bFz1HIBIuQjBeEji0Gpr-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.985;entryY=0.985;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;strokeWidth=2;strokeColor=light-dark(#000000,#FF3399);dashed=1;" edge="1" parent="1" source="AnTwZM_APD0l1Y1LriH2-1" target="oOCxCix4Citlsg-YaChn-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="490" as="sourcePoint" />
@@ -236,12 +245,6 @@
         <mxCell id="bFz1HIBIuQjBeEji0Gpr-6" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Core/Distribution Switch&lt;/span&gt;" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="375.00000000000006" y="560" width="101" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="bFz1HIBIuQjBeEji0Gpr-7" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#FF0000);" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="457.3493975903614" y="560" as="sourcePoint" />
-            <mxPoint x="457" y="502" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="bFz1HIBIuQjBeEji0Gpr-4" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Firewall/VPN/Router&lt;/span&gt;" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="386.00000000000006" y="440" width="78" height="62" as="geometry" />
         </mxCell>
@@ -268,12 +271,6 @@
         </mxCell>
         <mxCell id="AnTwZM_APD0l1Y1LriH2-10" value="VPN Tunnel" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="25" y="440" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AnTwZM_APD0l1Y1LriH2-11" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;entryX=0.98;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#FF0000);" edge="1" parent="1" target="bFz1HIBIuQjBeEji0Gpr-6">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="585" as="sourcePoint" />
-            <mxPoint x="790" y="530" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="AnTwZM_APD0l1Y1LriH2-12" value="DMZ" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="560" y="550" width="43" height="62" as="geometry" />
