@@ -145,6 +145,9 @@
         <mxCell id="3xPR51evUNRoqMZvbnZx-36" value="" style="shape=mxgraph.cisco.computers_and_peripherals.pc;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="280" y="930" width="78" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="3xPR51evUNRoqMZvbnZx-39" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.wifi;pointerEvents=1" vertex="1" parent="1">
+          <mxGeometry x="388" y="930" width="74" height="63" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
