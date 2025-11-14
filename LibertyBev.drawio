@@ -97,6 +97,9 @@
         <mxCell id="3xPR51evUNRoqMZvbnZx-23" value="IPS/IDS HA Pair" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="550" width="290" height="150" as="geometry" />
         </mxCell>
+        <mxCell id="3xPR51evUNRoqMZvbnZx-24" value="Demarcation" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="280" width="310" height="140" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
