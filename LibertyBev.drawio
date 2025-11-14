@@ -148,6 +148,9 @@
         <mxCell id="3xPR51evUNRoqMZvbnZx-39" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.wifi;pointerEvents=1" vertex="1" parent="1">
           <mxGeometry x="388" y="930" width="74" height="63" as="geometry" />
         </mxCell>
+        <mxCell id="3xPR51evUNRoqMZvbnZx-40" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.iot2;fillColorStyles=fillColor2,fillColor3;fillColor2=light-dark(#7F2443,#32A0FF);fillColor3=light-dark(#FFFFFF,#000000);fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="930" width="62" height="62" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
