@@ -100,6 +100,24 @@
         <mxCell id="3xPR51evUNRoqMZvbnZx-24" value="Demarcation" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="280" width="310" height="140" as="geometry" />
         </mxCell>
+        <mxCell id="3xPR51evUNRoqMZvbnZx-25" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="294.00000000000006" y="750" width="101" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3xPR51evUNRoqMZvbnZx-26" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="458.5" y="750" width="101" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3xPR51evUNRoqMZvbnZx-27" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="292" y="840" width="101" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3xPR51evUNRoqMZvbnZx-28" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="456.5" y="840" width="101" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3xPR51evUNRoqMZvbnZx-29" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="292" y="930" width="101" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3xPR51evUNRoqMZvbnZx-30" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="456.5" y="930" width="101" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
