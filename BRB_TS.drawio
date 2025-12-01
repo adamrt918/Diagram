@@ -1,9 +1,18 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.0">
   <diagram name="Page-1" id="goIiHT0TUBkHbBXkGu23">
-    <mxGraphModel>
+    <mxGraphModel dx="1651" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ePCnVR_4ANaOc4DS4Zg0-1" parent="1" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.radio_tower;" value="" vertex="1">
+          <mxGeometry height="100" width="55" x="460" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ePCnVR_4ANaOc4DS4Zg0-2" parent="1" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
+          <mxGeometry height="62" width="78" x="220.00000000000006" y="199" as="geometry" />
+        </mxCell>
+        <mxCell id="ePCnVR_4ANaOc4DS4Zg0-4" parent="1" style="shape=mxgraph.cisco.computers_and_peripherals.pc;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="CODEC" vertex="1">
+          <mxGeometry height="70" width="78" x="220" y="340" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
