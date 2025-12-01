@@ -11,7 +11,7 @@
           <mxGeometry height="62" width="78" x="220.00000000000006" y="199" as="geometry" />
         </mxCell>
         <mxCell id="ePCnVR_4ANaOc4DS4Zg0-4" parent="1" style="shape=mxgraph.cisco.computers_and_peripherals.pc;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="CODEC" vertex="1">
-          <mxGeometry height="70" width="78" x="220" y="340" as="geometry" />
+          <mxGeometry height="70" width="78" x="40" y="195" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
