@@ -103,6 +103,18 @@
         <mxCell id="5xYc8QS80mWgJz3w0Zrv-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Public: 66.57.104.50&lt;div&gt;Tunnel 198: 169.254.198.2/30&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="175" x="220" y="230" as="geometry" />
         </mxCell>
+        <mxCell id="5xYc8QS80mWgJz3w0Zrv-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Mgmt GW:&amp;nbsp; 10.15.20.1/24" vertex="1">
+          <mxGeometry height="30" width="145" x="265" y="296" as="geometry" />
+        </mxCell>
+        <mxCell id="5xYc8QS80mWgJz3w0Zrv-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Mgmt GW:&amp;nbsp; 10.20.0.1/16" vertex="1">
+          <mxGeometry height="30" width="145" x="420" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="5xYc8QS80mWgJz3w0Zrv-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Default route: 10.100.0.5" vertex="1">
+          <mxGeometry height="30" width="130" x="669.5" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="5xYc8QS80mWgJz3w0Zrv-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="10.100.0.5" vertex="1">
+          <mxGeometry height="30" width="60" x="655" y="326" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
