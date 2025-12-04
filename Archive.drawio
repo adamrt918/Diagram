@@ -247,7 +247,7 @@
           <mxGeometry height="50" width="175" x="220" y="230" as="geometry" />
         </mxCell>
         <mxCell id="5l_Tuf0rRcBn4qm-h588-25" parent="5l_Tuf0rRcBn4qm-h588-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Mgmt GW:&amp;nbsp; 10.15.20.1/24" vertex="1">
-          <mxGeometry height="30" width="145" x="265" y="296" as="geometry" />
+          <mxGeometry height="30" width="145" x="70" y="340" as="geometry" />
         </mxCell>
         <mxCell id="5l_Tuf0rRcBn4qm-h588-26" parent="5l_Tuf0rRcBn4qm-h588-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Mgmt GW:&amp;nbsp; 10.20.0.1/16" vertex="1">
           <mxGeometry height="30" width="145" x="450" y="400" as="geometry" />
@@ -282,14 +282,32 @@
         <mxCell id="YOYBjv4ah_wUpnoNe-oL-0" parent="5l_Tuf0rRcBn4qm-h588-1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Phase I goes until the end of the contract with the Archive ISP" vertex="1">
           <mxGeometry height="30" width="335" x="258" y="10" as="geometry" />
         </mxCell>
-        <mxCell id="YOYBjv4ah_wUpnoNe-oL-2" edge="1" parent="5l_Tuf0rRcBn4qm-h588-1" source="5l_Tuf0rRcBn4qm-h588-14" style="endArrow=none;html=1;rounded=0;exitX=0.98;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="5l_Tuf0rRcBn4qm-h588-12" value="">
+        <mxCell id="YOYBjv4ah_wUpnoNe-oL-2" edge="1" parent="5l_Tuf0rRcBn4qm-h588-1" source="5l_Tuf0rRcBn4qm-h588-14" style="endArrow=none;html=1;rounded=0;exitX=0.98;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;strokeColor=light-dark(#000000,#FFFF33);" target="5l_Tuf0rRcBn4qm-h588-12" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="400" y="410" as="sourcePoint" />
             <mxPoint x="450" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YOYBjv4ah_wUpnoNe-oL-4" parent="5l_Tuf0rRcBn4qm-h588-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="10.20.20.x" vertex="1">
-          <mxGeometry height="30" width="85" x="265" y="400" as="geometry" />
+        <mxCell id="8iHJomKHu8WRF6keYhmM-1" edge="1" parent="5l_Tuf0rRcBn4qm-h588-1" source="5l_Tuf0rRcBn4qm-h588-14" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;strokeColor=light-dark(#000000,#FFFF33);" target="5l_Tuf0rRcBn4qm-h588-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="480" y="530" as="sourcePoint" />
+            <mxPoint x="782" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8iHJomKHu8WRF6keYhmM-2" edge="1" parent="5l_Tuf0rRcBn4qm-h588-1" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;strokeColor=light-dark(#000000,#FFFF33);" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="49.5" y="818" as="sourcePoint" />
+            <mxPoint x="49.5" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8iHJomKHu8WRF6keYhmM-3" parent="5l_Tuf0rRcBn4qm-h588-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="VLAN 516&lt;div&gt;10.101.0.0/30&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="210" x="48" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="8iHJomKHu8WRF6keYhmM-4" parent="5l_Tuf0rRcBn4qm-h588-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="VLAN 516 GW: 10.101.0.1/30" vertex="1">
+          <mxGeometry height="30" width="132" x="258" y="296" as="geometry" />
+        </mxCell>
+        <mxCell id="8iHJomKHu8WRF6keYhmM-5" parent="5l_Tuf0rRcBn4qm-h588-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="irb.516&lt;div&gt;10.101.0.2/30&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="450" y="440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
