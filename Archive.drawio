@@ -247,7 +247,7 @@
           <mxGeometry height="50" width="175" x="220" y="230" as="geometry" />
         </mxCell>
         <mxCell id="5l_Tuf0rRcBn4qm-h588-25" parent="5l_Tuf0rRcBn4qm-h588-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Mgmt GW:&amp;nbsp; 10.15.20.1/24" vertex="1">
-          <mxGeometry height="30" width="145" x="70" y="340" as="geometry" />
+          <mxGeometry height="30" width="145" x="59.38" y="342" as="geometry" />
         </mxCell>
         <mxCell id="5l_Tuf0rRcBn4qm-h588-26" parent="5l_Tuf0rRcBn4qm-h588-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Mgmt GW:&amp;nbsp; 10.20.0.1/16" vertex="1">
           <mxGeometry height="30" width="145" x="450" y="400" as="geometry" />
