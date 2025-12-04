@@ -118,6 +118,24 @@
         <mxCell id="5xYc8QS80mWgJz3w0Zrv-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Default Route: 10.15.20.1" vertex="1">
           <mxGeometry height="30" width="150.5" x="220" y="380" as="geometry" />
         </mxCell>
+        <mxCell id="4jNniqsMTHk-gTtrN4D0-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="FW- Firewall Router" vertex="1">
+          <mxGeometry height="60" width="200" x="519" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="4jNniqsMTHk-gTtrN4D0-3" parent="4jNniqsMTHk-gTtrN4D0-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="10.15.x.x/16 Next VR VPN-RTR" vertex="1">
+          <mxGeometry height="30" width="190" x="5" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4jNniqsMTHk-gTtrN4D0-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="FW Routing Table" vertex="1">
+          <mxGeometry height="120" width="200" x="119" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="4jNniqsMTHk-gTtrN4D0-7" parent="4jNniqsMTHk-gTtrN4D0-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="10.x.x.x/8 Next Hop L3 Tunnel&lt;div&gt;10.15.x.x/16 Next Hop Spec Tunnel&lt;/div&gt;&lt;div&gt;10.15.x.x/16 Next Hop SL Tunnel&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="195" x="2.5" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="4jNniqsMTHk-gTtrN4D0-4" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="FW- VPN-RTR" vertex="1">
+          <mxGeometry height="80" width="200" x="519" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="4jNniqsMTHk-gTtrN4D0-5" parent="4jNniqsMTHk-gTtrN4D0-4" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="10.15.x.x/16 Next Hop L3 Tunnel&lt;div&gt;10.15.x.x/16 Next Hop Spec Tunnel&lt;/div&gt;&lt;div&gt;10.15.x.x/16 Next Hop SL Tunnel&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="195" x="1" y="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
