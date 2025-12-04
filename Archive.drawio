@@ -110,10 +110,13 @@
           <mxGeometry height="30" width="145" x="420" y="430" as="geometry" />
         </mxCell>
         <mxCell id="5xYc8QS80mWgJz3w0Zrv-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Default route: 10.100.0.5" vertex="1">
-          <mxGeometry height="30" width="130" x="669.5" y="420" as="geometry" />
+          <mxGeometry height="30" width="130" x="620" y="380" as="geometry" />
         </mxCell>
         <mxCell id="5xYc8QS80mWgJz3w0Zrv-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="10.100.0.5" vertex="1">
           <mxGeometry height="30" width="60" x="655" y="326" as="geometry" />
+        </mxCell>
+        <mxCell id="5xYc8QS80mWgJz3w0Zrv-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Default Route: 10.15.20.1" vertex="1">
+          <mxGeometry height="30" width="150.5" x="220" y="380" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
