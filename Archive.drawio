@@ -259,10 +259,10 @@
           <mxGeometry height="30" width="176.25" x="43.75" y="380" as="geometry" />
         </mxCell>
         <mxCell id="5l_Tuf0rRcBn4qm-h588-30" parent="5l_Tuf0rRcBn4qm-h588-1" style="swimlane;whiteSpace=wrap;html=1;" value="FW- Firewall Router" vertex="1">
-          <mxGeometry height="60" width="331" x="519" y="550" as="geometry" />
+          <mxGeometry height="130" width="331" x="519" y="550" as="geometry" />
         </mxCell>
-        <mxCell id="5l_Tuf0rRcBn4qm-h588-31" parent="5l_Tuf0rRcBn4qm-h588-30" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Static&lt;div&gt;10.15.x.x/16 Next VR VPN_RTR Metric 10 *&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="325" x="5" y="30" as="geometry" />
+        <mxCell id="5l_Tuf0rRcBn4qm-h588-31" parent="5l_Tuf0rRcBn4qm-h588-30" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;OSPF&lt;/div&gt;&lt;div&gt;All routes metric 10 *&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Static&lt;div&gt;10.15.x.x/16 Next VR VPN_RTR Metric 12&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="325" x="5" y="30" as="geometry" />
         </mxCell>
         <mxCell id="5l_Tuf0rRcBn4qm-h588-32" parent="5l_Tuf0rRcBn4qm-h588-1" style="swimlane;whiteSpace=wrap;html=1;" value="FW - Default VR" vertex="1">
           <mxGeometry height="120" width="330" x="10" y="550" as="geometry" />
@@ -271,7 +271,7 @@
           <mxGeometry height="100" width="320" y="20" as="geometry" />
         </mxCell>
         <mxCell id="5l_Tuf0rRcBn4qm-h588-34" parent="5l_Tuf0rRcBn4qm-h588-1" style="swimlane;whiteSpace=wrap;html=1;" value="FW- VPN RTR" vertex="1">
-          <mxGeometry height="110" width="330" x="520" y="610" as="geometry" />
+          <mxGeometry height="110" width="330" x="519" y="680" as="geometry" />
         </mxCell>
         <mxCell id="5l_Tuf0rRcBn4qm-h588-35" parent="5l_Tuf0rRcBn4qm-h588-34" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Static&lt;/div&gt;10.15.x.x/16 Next Hop L3 Tunnel Metric 10 *&lt;div&gt;10.15.x.x/16 Next Hop Spec Tunnel Metric 15&lt;/div&gt;&lt;div&gt;10.15.x.x/16 Next Hop SL Tunnel Metric 25&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="327.5" x="0.75" y="25" as="geometry" />
