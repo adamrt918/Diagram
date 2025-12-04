@@ -240,6 +240,12 @@
         <mxCell id="PlQ6r-bdxeIsUZ6h-phV-29" parent="PlQ6r-bdxeIsUZ6h-phV-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Default Route: 10.15.20.1" vertex="1">
           <mxGeometry height="30" width="150.5" x="220" y="380" as="geometry" />
         </mxCell>
+        <mxCell id="_GOsZW1GTAbGo3Zun2ak-0" edge="1" parent="PlQ6r-bdxeIsUZ6h-phV-1" source="PlQ6r-bdxeIsUZ6h-phV-14" style="endArrow=none;html=1;rounded=0;exitX=0.98;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="PlQ6r-bdxeIsUZ6h-phV-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
