@@ -136,6 +136,9 @@
         <mxCell id="4jNniqsMTHk-gTtrN4D0-5" parent="4jNniqsMTHk-gTtrN4D0-4" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Static&lt;/div&gt;10.15.x.x/16 Next Hop L3 Tunnel Metric 10 *&lt;div&gt;10.15.x.x/16 Next Hop Spec Tunnel Metric 15&lt;/div&gt;&lt;div&gt;10.15.x.x/16 Next Hop SL Tunnel Metric 25&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="327.5" x="0.75" y="25" as="geometry" />
         </mxCell>
+        <mxCell id="r33U1cRMitPLrcMAx-Kd-1" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="0.0.0.0/0 Public Metric 10*" vertex="1">
+          <mxGeometry height="30" width="161.5" x="38.5" y="250" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
