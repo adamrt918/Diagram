@@ -97,6 +97,12 @@
             <mxPoint x="647" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="5xYc8QS80mWgJz3w0Zrv-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Public: 8.37.38.2&lt;div&gt;Tunnel 198: 169.254.198.1/30&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="175" x="420" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="5xYc8QS80mWgJz3w0Zrv-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Public: 66.57.104.50&lt;div&gt;Tunnel 198: 169.254.198.2/30&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="175" x="220" y="230" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
