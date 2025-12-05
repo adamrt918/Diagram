@@ -153,6 +153,15 @@
       <root>
         <mxCell id="5l_Tuf0rRcBn4qm-h588-0" />
         <mxCell id="5l_Tuf0rRcBn4qm-h588-1" parent="5l_Tuf0rRcBn4qm-h588-0" />
+        <mxCell id="koQ3ktLFF6xfGsueD27D-3" parent="5l_Tuf0rRcBn4qm-h588-1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=-90;" value="" vertex="1">
+          <mxGeometry height="442.5" width="60" x="401.75" y="213.75" as="geometry" />
+        </mxCell>
+        <mxCell id="YOYBjv4ah_wUpnoNe-oL-2" edge="1" parent="5l_Tuf0rRcBn4qm-h588-1" source="5l_Tuf0rRcBn4qm-h588-14" style="endArrow=none;html=1;rounded=0;exitX=0.98;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;strokeColor=light-dark(#000000,#FFFF33);" target="koQ3ktLFF6xfGsueD27D-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="568.5" y="435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="5l_Tuf0rRcBn4qm-h588-2" parent="5l_Tuf0rRcBn4qm-h588-1" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
           <mxGeometry height="62" width="78" x="180.00000000000006" y="280" as="geometry" />
         </mxCell>
@@ -186,12 +195,6 @@
         <mxCell id="YOYBjv4ah_wUpnoNe-oL-0" parent="5l_Tuf0rRcBn4qm-h588-1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontSize=16;" value="Phase I goes until the end of the contract with the Archive ISP&lt;div&gt;&lt;b&gt;&lt;i&gt;Delta shows changes only&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="335" x="258" y="10" as="geometry" />
         </mxCell>
-        <mxCell id="YOYBjv4ah_wUpnoNe-oL-2" edge="1" parent="5l_Tuf0rRcBn4qm-h588-1" source="5l_Tuf0rRcBn4qm-h588-14" style="endArrow=none;html=1;rounded=0;exitX=0.98;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;strokeColor=light-dark(#000000,#FFFF33);" target="koQ3ktLFF6xfGsueD27D-1" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="400" y="410" as="sourcePoint" />
-            <mxPoint x="568.5" y="435" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="8iHJomKHu8WRF6keYhmM-1" edge="1" parent="5l_Tuf0rRcBn4qm-h588-1" source="5l_Tuf0rRcBn4qm-h588-14" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;strokeColor=light-dark(#000000,#FFFF33);" target="5l_Tuf0rRcBn4qm-h588-2" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="480" y="530" as="sourcePoint" />
@@ -221,6 +224,9 @@
         </mxCell>
         <mxCell id="koQ3ktLFF6xfGsueD27D-1" parent="5l_Tuf0rRcBn4qm-h588-1" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
           <mxGeometry height="80" width="80" x="610" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="koQ3ktLFF6xfGsueD27D-2" parent="5l_Tuf0rRcBn4qm-h588-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Vlan extensions can be added to the trunk when needed" vertex="1">
+          <mxGeometry height="30" width="420" x="215" y="480" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
