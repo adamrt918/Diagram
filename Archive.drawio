@@ -274,10 +274,10 @@
           <mxGeometry height="100" width="325" x="5" y="30" as="geometry" />
         </mxCell>
         <mxCell id="5l_Tuf0rRcBn4qm-h588-32" parent="5l_Tuf0rRcBn4qm-h588-1" style="swimlane;whiteSpace=wrap;html=1;" value="Arichive FW - Default VR" vertex="1">
-          <mxGeometry height="170" width="330" x="10" y="550" as="geometry" />
+          <mxGeometry height="170" width="370" x="10" y="550" as="geometry" />
         </mxCell>
         <mxCell id="5l_Tuf0rRcBn4qm-h588-33" parent="5l_Tuf0rRcBn4qm-h588-32" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;OSPF&lt;/div&gt;&lt;div&gt;All routes Metric 10 *&lt;/div&gt;&lt;div&gt;Static&lt;/div&gt;&lt;div&gt;0.0.0.0/0 Next Hop Archive ISP Default AD Default Metric&lt;/div&gt;&lt;div&gt;0.0.0.0/0 Next Hop 10.101.0.2 (HQ ISPs) Default AD Default Metric&amp;nbsp;&lt;/div&gt;10.x.x.x/8 Next Hop L3 Tunnel AD 120 Metric 12&amp;nbsp;&lt;div&gt;10.x.x.x/8 Next Hop Spec Tunnel AD 120 Metric 15&lt;/div&gt;&lt;div&gt;10.x.x.x/8 Next Hop SL AD 120 Tunnel Metric 25&lt;/div&gt;" vertex="1">
-          <mxGeometry height="150" width="320" y="20" as="geometry" />
+          <mxGeometry height="150" width="370" y="20" as="geometry" />
         </mxCell>
         <mxCell id="5l_Tuf0rRcBn4qm-h588-34" parent="5l_Tuf0rRcBn4qm-h588-1" style="swimlane;whiteSpace=wrap;html=1;" value="FW- VPN RTR" vertex="1">
           <mxGeometry height="110" width="330" x="519" y="680" as="geometry" />
