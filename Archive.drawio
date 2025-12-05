@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.3" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.4" pages="2">
   <diagram name="As-is" id="yKnlueyQL1fviNU66E3L">
     <mxGraphModel dx="1412" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -139,6 +139,12 @@
         <mxCell id="r33U1cRMitPLrcMAx-Kd-1" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="0.0.0.0/0 Public Metric 10*" vertex="1">
           <mxGeometry height="30" width="161.5" x="38.5" y="250" as="geometry" />
         </mxCell>
+        <mxCell id="6tTAnLq4DsNPytU93cGW-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="HQ- Core Router" vertex="1">
+          <mxGeometry height="200" width="330" x="520" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="6tTAnLq4DsNPytU93cGW-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Takes default to HQ-FW for routing.&lt;div&gt;No specific entries for 10.15.x.x/16&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="330" x="520" y="700" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -264,14 +270,14 @@
         <mxCell id="5l_Tuf0rRcBn4qm-h588-30" parent="5l_Tuf0rRcBn4qm-h588-1" style="swimlane;whiteSpace=wrap;html=1;" value="FW- Firewall Router" vertex="1">
           <mxGeometry height="130" width="331" x="519" y="550" as="geometry" />
         </mxCell>
-        <mxCell id="5l_Tuf0rRcBn4qm-h588-31" parent="5l_Tuf0rRcBn4qm-h588-30" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Static&lt;/span&gt;&lt;/div&gt;&lt;div&gt;10.15.x.x/16 Next VR VPN_RTR Metric 12&lt;/div&gt;" vertex="1">
+        <mxCell id="5l_Tuf0rRcBn4qm-h588-31" parent="5l_Tuf0rRcBn4qm-h588-30" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;OSPF&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;All routes Default AD Metric 10&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Static&lt;/span&gt;&lt;/div&gt;&lt;div&gt;10.15.x.x/16 Next VR VPN_RTR AD 120 Metric 12&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="325" x="5" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="5l_Tuf0rRcBn4qm-h588-32" parent="5l_Tuf0rRcBn4qm-h588-1" style="swimlane;whiteSpace=wrap;html=1;" value="FW - Default VR" vertex="1">
-          <mxGeometry height="120" width="330" x="10" y="550" as="geometry" />
+        <mxCell id="5l_Tuf0rRcBn4qm-h588-32" parent="5l_Tuf0rRcBn4qm-h588-1" style="swimlane;whiteSpace=wrap;html=1;" value="Arichive FW - Default VR" vertex="1">
+          <mxGeometry height="170" width="330" x="10" y="550" as="geometry" />
         </mxCell>
-        <mxCell id="5l_Tuf0rRcBn4qm-h588-33" parent="5l_Tuf0rRcBn4qm-h588-32" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;OSPF&lt;/div&gt;&lt;div&gt;All routes Metric 10 *&lt;/div&gt;&lt;div&gt;Static&lt;/div&gt;10.x.x.x/8 Next Hop L3 Tunnel Metric 12&amp;nbsp;&lt;div&gt;10.x.x.x/8 Next Hop Spec Tunnel Metric 15&lt;/div&gt;&lt;div&gt;10.x.x.x/8 Next Hop SL Tunnel Metric 25&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="320" y="20" as="geometry" />
+        <mxCell id="5l_Tuf0rRcBn4qm-h588-33" parent="5l_Tuf0rRcBn4qm-h588-32" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;OSPF&lt;/div&gt;&lt;div&gt;All routes Metric 10 *&lt;/div&gt;&lt;div&gt;Static&lt;/div&gt;&lt;div&gt;0.0.0.0/0 Next Hop Archive ISP Default AD Default Metric&lt;/div&gt;&lt;div&gt;0.0.0.0/0 Next Hop 10.101.0.2 Default AD Default Metric&amp;nbsp;&lt;/div&gt;10.x.x.x/8 Next Hop L3 Tunnel AD 120 Metric 12&amp;nbsp;&lt;div&gt;10.x.x.x/8 Next Hop Spec Tunnel AD 120 Metric 15&lt;/div&gt;&lt;div&gt;10.x.x.x/8 Next Hop SL AD 120 Tunnel Metric 25&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="320" y="20" as="geometry" />
         </mxCell>
         <mxCell id="5l_Tuf0rRcBn4qm-h588-34" parent="5l_Tuf0rRcBn4qm-h588-1" style="swimlane;whiteSpace=wrap;html=1;" value="FW- VPN RTR" vertex="1">
           <mxGeometry height="110" width="330" x="519" y="680" as="geometry" />
@@ -300,7 +306,7 @@
             <mxPoint x="49.5" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8iHJomKHu8WRF6keYhmM-3" parent="5l_Tuf0rRcBn4qm-h588-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="VLAN 516&lt;div&gt;10.101.0.0/30&lt;/div&gt;" vertex="1">
+        <mxCell id="8iHJomKHu8WRF6keYhmM-3" parent="5l_Tuf0rRcBn4qm-h588-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="VLAN 516&lt;div&gt;10.101.0.0/30&lt;br&gt;Point to Point Link&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="210" x="48" y="760" as="geometry" />
         </mxCell>
         <mxCell id="8iHJomKHu8WRF6keYhmM-4" parent="5l_Tuf0rRcBn4qm-h588-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="VLAN 516 GW: 10.101.0.1/30" vertex="1">
@@ -312,7 +318,7 @@
         <mxCell id="8iHJomKHu8WRF6keYhmM-7" parent="5l_Tuf0rRcBn4qm-h588-1" style="swimlane;whiteSpace=wrap;html=1;" value="HQ- Core Router" vertex="1">
           <mxGeometry height="200" width="330" x="520" y="790" as="geometry" />
         </mxCell>
-        <mxCell id="8iHJomKHu8WRF6keYhmM-8" parent="5l_Tuf0rRcBn4qm-h588-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Static &lt;br&gt;0.0.0.0/0 10.100.0.5 Metric 5 *" vertex="1">
+        <mxCell id="8iHJomKHu8WRF6keYhmM-8" parent="5l_Tuf0rRcBn4qm-h588-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Static &lt;br&gt;0.0.0.0/0 10.100.0.5 Metric 5 *&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="170" width="330" x="520" y="820" as="geometry" />
         </mxCell>
       </root>
