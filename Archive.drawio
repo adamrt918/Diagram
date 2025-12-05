@@ -156,6 +156,12 @@
         <mxCell id="koQ3ktLFF6xfGsueD27D-3" parent="5l_Tuf0rRcBn4qm-h588-1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=-90;" value="" vertex="1">
           <mxGeometry height="442.5" width="60" x="401.75" y="213.75" as="geometry" />
         </mxCell>
+        <mxCell id="koQ3ktLFF6xfGsueD27D-5" edge="1" parent="5l_Tuf0rRcBn4qm-h588-1" source="5l_Tuf0rRcBn4qm-h588-14" style="endArrow=none;html=1;rounded=0;exitX=0.87;exitY=0.74;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=4;strokeColor=#001DBC;fillColor=#0050ef;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="660" y="470" as="sourcePoint" />
+            <mxPoint x="670" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="YOYBjv4ah_wUpnoNe-oL-2" edge="1" parent="5l_Tuf0rRcBn4qm-h588-1" source="5l_Tuf0rRcBn4qm-h588-14" style="endArrow=none;html=1;rounded=0;exitX=0.98;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;strokeColor=light-dark(#000000,#FFFF33);" target="koQ3ktLFF6xfGsueD27D-1" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="400" y="410" as="sourcePoint" />
@@ -203,18 +209,18 @@
         </mxCell>
         <mxCell id="8iHJomKHu8WRF6keYhmM-2" edge="1" parent="5l_Tuf0rRcBn4qm-h588-1" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;strokeColor=light-dark(#000000,#FFFF33);" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="301" y="188" as="sourcePoint" />
-            <mxPoint x="301" y="120" as="targetPoint" />
+            <mxPoint x="301" y="149" as="sourcePoint" />
+            <mxPoint x="301" y="81" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8iHJomKHu8WRF6keYhmM-3" parent="5l_Tuf0rRcBn4qm-h588-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="VLAN 516&lt;div&gt;10.101.0.0/30&lt;br&gt;Point to Point Link&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="252" x="299.5" y="130" as="geometry" />
+          <mxGeometry height="50" width="121.5" x="300" y="90" as="geometry" />
         </mxCell>
         <mxCell id="8iHJomKHu8WRF6keYhmM-4" parent="5l_Tuf0rRcBn4qm-h588-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="VLAN 516 GW: 10.101.0.1/30" vertex="1">
           <mxGeometry height="30" width="132" x="258" y="296" as="geometry" />
         </mxCell>
         <mxCell id="8iHJomKHu8WRF6keYhmM-5" parent="5l_Tuf0rRcBn4qm-h588-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="irb.516&lt;div&gt;10.101.0.2/30&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="120" x="500" y="440" as="geometry" />
+          <mxGeometry height="30" width="120" x="500" y="370" as="geometry" />
         </mxCell>
         <mxCell id="8iHJomKHu8WRF6keYhmM-7" parent="5l_Tuf0rRcBn4qm-h588-1" style="swimlane;whiteSpace=wrap;html=1;" value="HQ- Core Router" vertex="1">
           <mxGeometry height="200" width="330" x="500" y="550" as="geometry" />
@@ -227,6 +233,15 @@
         </mxCell>
         <mxCell id="koQ3ktLFF6xfGsueD27D-2" parent="5l_Tuf0rRcBn4qm-h588-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Vlan extensions can be added to the trunk when needed" vertex="1">
           <mxGeometry height="30" width="420" x="215" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="koQ3ktLFF6xfGsueD27D-6" edge="1" parent="5l_Tuf0rRcBn4qm-h588-1" style="endArrow=none;html=1;rounded=0;exitX=0.87;exitY=0.74;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=4;strokeColor=#001DBC;fillColor=#0050ef;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="300" y="230" as="sourcePoint" />
+            <mxPoint x="300" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="koQ3ktLFF6xfGsueD27D-7" parent="5l_Tuf0rRcBn4qm-h588-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="All other VLAN Extensions" vertex="1">
+          <mxGeometry height="30" width="160" x="310" y="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
