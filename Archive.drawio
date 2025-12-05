@@ -223,10 +223,10 @@
           <mxGeometry height="30" width="120" x="500" y="370" as="geometry" />
         </mxCell>
         <mxCell id="8iHJomKHu8WRF6keYhmM-7" parent="5l_Tuf0rRcBn4qm-h588-1" style="swimlane;whiteSpace=wrap;html=1;" value="HQ- Core Router" vertex="1">
-          <mxGeometry height="200" width="330" x="500" y="550" as="geometry" />
+          <mxGeometry height="170" width="330" x="500" y="550" as="geometry" />
         </mxCell>
         <mxCell id="8iHJomKHu8WRF6keYhmM-8" parent="8iHJomKHu8WRF6keYhmM-7" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;OSPF&amp;nbsp;&lt;/div&gt;&lt;div&gt;Neighbor Advertise on irb.516&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;10.15.x.x/24 Default AD Default Metric via VLAN 516&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;Static &lt;br&gt;NO CHANGE&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="170" width="330" y="30" as="geometry" />
+          <mxGeometry height="140" width="330" y="30" as="geometry" />
         </mxCell>
         <mxCell id="koQ3ktLFF6xfGsueD27D-1" parent="5l_Tuf0rRcBn4qm-h588-1" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
           <mxGeometry height="80" width="80" x="610" y="395" as="geometry" />
