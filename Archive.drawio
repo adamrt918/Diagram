@@ -307,7 +307,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8iHJomKHu8WRF6keYhmM-3" parent="5l_Tuf0rRcBn4qm-h588-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="VLAN 516&lt;div&gt;10.101.0.0/30&lt;br&gt;Point to Point Link&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="210" x="48" y="760" as="geometry" />
+          <mxGeometry height="50" width="252" x="48" y="760" as="geometry" />
         </mxCell>
         <mxCell id="8iHJomKHu8WRF6keYhmM-4" parent="5l_Tuf0rRcBn4qm-h588-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="VLAN 516 GW: 10.101.0.1/30" vertex="1">
           <mxGeometry height="30" width="132" x="258" y="296" as="geometry" />
