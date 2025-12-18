@@ -81,6 +81,21 @@
       <root>
         <mxCell id="U3ZUVRV0eeu3gdAhOUIB-0" />
         <mxCell id="U3ZUVRV0eeu3gdAhOUIB-1" parent="U3ZUVRV0eeu3gdAhOUIB-0" />
+        <mxCell id="NWrFfhwv9-w9LILZs22I-5" edge="1" parent="U3ZUVRV0eeu3gdAhOUIB-1" style="endArrow=none;html=1;rounded=0;shape=link;strokeWidth=2;strokeColor=light-dark(#000000,#3333FF);dashed=1;" target="U3ZUVRV0eeu3gdAhOUIB-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="230" />
+            </Array>
+            <mxPoint x="570" y="230" as="sourcePoint" />
+            <mxPoint x="775" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NWrFfhwv9-w9LILZs22I-4" edge="1" parent="U3ZUVRV0eeu3gdAhOUIB-1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="550" y="230.5" as="sourcePoint" />
+            <mxPoint x="690" y="230.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="U3ZUVRV0eeu3gdAhOUIB-2" edge="1" parent="U3ZUVRV0eeu3gdAhOUIB-1" style="endArrow=none;html=1;rounded=0;shape=link;strokeWidth=2;strokeColor=light-dark(#000000,#FF6666);dashed=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
@@ -139,7 +154,7 @@
           <mxGeometry height="80" width="120" x="610" y="80" as="geometry" />
         </mxCell>
         <mxCell id="U3ZUVRV0eeu3gdAhOUIB-14" parent="U3ZUVRV0eeu3gdAhOUIB-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Managed Palo" vertex="1">
-          <mxGeometry height="30" width="60" x="510" y="216" as="geometry" />
+          <mxGeometry height="30" width="60" x="270" y="216" as="geometry" />
         </mxCell>
         <mxCell id="U3ZUVRV0eeu3gdAhOUIB-15" parent="U3ZUVRV0eeu3gdAhOUIB-1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Unmanaged L2 Switch" vertex="1">
           <mxGeometry height="30" width="60" x="510" y="320" as="geometry" />
@@ -149,6 +164,15 @@
         </mxCell>
         <mxCell id="U3ZUVRV0eeu3gdAhOUIB-17" parent="U3ZUVRV0eeu3gdAhOUIB-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Tower Broadcast" vertex="1">
           <mxGeometry height="30" width="60" x="510" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="NWrFfhwv9-w9LILZs22I-0" parent="U3ZUVRV0eeu3gdAhOUIB-1" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
+          <mxGeometry height="62" width="78" x="501.00000000000006" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="NWrFfhwv9-w9LILZs22I-1" parent="U3ZUVRV0eeu3gdAhOUIB-1" style="swimlane;whiteSpace=wrap;html=1;" value="HA Pair" vertex="1">
+          <mxGeometry height="120" width="220" x="370" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="NWrFfhwv9-w9LILZs22I-2" parent="U3ZUVRV0eeu3gdAhOUIB-1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="LTE Circuit (Secondary ISP)" vertex="1">
+          <mxGeometry height="80" width="120" x="610" y="191" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
