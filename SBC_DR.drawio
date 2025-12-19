@@ -1,9 +1,54 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
   <diagram name="Page-1" id="5QlyXod41zJWgJfWkbq1">
-    <mxGraphModel>
+    <mxGraphModel dx="772" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="kf7Pnx7zYA3hkAsGZzKa-8" edge="1" parent="1" source="kf7Pnx7zYA3hkAsGZzKa-7" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="187.5" y="318.5" as="sourcePoint" />
+            <mxPoint x="219.5" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kf7Pnx7zYA3hkAsGZzKa-1" parent="1" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="SBC" vertex="1">
+          <mxGeometry height="62" width="43" x="410" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="kf7Pnx7zYA3hkAsGZzKa-2" edge="1" parent="1" source="kf7Pnx7zYA3hkAsGZzKa-1" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="328.5" as="sourcePoint" />
+            <mxPoint x="432" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kf7Pnx7zYA3hkAsGZzKa-3" parent="1" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
+          <mxGeometry height="62" width="78" x="393.00000000000006" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="kf7Pnx7zYA3hkAsGZzKa-4" parent="1" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
+          <mxGeometry height="62" width="78" x="180.00000000000006" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="kf7Pnx7zYA3hkAsGZzKa-5" edge="1" parent="1" source="kf7Pnx7zYA3hkAsGZzKa-4" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="kf7Pnx7zYA3hkAsGZzKa-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="370" y="328.5" as="sourcePoint" />
+            <mxPoint x="370" y="160.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kf7Pnx7zYA3hkAsGZzKa-7" parent="1" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="SBC" vertex="1">
+          <mxGeometry height="62" width="43" x="197.5" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="kf7Pnx7zYA3hkAsGZzKa-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="HQ" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="kf7Pnx7zYA3hkAsGZzKa-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="DR" vertex="1">
+          <mxGeometry height="30" width="60" x="400" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="kf7Pnx7zYA3hkAsGZzKa-11" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="VLAN 800" vertex="1">
+          <mxGeometry height="30" width="60" x="460" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="kf7Pnx7zYA3hkAsGZzKa-12" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="VLAN 800" vertex="1">
+          <mxGeometry height="30" width="60" x="300" y="232" as="geometry" />
+        </mxCell>
+        <mxCell id="kf7Pnx7zYA3hkAsGZzKa-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="HQ VLAN Acts if destination network is outside of VLAN 800 -- INTER VLAN ROUTING" vertex="1">
+          <mxGeometry height="140" width="130" x="40" y="161" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
