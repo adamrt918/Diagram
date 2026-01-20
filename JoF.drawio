@@ -22,9 +22,6 @@
         <mxCell id="j-ncl1T0YiR0Caizu_yL-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Port 40" vertex="1">
           <mxGeometry height="30" width="60" x="270" y="240" as="geometry" />
         </mxCell>
-        <mxCell id="j-ncl1T0YiR0Caizu_yL-6" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Trunk with all VLANs" vertex="1">
-          <mxGeometry height="30" width="60" x="330" y="280" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
