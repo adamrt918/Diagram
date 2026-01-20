@@ -1,9 +1,30 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="Page-1" id="C_PtDgxDtH9lDENOEGWJ">
-    <mxGraphModel>
+    <mxGraphModel dx="1412" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="j-ncl1T0YiR0Caizu_yL-1" parent="1" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="Netgear" vertex="1">
+          <mxGeometry height="50" width="101" x="170.00000000000006" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="j-ncl1T0YiR0Caizu_yL-2" parent="1" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="Aruba 103-1" vertex="1">
+          <mxGeometry height="50" width="101" x="440.00000000000006" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="j-ncl1T0YiR0Caizu_yL-3" edge="1" parent="1" source="j-ncl1T0YiR0Caizu_yL-1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.98;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="j-ncl1T0YiR0Caizu_yL-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-ncl1T0YiR0Caizu_yL-4" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Port 44" vertex="1">
+          <mxGeometry height="30" width="60" x="395" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="j-ncl1T0YiR0Caizu_yL-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Port 40" vertex="1">
+          <mxGeometry height="30" width="60" x="270" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="j-ncl1T0YiR0Caizu_yL-6" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Trunk with all VLANs" vertex="1">
+          <mxGeometry height="30" width="60" x="330" y="280" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
