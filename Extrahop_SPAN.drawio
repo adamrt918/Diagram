@@ -96,7 +96,7 @@
         <mxCell id="fy8DGUWVGAMCvBZAmq20-6" parent="fy8DGUWVGAMCvBZAmq20-1" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
           <mxGeometry height="50" width="101" x="540" y="295" as="geometry" />
         </mxCell>
-        <mxCell id="fy8DGUWVGAMCvBZAmq20-7" edge="1" parent="fy8DGUWVGAMCvBZAmq20-1" source="fy8DGUWVGAMCvBZAmq20-3" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=4;strokeColor=light-dark(#000000,#FFFF99);" target="fy8DGUWVGAMCvBZAmq20-2" value="">
+        <mxCell id="fy8DGUWVGAMCvBZAmq20-7" edge="1" parent="fy8DGUWVGAMCvBZAmq20-1" source="fy8DGUWVGAMCvBZAmq20-3" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=4;strokeColor=light-dark(#000000,#3333FF);" target="fy8DGUWVGAMCvBZAmq20-2" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="400" y="410" as="sourcePoint" />
             <mxPoint x="450" y="360" as="targetPoint" />
