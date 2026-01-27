@@ -75,6 +75,12 @@
       <root>
         <mxCell id="fy8DGUWVGAMCvBZAmq20-0" />
         <mxCell id="fy8DGUWVGAMCvBZAmq20-1" parent="fy8DGUWVGAMCvBZAmq20-0" />
+        <mxCell id="fTUBglrI_mVBrtTV9iTa-4" edge="1" parent="fy8DGUWVGAMCvBZAmq20-1" style="endArrow=none;html=1;rounded=0;entryX=0.88;entryY=0.91;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;strokeColor=light-dark(#000000,#FF9933);" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="455" y="280" as="sourcePoint" />
+            <mxPoint x="455.0000000000001" y="139.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="fy8DGUWVGAMCvBZAmq20-2" parent="fy8DGUWVGAMCvBZAmq20-1" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
           <mxGeometry height="62" width="78" x="386.00000000000006" y="90" as="geometry" />
         </mxCell>
@@ -146,6 +152,12 @@
             <mxPoint x="400" y="410" as="sourcePoint" />
             <mxPoint x="450" y="360" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fTUBglrI_mVBrtTV9iTa-2" parent="fy8DGUWVGAMCvBZAmq20-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="AE2" vertex="1">
+          <mxGeometry height="30" width="60" x="455" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="fTUBglrI_mVBrtTV9iTa-3" parent="fy8DGUWVGAMCvBZAmq20-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="F5-Prod-01" vertex="1">
+          <mxGeometry height="30" width="60" x="561" y="550" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
