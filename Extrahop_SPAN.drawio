@@ -14,7 +14,10 @@
           <mxGeometry height="80" width="50" x="190" y="280" as="geometry" />
         </mxCell>
         <mxCell id="5MhGk4_oBPdKqlnzFn9p-5" parent="1" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
-          <mxGeometry height="80" width="50" x="610" y="280" as="geometry" />
+          <mxGeometry height="80" width="50" x="700" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="5MhGk4_oBPdKqlnzFn9p-6" parent="1" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
+          <mxGeometry height="50" width="101" x="540" y="295" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
