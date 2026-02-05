@@ -52,6 +52,12 @@
             <mxPoint x="450" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="OqHon0ziF-V7AygGX8rr-16" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Servers" vertex="1">
+          <mxGeometry height="80" width="120" x="580" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="OqHon0ziF-V7AygGX8rr-17" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Access" vertex="1">
+          <mxGeometry height="80" width="120" x="580" y="540" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
