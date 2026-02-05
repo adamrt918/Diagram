@@ -8,7 +8,7 @@
           <mxGeometry height="53" width="78" x="386" y="160" as="geometry" />
         </mxCell>
         <mxCell id="OqHon0ziF-V7AygGX8rr-4" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Internet" vertex="1">
-          <mxGeometry height="80" width="120" x="360" y="30" as="geometry" />
+          <mxGeometry height="80" width="120" x="355" y="10" as="geometry" />
         </mxCell>
         <mxCell id="OqHon0ziF-V7AygGX8rr-5" edge="1" parent="1" source="OqHon0ziF-V7AygGX8rr-3" style="endArrow=none;html=1;rounded=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="OqHon0ziF-V7AygGX8rr-4" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
