@@ -7,6 +7,12 @@
         <mxCell id="pJruRGFwYZkcwngf8_nj-2" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" value="" vertex="1">
           <mxGeometry height="422" width="40" x="281" y="140" as="geometry" />
         </mxCell>
+        <mxCell id="pJruRGFwYZkcwngf8_nj-31" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=5;strokeColor=light-dark(#000000,#6666FF);" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="129.5" y="340" as="sourcePoint" />
+            <mxPoint x="489" y="341" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="pJruRGFwYZkcwngf8_nj-1" parent="1" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
           <mxGeometry height="62" width="78" x="471" y="320" as="geometry" />
         </mxCell>
@@ -77,10 +83,16 @@
           <mxGeometry height="30" width="60" x="860" y="290" as="geometry" />
         </mxCell>
         <mxCell id="pJruRGFwYZkcwngf8_nj-28" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="VLAN.742 Point to Point Link" vertex="1">
-          <mxGeometry height="30" width="99" x="251.5" y="336" as="geometry" />
+          <mxGeometry height="30" width="99" x="40" y="660" as="geometry" />
         </mxCell>
         <mxCell id="pJruRGFwYZkcwngf8_nj-29" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;flipV=0;rotation=-180;" value="Den-DR Security Zone" vertex="1">
           <mxGeometry height="200" width="20" x="200" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="pJruRGFwYZkcwngf8_nj-30" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=5;strokeColor=light-dark(#000000,#6666FF);" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160.5" y="719.5" as="sourcePoint" />
+            <mxPoint x="160" y="630.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
