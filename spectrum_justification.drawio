@@ -29,13 +29,13 @@
           <mxGeometry height="330" width="530" x="160" y="200" as="geometry" />
         </mxCell>
         <mxCell id="cqtCGjbXII049f638v2r-14" parent="cqtCGjbXII049f638v2r-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="DMZ Service 1&lt;div&gt;66.57.150.207&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="115" x="12.5" y="280" as="geometry" />
+          <mxGeometry height="50" width="115" y="280" as="geometry" />
         </mxCell>
         <mxCell id="cqtCGjbXII049f638v2r-15" parent="cqtCGjbXII049f638v2r-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="DMZ Service 2&lt;div&gt;66.57.150.219&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="115" x="208" y="280" as="geometry" />
         </mxCell>
         <mxCell id="cqtCGjbXII049f638v2r-16" parent="cqtCGjbXII049f638v2r-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="DMZ Service 3&lt;div&gt;66.57.150.221&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="115" x="410" y="280" as="geometry" />
+          <mxGeometry height="50" width="115" x="415" y="280" as="geometry" />
         </mxCell>
         <mxCell id="cqtCGjbXII049f638v2r-5" parent="cqtCGjbXII049f638v2r-11" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
           <mxGeometry height="80" width="50" x="465" y="190" as="geometry" />
