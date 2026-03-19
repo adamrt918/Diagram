@@ -7,7 +7,7 @@
         <mxCell id="cqtCGjbXII049f638v2r-1" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Internet" vertex="1">
           <mxGeometry height="80" width="120" x="360" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="cqtCGjbXII049f638v2r-12" edge="1" parent="1" source="cqtCGjbXII049f638v2r-2" style="endArrow=none;html=1;rounded=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" target="cqtCGjbXII049f638v2r-1" value="">
+        <mxCell id="cqtCGjbXII049f638v2r-12" edge="1" parent="1" source="cqtCGjbXII049f638v2r-18" style="endArrow=none;html=1;rounded=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="cqtCGjbXII049f638v2r-1" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="400" y="410" as="sourcePoint" />
             <mxPoint x="450" y="360" as="targetPoint" />
@@ -55,11 +55,14 @@
             <mxPoint x="455.1400000000001" y="406.4200000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cqtCGjbXII049f638v2r-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Local GW&lt;/div&gt;66.57.150.194" vertex="1">
-          <mxGeometry height="30" width="125" x="363.5" y="340" as="geometry" />
-        </mxCell>
         <mxCell id="cqtCGjbXII049f638v2r-11" parent="1" style="swimlane;whiteSpace=wrap;html=1;container=0;" value="DMZ" vertex="1">
           <mxGeometry height="190" width="530" x="160.5" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="cqtCGjbXII049f638v2r-24" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Vertical Container" vertex="1">
+          <mxGeometry height="190" width="530" x="161" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="cqtCGjbXII049f638v2r-18" parent="cqtCGjbXII049f638v2r-24" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Local GW&lt;/div&gt;66.57.150.194" vertex="1">
+          <mxGeometry height="30" width="125" x="8" y="46" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
