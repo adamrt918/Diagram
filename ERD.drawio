@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
   <diagram name="Page-1" id="hzpDSWRn1EfGD4bFBJgH">
     <mxGraphModel dx="1661" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -116,7 +116,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HXmH2_0s4BBGAcQwg-4x-116" parent="1" style="shape=table;startSize=25;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="BRAND" vertex="1">
-          <mxGeometry height="172" width="273" x="31" y="410" as="geometry" />
+          <mxGeometry height="172" width="273" x="32" y="420" as="geometry" />
         </mxCell>
         <mxCell id="HXmH2_0s4BBGAcQwg-4x-117" parent="HXmH2_0s4BBGAcQwg-4x-116" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1">
           <mxGeometry height="49" width="273" y="25" as="geometry" />
@@ -173,7 +173,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HXmH2_0s4BBGAcQwg-4x-129" parent="1" style="shape=table;startSize=25;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="MODEL" vertex="1">
-          <mxGeometry height="475" width="316" x="10" y="682" as="geometry" />
+          <mxGeometry height="475" width="316" x="440" y="268.5" as="geometry" />
         </mxCell>
         <mxCell id="HXmH2_0s4BBGAcQwg-4x-130" parent="HXmH2_0s4BBGAcQwg-4x-129" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1">
           <mxGeometry height="45" width="316" y="25" as="geometry" />
@@ -360,7 +360,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HXmH2_0s4BBGAcQwg-4x-171" edge="1" parent="1" source="HXmH2_0s4BBGAcQwg-4x-125" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERoneToMany;endSize=10;;entryX=0.5;entryY=0;rounded=0;startFill=0;exitX=0.486;exitY=1.032;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=default;" target="HXmH2_0s4BBGAcQwg-4x-129" value="Consists of">
+        <mxCell id="HXmH2_0s4BBGAcQwg-4x-171" edge="1" parent="1" source="HXmH2_0s4BBGAcQwg-4x-116" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERoneToMany;endSize=10;;entryX=0;entryY=0.5;rounded=0;startFill=0;exitX=1;exitY=0;exitDx=0;exitDy=0;strokeColor=default;entryDx=0;entryDy=0;" target="HXmH2_0s4BBGAcQwg-4x-138" value="Consists of">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
             <mxPoint x="168" y="600" as="sourcePoint" />
