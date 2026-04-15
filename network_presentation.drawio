@@ -62,6 +62,24 @@
             <mxPoint x="450" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ud10aBk_cM9bCRvAnC6m-86" parent="1" style="shape=mxgraph.cisco.computers_and_peripherals.pc;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
+          <mxGeometry height="70" width="78" x="276" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="ud10aBk_cM9bCRvAnC6m-87" parent="1" style="shape=mxgraph.cisco.computers_and_peripherals.pc;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
+          <mxGeometry height="70" width="78" x="496.5" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="ud10aBk_cM9bCRvAnC6m-88" edge="1" parent="1" source="ud10aBk_cM9bCRvAnC6m-84" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=3;" target="ud10aBk_cM9bCRvAnC6m-87" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1080" y="460" as="sourcePoint" />
+            <mxPoint x="970" y="619" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ud10aBk_cM9bCRvAnC6m-89" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=3;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="314" y="520" as="sourcePoint" />
+            <mxPoint x="314" y="621" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
