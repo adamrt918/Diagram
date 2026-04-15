@@ -565,6 +565,12 @@
             <mxPoint x="379" y="810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Mar2g_Dixov7euM0vkZf-10" parent="1" style="shape=mxgraph.cisco.routers.router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
+          <mxGeometry height="53" width="78" x="120" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="Mar2g_Dixov7euM0vkZf-11" parent="1" style="shape=mxgraph.cisco.routers.router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
+          <mxGeometry height="53" width="78" x="230" y="1001" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
