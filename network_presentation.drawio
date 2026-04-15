@@ -36,7 +36,7 @@
           <mxGeometry height="80" width="50" x="330" y="60" as="geometry" />
         </mxCell>
         <mxCell id="ud10aBk_cM9bCRvAnC6m-73" parent="ud10aBk_cM9bCRvAnC6m-75" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
-          <mxGeometry height="62" width="78" x="6.000000000000057" y="60" as="geometry" />
+          <mxGeometry height="62" width="78" x="6.000000000000057" y="69" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
