@@ -38,6 +38,21 @@
         <mxCell id="ud10aBk_cM9bCRvAnC6m-73" parent="ud10aBk_cM9bCRvAnC6m-75" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
           <mxGeometry height="62" width="78" x="6.000000000000057" y="69" as="geometry" />
         </mxCell>
+        <mxCell id="ud10aBk_cM9bCRvAnC6m-80" parent="1" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
+          <mxGeometry height="50" width="101" x="375.00000000000006" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="ud10aBk_cM9bCRvAnC6m-81" edge="1" parent="1" source="ud10aBk_cM9bCRvAnC6m-73" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="ud10aBk_cM9bCRvAnC6m-80" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ud10aBk_cM9bCRvAnC6m-82" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Collapsed Core/Distribution Layer" vertex="1">
+          <mxGeometry height="75" width="190" x="60" y="242.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ud10aBk_cM9bCRvAnC6m-83" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=default;fontStyle=0;" value="Access Layer" vertex="1">
+          <mxGeometry height="60" width="165" x="72.5" y="465" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
