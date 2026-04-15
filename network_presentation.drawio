@@ -409,6 +409,42 @@
         <mxCell id="vXj5W7dpCOvTSrU4UhCo-16" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="FW HA Pair" vertex="1">
           <mxGeometry height="130" width="200" x="320.5" y="300" as="geometry" />
         </mxCell>
+        <mxCell id="vXj5W7dpCOvTSrU4UhCo-17" parent="1" style="shape=mxgraph.cisco.routers.router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
+          <mxGeometry height="53" width="78" x="347" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="vXj5W7dpCOvTSrU4UhCo-18" parent="1" style="shape=mxgraph.cisco.routers.router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
+          <mxGeometry height="53" width="78" x="437" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="vXj5W7dpCOvTSrU4UhCo-19" edge="1" parent="1" source="vXj5W7dpCOvTSrU4UhCo-10" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="vXj5W7dpCOvTSrU4UhCo-17" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="300" as="sourcePoint" />
+            <mxPoint x="450" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vXj5W7dpCOvTSrU4UhCo-20" edge="1" parent="1" source="vXj5W7dpCOvTSrU4UhCo-13" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="vXj5W7dpCOvTSrU4UhCo-17" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="300" as="sourcePoint" />
+            <mxPoint x="450" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vXj5W7dpCOvTSrU4UhCo-21" edge="1" parent="1" source="vXj5W7dpCOvTSrU4UhCo-10" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="vXj5W7dpCOvTSrU4UhCo-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="300" as="sourcePoint" />
+            <mxPoint x="450" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vXj5W7dpCOvTSrU4UhCo-22" edge="1" parent="1" source="vXj5W7dpCOvTSrU4UhCo-18" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="vXj5W7dpCOvTSrU4UhCo-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="430" y="358.5" as="sourcePoint" />
+            <mxPoint x="430" y="190.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vXj5W7dpCOvTSrU4UhCo-24" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="FHRP Router Pair" vertex="1">
+          <mxGeometry height="120" width="200" x="320.5" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="vXj5W7dpCOvTSrU4UhCo-25" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Core - Outer" vertex="1">
+          <mxGeometry height="400" width="200" x="320.5" y="150" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
