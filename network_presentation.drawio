@@ -515,10 +515,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vXj5W7dpCOvTSrU4UhCo-42" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 179, 102));&quot;&gt;Core - Inner&lt;/font&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="260" width="205" x="320" y="700" as="geometry" />
+          <mxGeometry height="260" width="210" x="320" y="700" as="geometry" />
         </mxCell>
         <mxCell id="vXj5W7dpCOvTSrU4UhCo-41" parent="vXj5W7dpCOvTSrU4UhCo-42" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="FHRP Router Pair" vertex="1">
-          <mxGeometry height="110" width="200" y="20" as="geometry" />
+          <mxGeometry height="110" width="210" y="20" as="geometry" />
         </mxCell>
         <mxCell id="vXj5W7dpCOvTSrU4UhCo-35" parent="vXj5W7dpCOvTSrU4UhCo-41" style="shape=mxgraph.cisco.routers.router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
           <mxGeometry height="53" width="78" x="27.55" y="37" as="geometry" />
@@ -533,7 +533,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Mar2g_Dixov7euM0vkZf-7" parent="vXj5W7dpCOvTSrU4UhCo-42" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="Stack/VC" vertex="1">
-          <mxGeometry height="130" width="200" y="130" as="geometry" />
+          <mxGeometry height="130" width="210" y="130" as="geometry" />
         </mxCell>
         <mxCell id="Mar2g_Dixov7euM0vkZf-1" parent="1" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
           <mxGeometry height="50" width="79.5" x="340" y="877" as="geometry" />
