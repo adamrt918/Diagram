@@ -5,22 +5,43 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="GXwv96TB1cA7WFMTl_OG-1" parent="1" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="firewall-router&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="62" width="78" x="177.00000000000006" y="310" as="geometry" />
+          <mxGeometry height="62" width="78" x="367.00000000000006" y="340" as="geometry" />
         </mxCell>
         <mxCell id="GXwv96TB1cA7WFMTl_OG-2" parent="1" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="VPN router" vertex="1">
-          <mxGeometry height="62" width="78" x="347.00000000000006" y="310" as="geometry" />
+          <mxGeometry height="62" width="78" x="537" y="340" as="geometry" />
         </mxCell>
         <mxCell id="GXwv96TB1cA7WFMTl_OG-3" parent="1" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="fw-brb-cp router" vertex="1">
-          <mxGeometry height="62" width="78" x="255.00000000000006" y="130" as="geometry" />
+          <mxGeometry height="62" width="78" x="445.00000000000006" y="160" as="geometry" />
         </mxCell>
         <mxCell id="GXwv96TB1cA7WFMTl_OG-4" parent="1" style="shape=mxgraph.cisco.computers_and_peripherals.pc;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="10.10.1.29" vertex="1">
-          <mxGeometry height="70" width="78" x="260" y="560" as="geometry" />
+          <mxGeometry height="70" width="78" x="450" y="590" as="geometry" />
         </mxCell>
         <mxCell id="GXwv96TB1cA7WFMTl_OG-5" edge="1" parent="1" source="GXwv96TB1cA7WFMTl_OG-4" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="GXwv96TB1cA7WFMTl_OG-1" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="400" y="400" as="sourcePoint" />
-            <mxPoint x="450" y="350" as="targetPoint" />
+            <mxPoint x="590" y="430" as="sourcePoint" />
+            <mxPoint x="640" y="380" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="B7Ubcw_7DeDaGmN8DxfA-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Next hop Lumen Router" vertex="1">
+          <mxGeometry height="110" width="90" x="300" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="B7Ubcw_7DeDaGmN8DxfA-2" edge="1" parent="1" source="GXwv96TB1cA7WFMTl_OG-1" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="390" as="sourcePoint" />
+            <mxPoint x="280" y="371" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B7Ubcw_7DeDaGmN8DxfA-3" parent="1" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="Lumen Router" vertex="1">
+          <mxGeometry height="62" width="78" x="200.00000000000006" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="B7Ubcw_7DeDaGmN8DxfA-4" edge="1" parent="1" source="GXwv96TB1cA7WFMTl_OG-2" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.88;entryY=0.91;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="GXwv96TB1cA7WFMTl_OG-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="390" as="sourcePoint" />
+            <mxPoint x="450" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B7Ubcw_7DeDaGmN8DxfA-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Tunnel 405&lt;div&gt;169.254.40.16/30&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="165" x="537" y="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
