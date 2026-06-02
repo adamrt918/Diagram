@@ -173,6 +173,15 @@
         <mxCell id="oA2cxR7Eq6LekVjzL2tZ-3" parent="1" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="HQ Core" vertex="1">
           <mxGeometry height="80" width="80" x="598" y="590" as="geometry" />
         </mxCell>
+        <mxCell id="VIvlA7C_3LFnily3UBdu-13" edge="1" parent="1" source="oA2cxR7Eq6LekVjzL2tZ-3" style="endArrow=none;html=1;rounded=0;entryX=0.88;entryY=0.91;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=4;" target="VIvlA7C_3LFnily3UBdu-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="598" y="630" as="sourcePoint" />
+            <mxPoint x="209" y="496" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VIvlA7C_3LFnily3UBdu-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;rounded=0;" value="10.101.0.2/30" vertex="1">
+          <mxGeometry height="30" width="90" x="509" y="600" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
