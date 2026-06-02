@@ -144,8 +144,8 @@
             <mxPoint x="62" y="107" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oA2cxR7Eq6LekVjzL2tZ-33" parent="oA2cxR7Eq6LekVjzL2tZ-14" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;rounded=0;" value="vlan.516 P2P OSPF link to HQ" vertex="1">
-          <mxGeometry height="60" width="90" x="148" y="220" as="geometry" />
+        <mxCell id="oA2cxR7Eq6LekVjzL2tZ-33" parent="oA2cxR7Eq6LekVjzL2tZ-14" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;rounded=0;" value="10.101.0.1/30" vertex="1">
+          <mxGeometry height="20" width="90" x="105" y="250" as="geometry" />
         </mxCell>
         <mxCell id="oA2cxR7Eq6LekVjzL2tZ-32" parent="oA2cxR7Eq6LekVjzL2tZ-14" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fillColor=default;" value="66.57.104.50/29" vertex="1">
           <mxGeometry height="30" width="120" x="105" y="180" as="geometry" />
