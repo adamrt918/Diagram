@@ -202,6 +202,24 @@
         <mxCell id="FG_twkiu52An8J0EIR9x-10" parent="FG_twkiu52An8J0EIR9x-9" style="shape=mxgraph.cisco.computers_and_peripherals.pc;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="HQ Hosts" vertex="1">
           <mxGeometry height="70" width="78" x="60" y="520" as="geometry" />
         </mxCell>
+        <mxCell id="FG_twkiu52An8J0EIR9x-19" edge="1" parent="FG_twkiu52An8J0EIR9x-9" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#000000,#FFFF00);strokeWidth=6;entryX=0.8;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" target="FtwAE0siNOr7NT111YDF-0" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="74" y="380" />
+              <mxPoint x="74" y="50" />
+            </Array>
+            <mxPoint x="-328" y="230" as="sourcePoint" />
+            <mxPoint x="-87.2613987155778" y="-116.92293991723295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FG_twkiu52An8J0EIR9x-20" connectable="0" parent="FG_twkiu52An8J0EIR9x-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Primary Archive External Traffic Flow" vertex="1">
+          <mxGeometry relative="1" x="0.5333" y="-1" as="geometry">
+            <mxPoint x="-296" y="186" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FG_twkiu52An8J0EIR9x-32" parent="FG_twkiu52An8J0EIR9x-9" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="HQ ISPs" vertex="1">
+          <mxGeometry height="80" width="120" x="39" y="30" as="geometry" />
+        </mxCell>
         <mxCell id="FG_twkiu52An8J0EIR9x-11" edge="1" parent="FG_twkiu52An8J0EIR9x-1" source="FG_twkiu52An8J0EIR9x-33" style="endArrow=none;html=1;rounded=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="FG_twkiu52An8J0EIR9x-32" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="430" y="478.5" as="sourcePoint" />
@@ -222,21 +240,6 @@
         </mxCell>
         <mxCell id="FG_twkiu52An8J0EIR9x-18" parent="FG_twkiu52An8J0EIR9x-1" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=default;" value="Archive" vertex="1">
           <mxGeometry height="770" width="350" x="70" y="240" as="geometry" />
-        </mxCell>
-        <mxCell id="FG_twkiu52An8J0EIR9x-19" edge="1" parent="FG_twkiu52An8J0EIR9x-18" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#000000,#FFFF00);strokeWidth=6;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <Array as="points">
-              <mxPoint x="550" y="380" />
-              <mxPoint x="560" y="50" />
-            </Array>
-            <mxPoint x="148" y="230" as="sourcePoint" />
-            <mxPoint x="388.7386012844222" y="-116.92293991723295" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FG_twkiu52An8J0EIR9x-20" connectable="0" parent="FG_twkiu52An8J0EIR9x-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Primary Archive External Traffic Flow" vertex="1">
-          <mxGeometry relative="1" x="0.5333" y="-1" as="geometry">
-            <mxPoint x="-296" y="186" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="FG_twkiu52An8J0EIR9x-21" parent="FG_twkiu52An8J0EIR9x-18" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="sw-clt-arch-nr-main" vertex="1">
           <mxGeometry height="50" width="101" x="58.50000000000006" y="220" as="geometry" />
@@ -263,9 +266,6 @@
           <mxGeometry relative="1" x="-0.0388" as="geometry">
             <mxPoint x="-182" y="-32" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="FG_twkiu52An8J0EIR9x-32" parent="FG_twkiu52An8J0EIR9x-1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="HQ ISPs" vertex="1">
-          <mxGeometry height="80" width="120" x="579" y="270" as="geometry" />
         </mxCell>
         <mxCell id="FG_twkiu52An8J0EIR9x-33" parent="FG_twkiu52An8J0EIR9x-1" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="FW-BGHQSR-03" vertex="1">
           <mxGeometry height="62" width="78" x="599" y="440" as="geometry" />
