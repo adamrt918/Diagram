@@ -182,7 +182,7 @@
             <mxPoint x="570" y="320.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qwzZPb0a5X3Zznyk9n4S-2" parent="qwzZPb0a5X3Zznyk9n4S-1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.routers.router;" value="10.25.102.1&lt;div&gt;10.x.x.x/30&lt;br&gt;&lt;div&gt;VMS Router&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Routes:&lt;/div&gt;&lt;div&gt;0.0.0.0/0 Nexthop ????&lt;/div&gt;&lt;div&gt;10.0.0.0/8 Nexthop 10.x.x.x/30&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="qwzZPb0a5X3Zznyk9n4S-2" parent="qwzZPb0a5X3Zznyk9n4S-1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.routers.router;" value="10.25.102.1&lt;div&gt;&lt;div&gt;VMS Router&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Routes:&lt;/div&gt;&lt;div&gt;0.0.0.0/0 Nexthop ????&lt;/div&gt;&lt;div&gt;10.0.0.0/8 Nexthop 10.x.x.x/30&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="59.5" width="78" x="200" y="276" as="geometry" />
         </mxCell>
         <mxCell id="qwzZPb0a5X3Zznyk9n4S-3" parent="qwzZPb0a5X3Zznyk9n4S-1" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="&lt;div&gt;HQ Firewall Router&lt;/div&gt;" vertex="1">
@@ -266,10 +266,10 @@
             <mxPoint x="750" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nJCjS6ztL6uUpzXttWlc-0" edge="1" parent="qwzZPb0a5X3Zznyk9n4S-1" source="qwzZPb0a5X3Zznyk9n4S-3" style="endArrow=none;html=1;rounded=0;strokeWidth=4;strokeColor=light-dark(#000000,#66FFB3);entryX=0.88;entryY=0.9;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.12;exitY=0.91;exitDx=0;exitDy=0;exitPerimeter=0;" target="qwzZPb0a5X3Zznyk9n4S-2" value="">
+        <mxCell id="nJCjS6ztL6uUpzXttWlc-0" edge="1" parent="qwzZPb0a5X3Zznyk9n4S-1" style="endArrow=none;html=1;rounded=0;strokeWidth=4;strokeColor=light-dark(#000000,#66FFB3);entryX=0.88;entryY=0.9;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.12;exitY=0.91;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="410" y="320" as="sourcePoint" />
-            <mxPoint x="410" y="375" as="targetPoint" />
+            <mxPoint x="397.6799999999999" y="332.4200000000001" as="sourcePoint" />
+            <mxPoint x="270.9600000000001" y="329.54999999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nJCjS6ztL6uUpzXttWlc-6" parent="qwzZPb0a5X3Zznyk9n4S-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=72;fontColor=light-dark(#CC0000,#CC0000);" value="X" vertex="1">
@@ -310,6 +310,12 @@
         </mxCell>
         <mxCell id="nJCjS6ztL6uUpzXttWlc-16" parent="qwzZPb0a5X3Zznyk9n4S-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="HQ L2 Traffic" vertex="1">
           <mxGeometry height="30" width="60" x="250" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nJCjS6ztL6uUpzXttWlc-17" parent="qwzZPb0a5X3Zznyk9n4S-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(102, 204, 0));&quot;&gt;10.x.x.x/30&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="260" y="305.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nJCjS6ztL6uUpzXttWlc-19" parent="qwzZPb0a5X3Zznyk9n4S-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(102, 204, 0));&quot;&gt;10.x.x.x/30&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="340" y="305.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
