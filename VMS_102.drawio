@@ -5,28 +5,37 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="08-S4UHzcj1Pybimo4jH-1" parent="1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.routers.router;" value="10.25.102.1&lt;div&gt;VMS Router&lt;/div&gt;" vertex="1">
-          <mxGeometry height="53" width="78" x="130" y="285" as="geometry" />
+          <mxGeometry height="53" width="78" x="246" y="280.5" as="geometry" />
         </mxCell>
         <mxCell id="08-S4UHzcj1Pybimo4jH-2" parent="1" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="&lt;div&gt;HQ Firewall Router&lt;/div&gt;" vertex="1">
-          <mxGeometry height="62" width="78" x="640" y="276" as="geometry" />
+          <mxGeometry height="62" width="78" x="386" y="276" as="geometry" />
         </mxCell>
-        <mxCell id="08-S4UHzcj1Pybimo4jH-3" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="VMS Network" vertex="1">
-          <mxGeometry height="80" width="120" x="365" y="267" as="geometry" />
-        </mxCell>
-        <mxCell id="08-S4UHzcj1Pybimo4jH-4" edge="1" parent="1" source="08-S4UHzcj1Pybimo4jH-3" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="08-S4UHzcj1Pybimo4jH-2" value="">
+        <mxCell id="08-S4UHzcj1Pybimo4jH-4" edge="1" parent="1" source="08-S4UHzcj1Pybimo4jH-1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="08-S4UHzcj1Pybimo4jH-2" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="430" y="458.5" as="sourcePoint" />
-            <mxPoint x="430" y="290.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="08-S4UHzcj1Pybimo4jH-5" edge="1" parent="1" source="08-S4UHzcj1Pybimo4jH-1" style="endArrow=none;html=1;rounded=0;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="08-S4UHzcj1Pybimo4jH-3" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="430" y="458.5" as="sourcePoint" />
-            <mxPoint x="430" y="290.5" as="targetPoint" />
+            <mxPoint x="330" y="307" as="sourcePoint" />
+            <mxPoint x="290" y="290.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="08-S4UHzcj1Pybimo4jH-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Ethernet1/2.102&lt;/div&gt;10.25.102.254&lt;div&gt;VLAN 102&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="120" x="520" y="240" as="geometry" />
+          <mxGeometry height="70" width="120" x="310" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="08-S4UHzcj1Pybimo4jH-7" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="VMS 102 Network" vertex="1">
+          <mxGeometry height="80" width="120" y="267" as="geometry" />
+        </mxCell>
+        <mxCell id="08-S4UHzcj1Pybimo4jH-8" edge="1" parent="1" source="08-S4UHzcj1Pybimo4jH-7" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="08-S4UHzcj1Pybimo4jH-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="458.5" as="sourcePoint" />
+            <mxPoint x="290" y="290.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="08-S4UHzcj1Pybimo4jH-9" edge="1" parent="1" source="08-S4UHzcj1Pybimo4jH-10" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.16;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;" target="08-S4UHzcj1Pybimo4jH-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="600" y="300" as="sourcePoint" />
+            <mxPoint x="430" y="290.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="08-S4UHzcj1Pybimo4jH-10" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="HQ Network" vertex="1">
+          <mxGeometry height="80" width="120" x="530" y="267" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
