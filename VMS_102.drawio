@@ -182,7 +182,7 @@
             <mxPoint x="570" y="320.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qwzZPb0a5X3Zznyk9n4S-2" parent="qwzZPb0a5X3Zznyk9n4S-1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.routers.router;" value="10.25.102.1&lt;div&gt;&lt;div&gt;VMS Router&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Routes:&lt;/div&gt;&lt;div&gt;0.0.0.0/0 Nexthop ????&lt;/div&gt;&lt;div&gt;10.0.0.0/8 Nexthop 10.x.x.x/30&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="qwzZPb0a5X3Zznyk9n4S-2" parent="qwzZPb0a5X3Zznyk9n4S-1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.routers.router;" value="10.25.102.1&lt;div&gt;&lt;div&gt;VMS Router&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Routes:&lt;/div&gt;&lt;div&gt;0.0.0.0/0 Nexthop ????&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(204, 204, 0));&quot;&gt;10.0.0.0/8 Nexthop 10.x.x.x/30&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="59.5" width="78" x="200" y="276" as="geometry" />
         </mxCell>
         <mxCell id="qwzZPb0a5X3Zznyk9n4S-3" parent="qwzZPb0a5X3Zznyk9n4S-1" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="&lt;div&gt;HQ Firewall Router&lt;/div&gt;" vertex="1">
@@ -195,7 +195,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qwzZPb0a5X3Zznyk9n4S-5" parent="qwzZPb0a5X3Zznyk9n4S-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;VLAN.102&lt;/div&gt;&lt;div&gt;L2, No IP&lt;/div&gt;&lt;div&gt;VLAN.103 (Switched Virtual Interface)&lt;/div&gt;10.x.x.x/30&lt;div&gt;VLAN 103&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="120" x="365" y="120" as="geometry" />
+          <mxGeometry height="100" width="120" x="365" y="150" as="geometry" />
         </mxCell>
         <mxCell id="qwzZPb0a5X3Zznyk9n4S-6" parent="qwzZPb0a5X3Zznyk9n4S-1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="VMS 102 Hosts&lt;div&gt;Default GW 10.25.102.1&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="120" y="267" as="geometry" />
@@ -243,7 +243,7 @@
           <mxGeometry height="80" width="120" x="10" y="347" as="geometry" />
         </mxCell>
         <mxCell id="qwzZPb0a5X3Zznyk9n4S-16" parent="qwzZPb0a5X3Zznyk9n4S-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Ethernet1/2.102&lt;/div&gt;&lt;div&gt;L2&lt;/div&gt;Ethernet1/2.103&amp;nbsp;&lt;div&gt;SVI 103&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="90" x="310" y="230" as="geometry" />
+          <mxGeometry height="70" width="90" x="300" y="250" as="geometry" />
         </mxCell>
         <mxCell id="qwzZPb0a5X3Zznyk9n4S-18" parent="qwzZPb0a5X3Zznyk9n4S-1" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="1w-dining switch" vertex="1">
           <mxGeometry height="50" width="101" x="549.5" y="420" as="geometry" />
