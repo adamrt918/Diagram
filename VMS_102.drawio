@@ -19,7 +19,7 @@
         <mxCell id="08-S4UHzcj1Pybimo4jH-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Ethernet1/2.102&lt;/div&gt;10.25.102.254&lt;div&gt;VLAN 102&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="120" x="305" y="240" as="geometry" />
         </mxCell>
-        <mxCell id="08-S4UHzcj1Pybimo4jH-7" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="VMS 102 Network" vertex="1">
+        <mxCell id="08-S4UHzcj1Pybimo4jH-7" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="VMS 102 Hosts" vertex="1">
           <mxGeometry height="80" width="120" y="267" as="geometry" />
         </mxCell>
         <mxCell id="08-S4UHzcj1Pybimo4jH-8" edge="1" parent="1" source="08-S4UHzcj1Pybimo4jH-7" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=4;strokeColor=light-dark(#000000,#9999FF);" target="08-S4UHzcj1Pybimo4jH-1" value="">
@@ -54,6 +54,15 @@
         </mxCell>
         <mxCell id="08-S4UHzcj1Pybimo4jH-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Routed Traffic" vertex="1">
           <mxGeometry height="30" width="60" x="170" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="08-S4UHzcj1Pybimo4jH-15" edge="1" parent="1" source="08-S4UHzcj1Pybimo4jH-1" style="endArrow=none;html=1;rounded=0;strokeWidth=4;strokeColor=light-dark(#000000,#66FFB3);exitX=0.12;exitY=0.9;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.88;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" target="08-S4UHzcj1Pybimo4jH-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="700" y="660" as="sourcePoint" />
+            <mxPoint x="130" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="08-S4UHzcj1Pybimo4jH-16" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Non 102 VMS Network" vertex="1">
+          <mxGeometry height="80" width="120" x="10" y="347" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
