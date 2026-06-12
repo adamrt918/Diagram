@@ -28,7 +28,7 @@
             <mxPoint x="290" y="290.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="08-S4UHzcj1Pybimo4jH-9" edge="1" parent="1" source="08-S4UHzcj1Pybimo4jH-10" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.16;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;" target="08-S4UHzcj1Pybimo4jH-2" value="">
+        <mxCell id="08-S4UHzcj1Pybimo4jH-9" edge="1" parent="1" source="08-S4UHzcj1Pybimo4jH-10" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.16;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=4;strokeColor=light-dark(#000000,#66FFB3);" target="08-S4UHzcj1Pybimo4jH-2" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="600" y="300" as="sourcePoint" />
             <mxPoint x="430" y="290.5" as="targetPoint" />
@@ -36,6 +36,24 @@
         </mxCell>
         <mxCell id="08-S4UHzcj1Pybimo4jH-10" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="HQ Network" vertex="1">
           <mxGeometry height="80" width="120" x="530" y="267" as="geometry" />
+        </mxCell>
+        <mxCell id="08-S4UHzcj1Pybimo4jH-11" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=4;strokeColor=light-dark(#000000,#9999FF);" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="200" as="sourcePoint" />
+            <mxPoint x="40" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="08-S4UHzcj1Pybimo4jH-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Layer 2&amp;nbsp;&lt;div&gt;VLAN 102&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="50" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="08-S4UHzcj1Pybimo4jH-13" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=4;strokeColor=light-dark(#000000,#66FFB3);" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="147.5" as="sourcePoint" />
+            <mxPoint x="160" y="202.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="08-S4UHzcj1Pybimo4jH-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Routed Traffic" vertex="1">
+          <mxGeometry height="30" width="60" x="170" y="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
