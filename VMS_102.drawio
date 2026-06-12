@@ -302,6 +302,15 @@
             <mxPoint x="847" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="nJCjS6ztL6uUpzXttWlc-15" edge="1" parent="qwzZPb0a5X3Zznyk9n4S-1" style="endArrow=none;html=1;rounded=0;strokeWidth=5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="250" y="203.75" as="sourcePoint" />
+            <mxPoint x="250" y="146.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nJCjS6ztL6uUpzXttWlc-16" parent="qwzZPb0a5X3Zznyk9n4S-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="HQ L2 Traffic" vertex="1">
+          <mxGeometry height="30" width="60" x="250" y="160" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
