@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net">
-  <diagram name="Page-1" id="4S8Gl4sf2LsPPyjwvW3X">
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="As-Is" id="4S8Gl4sf2LsPPyjwvW3X">
     <mxGraphModel dx="1400" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -62,6 +62,74 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="08-S4UHzcj1Pybimo4jH-16" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Non 102 VMS Network" vertex="1">
+          <mxGeometry height="80" width="120" x="10" y="347" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Delta" id="XWlFHGhSOevQKCPna9mF">
+    <mxGraphModel dx="1400" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="lz8v3Jax0HdE6BG-WbTJ-0" />
+        <mxCell id="lz8v3Jax0HdE6BG-WbTJ-1" parent="lz8v3Jax0HdE6BG-WbTJ-0" />
+        <mxCell id="lz8v3Jax0HdE6BG-WbTJ-2" parent="lz8v3Jax0HdE6BG-WbTJ-1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.routers.router;" value="10.25.102.1&lt;div&gt;VMS Router&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Routes:&lt;/div&gt;&lt;div&gt;0.0.0.0/0 Nexthop ????&lt;/div&gt;&lt;div&gt;10.0.0.0/8 Nexthop 10.25.102.254&lt;/div&gt;" vertex="1">
+          <mxGeometry height="53" width="78" x="200" y="280.5" as="geometry" />
+        </mxCell>
+        <mxCell id="lz8v3Jax0HdE6BG-WbTJ-3" parent="lz8v3Jax0HdE6BG-WbTJ-1" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="&lt;div&gt;HQ Firewall Router&lt;/div&gt;" vertex="1">
+          <mxGeometry height="62" width="78" x="386" y="276" as="geometry" />
+        </mxCell>
+        <mxCell id="lz8v3Jax0HdE6BG-WbTJ-4" edge="1" parent="lz8v3Jax0HdE6BG-WbTJ-1" source="lz8v3Jax0HdE6BG-WbTJ-2" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=light-dark(#000000,#9999FF);strokeWidth=4;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" target="lz8v3Jax0HdE6BG-WbTJ-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="307" as="sourcePoint" />
+            <mxPoint x="290" y="290.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lz8v3Jax0HdE6BG-WbTJ-5" parent="lz8v3Jax0HdE6BG-WbTJ-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;VLAN.102&lt;/div&gt;10.25.102.254&lt;div&gt;VLAN 102&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="290" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="lz8v3Jax0HdE6BG-WbTJ-6" parent="lz8v3Jax0HdE6BG-WbTJ-1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="VMS 102 Hosts&lt;div&gt;Default GW 10.25.102.1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" y="267" as="geometry" />
+        </mxCell>
+        <mxCell id="lz8v3Jax0HdE6BG-WbTJ-7" edge="1" parent="lz8v3Jax0HdE6BG-WbTJ-1" source="lz8v3Jax0HdE6BG-WbTJ-6" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=4;strokeColor=light-dark(#000000,#9999FF);" target="lz8v3Jax0HdE6BG-WbTJ-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="458.5" as="sourcePoint" />
+            <mxPoint x="290" y="290.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lz8v3Jax0HdE6BG-WbTJ-8" edge="1" parent="lz8v3Jax0HdE6BG-WbTJ-1" source="lz8v3Jax0HdE6BG-WbTJ-9" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.16;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=4;strokeColor=light-dark(#000000,#66FFB3);" target="lz8v3Jax0HdE6BG-WbTJ-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="600" y="300" as="sourcePoint" />
+            <mxPoint x="430" y="290.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lz8v3Jax0HdE6BG-WbTJ-9" parent="lz8v3Jax0HdE6BG-WbTJ-1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="HQ Network" vertex="1">
+          <mxGeometry height="80" width="120" x="530" y="267" as="geometry" />
+        </mxCell>
+        <mxCell id="lz8v3Jax0HdE6BG-WbTJ-10" edge="1" parent="lz8v3Jax0HdE6BG-WbTJ-1" style="endArrow=none;html=1;rounded=0;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=4;strokeColor=light-dark(#000000,#9999FF);" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="200" as="sourcePoint" />
+            <mxPoint x="40" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lz8v3Jax0HdE6BG-WbTJ-11" parent="lz8v3Jax0HdE6BG-WbTJ-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Layer 2&amp;nbsp;&lt;div&gt;VLAN 102&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="50" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="lz8v3Jax0HdE6BG-WbTJ-12" edge="1" parent="lz8v3Jax0HdE6BG-WbTJ-1" style="endArrow=none;html=1;rounded=0;strokeWidth=4;strokeColor=light-dark(#000000,#66FFB3);" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="147.5" as="sourcePoint" />
+            <mxPoint x="160" y="202.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lz8v3Jax0HdE6BG-WbTJ-13" parent="lz8v3Jax0HdE6BG-WbTJ-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Routed Traffic" vertex="1">
+          <mxGeometry height="30" width="60" x="170" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="lz8v3Jax0HdE6BG-WbTJ-14" edge="1" parent="lz8v3Jax0HdE6BG-WbTJ-1" source="lz8v3Jax0HdE6BG-WbTJ-2" style="endArrow=none;html=1;rounded=0;strokeWidth=4;strokeColor=light-dark(#000000,#66FFB3);exitX=0.12;exitY=0.9;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.88;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" target="lz8v3Jax0HdE6BG-WbTJ-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="700" y="660" as="sourcePoint" />
+            <mxPoint x="130" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lz8v3Jax0HdE6BG-WbTJ-15" parent="lz8v3Jax0HdE6BG-WbTJ-1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Non 102 VMS Network" vertex="1">
           <mxGeometry height="80" width="120" x="10" y="347" as="geometry" />
         </mxCell>
       </root>
