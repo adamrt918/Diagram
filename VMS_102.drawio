@@ -182,7 +182,7 @@
             <mxPoint x="570" y="320.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qwzZPb0a5X3Zznyk9n4S-2" parent="qwzZPb0a5X3Zznyk9n4S-1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.routers.router;" value="10.25.102.1&lt;div&gt;VMS Router&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Routes:&lt;/div&gt;&lt;div&gt;0.0.0.0/0 Nexthop ????&lt;/div&gt;&lt;div&gt;10.0.0.0/8 Nexthop 10.x.x.x/30&lt;/div&gt;" vertex="1">
+        <mxCell id="qwzZPb0a5X3Zznyk9n4S-2" parent="qwzZPb0a5X3Zznyk9n4S-1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.routers.router;" value="10.25.102.1&lt;div&gt;10.x.x.x/30&lt;br&gt;&lt;div&gt;VMS Router&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Routes:&lt;/div&gt;&lt;div&gt;0.0.0.0/0 Nexthop ????&lt;/div&gt;&lt;div&gt;10.0.0.0/8 Nexthop 10.x.x.x/30&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="59.5" width="78" x="200" y="276" as="geometry" />
         </mxCell>
         <mxCell id="qwzZPb0a5X3Zznyk9n4S-3" parent="qwzZPb0a5X3Zznyk9n4S-1" style="shape=mxgraph.cisco.security.router_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="&lt;div&gt;HQ Firewall Router&lt;/div&gt;" vertex="1">
