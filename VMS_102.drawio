@@ -222,7 +222,7 @@
           <mxGeometry height="35" width="100" x="385" y="281" as="geometry" />
         </mxCell>
         <mxCell id="O3OB2NRwuAf-kRM57Cru-1" parent="uKEzUbmefRw9jbbMPfWA-1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Archive" vertex="1">
-          <mxGeometry height="80" width="120" x="570" y="280" as="geometry" />
+          <mxGeometry height="80" width="120" x="579.5" y="270" as="geometry" />
         </mxCell>
         <mxCell id="O3OB2NRwuAf-kRM57Cru-2" edge="1" parent="uKEzUbmefRw9jbbMPfWA-1" style="endArrow=none;html=1;rounded=0;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=light-dark(#000000,#9999FF);strokeWidth=4;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" target="O3OB2NRwuAf-kRM57Cru-1" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
